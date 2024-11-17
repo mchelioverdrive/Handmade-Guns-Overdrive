@@ -18,7 +18,7 @@ ZoomRenderTypeTxture,true,true,true
 Explosion,10.5f
 BlockDestory,false
 Texture,smaw
-GunSound,handmadeguns.missileLaunch,handmadeguns.missileLaunch
+GunSound,handmadeguns.smaw,handmadeguns.smaw
 GunSoundReload,handmadeguns.reload
 CanObj,true
 ObjModel,smaw.mqo

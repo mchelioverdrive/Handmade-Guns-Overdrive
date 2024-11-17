@@ -58,6 +58,8 @@
   "handmadeguns.r870": {"category": "neutral","sounds": ["r870"]},
   "handmadeguns.r700": {"category": "neutral","sounds": ["r700"]},
   "handmadeguns.spg": {"category": "neutral","sounds": ["spg"]},
+  "handmadeguns.smaw": {"category": "neutral","sounds": ["smaw"]},
+  "handmadeguns.minigun": {"category": "neutral","sounds": ["minigun"]},
   "handmadeguns.supu": {"category": "neutral","sounds": ["supu"]},
   "handmadeguns.fire_30mm": {"category": "neutral","sounds": ["fire_30mm"]},
   "handmadeguns.dshk38Fire": {"category": "neutral","sounds": ["dshk38Fire"]},
