@@ -3,7 +3,7 @@ BulletSpeed,9
 BulletGravity,0.485
 Class,3
 BlletSpread,1.2f
-ADS_Spread_coefficient,0.8
+ADS_Spread_coefficient,0.0
 BlletSpreadDiffusion,3,0,0.7,0.3,3,0.3
 ElevationOffsets,     0,-0.3,-0.6,-0.9,-1.35,-1.7,-2.2
 elevationOffsets_info,0,20m ,40m ,60m ,80m ,100m , 120m
