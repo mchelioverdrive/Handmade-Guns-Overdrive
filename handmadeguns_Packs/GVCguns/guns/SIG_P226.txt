@@ -92,6 +92,20 @@ AddParts,Body
     AddReloadMotionKey,10,0,0,0,-15,0,45,            25,0,0,0,-15,0,45
     AddReloadMotionKey,25,0,0,0,-15,0,45,           30,0,0,0,0,0,0
 
+    AddChildParts,suppressor
+	RenderOnNormal
+	SetAsNormalParts
+	attachpart
+	muzzlepart
+    BackParts
+
+    AddChildParts,right
+	RenderOnNormal
+	SetAsNormalParts
+	attachpart
+	Light
+    BackParts
+
     AddChildParts,Larm
     	AddPartsRotationCenterAndRotationAmount,0,0,0,0,0,0
     	AddPartsRotationCenterAndRotationAmount,0,0,0,0,0,0

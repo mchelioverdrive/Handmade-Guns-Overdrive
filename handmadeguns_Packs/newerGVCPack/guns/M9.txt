@@ -22,7 +22,7 @@ ZoomRenderType,true,true,true
 ZoomRenderTypeTxture,false,false,false
 
 Texture,M9
-GunSound,handmadeguns.beretta,handmadeguns.beretta
+GunSound,handmadeguns.beretta,handmadeguns.supu
 GunSoundLV,4,4
 GunSoundReload,handmadeguns.reload
 CanObj,true
@@ -35,7 +35,7 @@ Rates,1
 
 attachRestriction,true
 allowattach,Suppressor
-allowattach,reddot
+//allowattach,reddot
 allowattach,right
 allowattach,Bullet_AT
 
@@ -113,7 +113,12 @@ AddParts,mat1
     	AddReloadMotionKey,25,0,0,0,0,0,0,           30,0,0,0,0,0,0
     BackParts
 
-
+    AddChildParts,suppressor
+	RenderOnNormal
+	SetAsNormalParts
+	attachpart
+	muzzlepart
+    BackParts
 
 
     AddChildParts,mat3

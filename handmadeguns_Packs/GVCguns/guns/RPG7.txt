@@ -10,7 +10,7 @@ Recoil,2.0d
 ReloadTime,100
 RemainingBullet,1
 Attacking,2.0f
-ElevationOffsets,-5
+ElevationOffsets,-0
 Zoom,1.0f,1.0f,4.0f
 ZoomRender,true
 ZoomRenderType,true,true,false

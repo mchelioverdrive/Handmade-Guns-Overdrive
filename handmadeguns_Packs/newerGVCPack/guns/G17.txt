@@ -22,7 +22,7 @@ ZoomRenderType,true,true,true
 ZoomRenderTypeTxture,false,false,false
 
 Texture,G17
-GunSound,handmadeguns.glock,handmadeguns.glock
+GunSound,handmadeguns.glock,handmadeguns.supu
 GunSoundLV,4,4
 GunSoundReload,handmadeguns.reload
 CanObj,true
@@ -34,6 +34,7 @@ Bursts,1
 Rates,1
 
 attachRestriction,true
+allowattach,Suppressor
 
 ModelEquipped,-0.7f,0.7f,0.0f
 SimpleADSOffsetX,0,0,0
@@ -109,7 +110,12 @@ AddParts,mat1
     	AddReloadMotionKey,25,0,0,0,0,0,0,           30,0,0,0,0,0,0
     BackParts
 
-
+    AddChildParts,suppressor
+	RenderOnNormal
+	SetAsNormalParts
+	attachpart
+	muzzlepart
+    BackParts
 
 
     AddChildParts,mat3

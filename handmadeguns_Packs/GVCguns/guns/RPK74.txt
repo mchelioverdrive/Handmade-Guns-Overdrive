@@ -41,7 +41,7 @@ Rates,2,2
 
 attachRestriction,true
 allowattach,reddot
-allowattach,scope
+//allowattach,scope
 
 Canfix,true
 FixAsEntity,true

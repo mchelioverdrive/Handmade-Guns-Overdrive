@@ -172,6 +172,14 @@ AddParts,mat1
         AddReloadMotionKey,41,0,0,-0.6,0,0,0,       45,0,0,0,0,0,0
         AddReloadMotionKey,45,0,0,0,0,0,0,          50,0,0,0,0,0,0
     BackParts
+
+    AddChildParts,mat8
+	RenderOnNormal
+	SetAsNormalParts
+	attachpart
+	muzzlepart
+    BackParts
+
 Tabname,HMG_GVCGuns
 Name,MAC-10
 HG,MAC-10

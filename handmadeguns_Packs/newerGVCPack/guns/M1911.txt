@@ -23,7 +23,7 @@ ZoomRenderType,true,true,true
 ZoomRenderTypeTxture,false,false,false
 
 Texture,M1911
-GunSound,handmadeguns.1911,handmadeguns.1911
+GunSound,handmadeguns.1911,handmadeguns.supu
 GunSoundLV,4,4
 GunSoundReload,handmadeguns.reload
 CanObj,true
@@ -36,7 +36,7 @@ Rates,1
 
 attachRestriction,true
 allowattach,Suppressor
-allowattach,reddot
+//allowattach,reddot
 allowattach,right
 allowattach,Bullet_AT
 
@@ -123,7 +123,12 @@ AddParts,mat1
     	AddReloadMotionKey,25,0,0,0,0,0,0,           30,0,0,0,0,0,0
     BackParts
 
-
+    AddChildParts,suppressor
+	RenderOnNormal
+	SetAsNormalParts
+	attachpart
+	muzzlepart
+    BackParts
 
 
     AddChildParts,mat3
