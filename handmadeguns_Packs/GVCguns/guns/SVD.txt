@@ -1,8 +1,8 @@
-BulletPower,12
-BulletSpeed,8.3
+BulletPower,15
+BulletSpeed,17
 BulletGravity,0.485
 
-BlletSpread,7.0f
+BlletSpread,0.0f
 ADS_Spread_coefficient,0.0
 BlletSpreadDiffusion,10,0,1.8,0.2,3,0.6
 ElevationOffsets,0.0 , -0.40336760008957084 , -0.8066952200016713 , -1.2099429033297746 , -1.6130707411739191 , -2.01603889580578 , -2.418807624228171 , -2.821337301594225

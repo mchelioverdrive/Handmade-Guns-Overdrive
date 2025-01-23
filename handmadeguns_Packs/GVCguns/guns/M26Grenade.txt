@@ -4,7 +4,7 @@ BounceRate,0.05
 BounceLimit,360
 bulletFuse,40
 BulletSpeed,1.2f
-BlletSpread,4.0f
+BlletSpread,2.0f
 Recoil,0
 ReloadTime,20
 RemainingBullet,1

@@ -1,6 +1,6 @@
 guerrila_cant_use_this
-BulletPower,12
-BulletSpeed,10
+BulletPower,15
+BulletSpeed,17
 BulletGravity,0.485
 
 BlletSpread,2.0F

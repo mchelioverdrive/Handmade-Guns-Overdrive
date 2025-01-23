@@ -1,9 +1,9 @@
 BulletPower,30
 bulletFuse,40
-BulletSpeed,2.6f
+BulletSpeed,1.5f
 BulletGravity,0.485
 Cycle,10
-BlletSpread,5.0f
+BlletSpread,0.0f
 BlletSpreadDiffusion,5,0,1.5,0.2,3,0.5
 Recoil,8
 Recoil_sneaking,4

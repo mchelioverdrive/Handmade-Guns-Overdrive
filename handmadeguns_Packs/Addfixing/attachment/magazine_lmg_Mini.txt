@@ -1,7 +1,7 @@
 Texture,bullet_lmg_hmg_mini
 Stack,1
 BulletRound,500
-Name,500 Rnd MiniGun Bullet Drum
+Name,500 Rnd 7.62x51mm MiniGun Bullet Drum
 
 Tabname,HMG_Ammo
 

@@ -1,9 +1,9 @@
 BulletPower,31
-BulletSpeed,10
+BulletSpeed,17
 BulletGravity,0.485
 
-BlletSpread,10.0f
-ADS_Spread_coefficient,0.01
+BlletSpread,0.0f
+ADS_Spread_coefficient,3.0
 BlletSpreadDiffusion,12,0,1.8,0.2,4,1,0.6
 
 Cycle,2
@@ -35,8 +35,8 @@ CustomFlash,arrow,1
 Bursts,1
 Rates,1
 attachRestriction,true
-allowattach,Bullet_Frag
-allowattach,Bullet_AP
+//allowattach,Bullet_Frag
+//allowattach,Bullet_AP
 allowattach,scope
 
 ModelEquipped,-0.7f,0.35f,-0.8f

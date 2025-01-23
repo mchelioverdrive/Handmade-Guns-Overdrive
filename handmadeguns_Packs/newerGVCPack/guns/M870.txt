@@ -1,7 +1,8 @@
-BulletPower,4
-BulletSpeed,3.0f
-BlletSpread,15.0f
-BlletSpreadDiffusion,0,0,1,0.5,4,0.5
+BulletPower,10
+BulletSpeed,7.3f
+BlletSpread,4.2f
+BlletSpreadDiffusion,5,0,1,0.5,4,0.5
+BulletGravity,0.485
 Class,1
 Recoil,20
 Recoil_sneaking,12
