@@ -99,11 +99,11 @@ AddParts,Body
 	muzzlepart
     BackParts
 
-    AddChildParts,right
+    AddChildParts,mat7
 	RenderOnNormal
 	SetAsNormalParts
 	attachpart
-	Light
+	light
     BackParts
 
     AddChildParts,Larm

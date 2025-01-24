@@ -120,6 +120,13 @@ AddParts,mat1
 	muzzlepart
     BackParts
 
+    AddChildParts,mat7
+	RenderOnNormal
+	SetAsNormalParts
+	attachpart
+	light
+    BackParts
+
 
     AddChildParts,mat3
         AddPartsRotationCenterAndRotationAmount,0,0,0.0,0,0,0

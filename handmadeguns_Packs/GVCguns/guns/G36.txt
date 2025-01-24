@@ -20,7 +20,7 @@ Zoom,1.0f,3.0f,3.0f
 ZoomRender,true
 ZoomRenderType,true,false,false
 ZoomRenderTypeTxture,true,true,true
-ScopeTexture,redPoint.png,scope_g36_night.png,scope_g36.png
+ScopeTexture,null.png,scope_g36_night.png,scope_g36.png
 NightVision,false,true,false
 
 Texture,G36
@@ -143,7 +143,16 @@ AddParts,Base_Sys
 				AddPartsOnReloadOffsetAndRotation,0,0,0,0,0,0
 			BackParts
 			
-			
+			AddChildParts,mat41
+				AddPartsRotationCenterAndRotationAmount,0,0,0,0,0,0
+				RenderOnNormal
+				AddPartsOnADSOffsetAndRotation,0,0,0,0,0,0
+				AddPartsOnRecoilOffsetAndRotation,0,0,0,0,0,0
+				AddPartsOnCockOffsetAndRotation,0,0,0,0,0,0
+				AddPartsOnReloadOffsetAndRotation,0,0,0,0,0,0
+				attachpart
+				dot
+			BackParts
 			
 			
 			AddChildParts,Cmag

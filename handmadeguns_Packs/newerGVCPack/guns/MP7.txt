@@ -22,7 +22,7 @@ ZoomRenderType,true,true,true
 ZoomRenderTypeTxture,false,false,false
 
 Texture,MP7
-GunSound,handmadeguns.mp7,handmadeguns.mp7
+GunSound,handmadeguns.mp7,handmadeguns.supu
 GunSoundLV,4,4
 GunSoundReload,handmadeguns.reload
 CanObj,true
@@ -35,6 +35,7 @@ Rates,2,2
 
 attachRestriction,true
 allowattach,Suppressor
+allowattach,grip
 
 ModelEquipped,-0.7f,0.4f,-0.5f
 SimpleADSOffsetX,0,0,0
@@ -136,6 +137,22 @@ AddParts,mat1
 		AddPartsOnReloadOffsetAndRotation,0,0,0,0,0,0
 		attachpart
 		scope
+	BackParts
+	AddChildParts,suppressor
+		RenderOnNormal
+		SetAsNormalParts
+		attachpart
+		muzzlepart
+	BackParts
+	AddChildParts,mat21
+		AddPartsRotationCenterAndRotationAmount,0,0,0,0,0,0
+		RenderOnNormal
+		AddPartsOnADSOffsetAndRotation,0,0,0,0,0,0
+		AddPartsOnRecoilOffsetAndRotation,0,0,0,0,0,0
+		AddPartsOnCockOffsetAndRotation,0,0,0,0,0,0
+		AddPartsOnReloadOffsetAndRotation,0,0,0,0,0,0
+		attachpart
+		grip
 	BackParts
 	AddChildParts,SYS_BAYONETBASE
 		AddPartsRotationCenterAndRotationAmount,0,0,0,0,0,0

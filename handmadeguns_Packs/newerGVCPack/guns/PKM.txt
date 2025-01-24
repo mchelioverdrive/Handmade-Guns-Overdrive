@@ -37,8 +37,8 @@ Bursts,-1,1
 Rates,2,2
 
 attachRestriction,true
-allowattach,reddot
-allowattach,scope
+//allowattach,reddot
+//allowattach,scope
 
 Canfix,true
 FixAsEntity,true
