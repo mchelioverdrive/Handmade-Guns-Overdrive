@@ -33,8 +33,8 @@ ObjModel,M16A4.mqo
 ObjTexture,M16A4.png
 ModelScala,0.5f
 CustomFlash,arrow,1
-Bursts,1,3
-Rates,1.5,1.5,1.5
+Bursts,1,3,0
+Rates,1.5,1.5,1.5,1.5
 
 attachRestriction,true
 allowattach,reddot

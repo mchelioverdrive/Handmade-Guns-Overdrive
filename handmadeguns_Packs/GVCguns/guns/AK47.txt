@@ -31,8 +31,8 @@ ObjModel,ak47.mqo
 ObjTexture,ak47.png
 ModelScala,0.5f
 CustomFlash,arrow,1
-Bursts,1,-1
-Rates,2,2
+Bursts,1,-1,0
+Rates,2,2,2
 
 
 attachRestriction,true

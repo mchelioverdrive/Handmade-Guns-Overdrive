@@ -31,8 +31,11 @@ ObjModel,ak47.mqo
 ObjTexture,ak47copy.png
 ModelScala,0.5f
 CustomFlash,arrow,1
-Bursts,-1
-Rates,2
+Bursts,-1,1,0
+Rates,1.845,1.845,1.845
+//1.86 - 645
+//1.85 - 648
+//1.84 - 652
 
 attachRestriction,true
 
@@ -202,7 +205,7 @@ AddParts,Sys_Zero_in
 		BackParts
 
 Tabname,HMG_GVCGuns
-Name,Copied AK-47
+Name,Type 56 Assault Rifle
 AR,Copied AK
 
 //addRecipe,AR_sample,1,abc,0ef,000,265,265,265,280,265,280,280,280,280

@@ -29,7 +29,7 @@ ObjModel,AK74.mqo
 ObjTexture,AK74.png
 ModelScala,0.5f
 CustomFlash,arrow,1
-Bursts,0,-1,1
+Bursts,-1,1,0
 Rates,2,2,2
 
 ElevationOffsets,	 0,-0.3,-0.6,-0.9,-1.35,-1.7,-2.2
