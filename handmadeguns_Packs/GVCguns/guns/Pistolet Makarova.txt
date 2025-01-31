@@ -30,6 +30,7 @@ CanObj,true
 ObjModel,PMMakarov.obj
 ObjTexture,PMMakarov.png
 ModelScala,0.5f
+InworldScale,2f
 CustomFlash,arrow,1
 Bursts,1
 Rates,1

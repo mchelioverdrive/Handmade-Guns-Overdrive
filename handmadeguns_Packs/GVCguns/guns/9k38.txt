@@ -27,6 +27,7 @@ CanObj,true
 ObjModel,9k38.mqo
 ObjTexture,9k38.png
 ModelScala,0.5f
+InworldScale,1.5f
 
 Motion,0.6
 

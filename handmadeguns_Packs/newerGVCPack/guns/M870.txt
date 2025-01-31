@@ -1,4 +1,4 @@
-BulletPower,10
+BulletPower,8
 BulletSpeed,7.3f
 BlletSpread,4.2f
 BlletSpreadDiffusion,5,0,1,0.5,4,0.5
@@ -21,6 +21,7 @@ CanObj,true
 ObjModel,m870.mqo
 ObjTexture,m870.png
 ModelScala,0.5f
+InworldScale,1.8f
 bulletFuse,8
 Bursts,1
 Rates,0

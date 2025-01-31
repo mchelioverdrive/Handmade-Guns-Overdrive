@@ -24,6 +24,7 @@ CanObj,true
 ObjModel,smaw.mqo
 ObjTexture,smaw.png
 ModelScala,0.5f
+InworldScale,1.8f
 
 Motion,0.6
 

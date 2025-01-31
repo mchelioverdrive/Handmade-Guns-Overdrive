@@ -29,6 +29,7 @@ CanObj,true
 ObjModel,mp7.mqo
 ObjTexture,mp7.png
 ModelScala,0.5f
+InworldScale,2f
 CustomFlash,arrow,1
 Bursts,1,-1
 Rates,2,2

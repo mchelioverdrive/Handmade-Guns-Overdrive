@@ -21,6 +21,7 @@ CanObj,true
 ObjModel,ZID_KORD.mqo
 ObjTexture,ZID_KORD.png
 ModelScala,0.5f
+InworldScale,1.5f
 ThirdModelEquipped,0,0.2,-0.4
 Tabname,HMG_GVCGuns
 

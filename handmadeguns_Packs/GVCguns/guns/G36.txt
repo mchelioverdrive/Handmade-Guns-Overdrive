@@ -30,6 +30,7 @@ CanObj,true
 ObjModel,G36.mqo
 ObjTexture,G36.png
 ModelScala,0.5f
+InworldScale,1.8f
 CustomFlash,arrow,1
 Bursts,1,-1,0
 Rates,1.6,1.6,1.6
@@ -41,6 +42,7 @@ allowattach,scope
 ModelEquipped,-0.7f,0.5f,-0.6f
 ModelHigh,0.7333,0.9866f,0.85f
 SimpleADSOffsetX,0,0,0
+//this is how far out the gun is from the center
 //ModelWidthZ,0f,0.8f,0.8f
 
 SimpleADSOffsetZ,0,0,0

@@ -30,6 +30,7 @@ CanObj,true
 ObjModel,r700.mqo
 ObjTexture,r700.png
 ModelScala,0.5f
+InworldScale,1.8f
 CustomFlash,arrow,1
 Bursts,1
 Rates,1

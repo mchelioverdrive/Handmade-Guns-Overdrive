@@ -23,8 +23,12 @@ CanObj,true
 ObjModel,M32.mqo
 ObjTexture,ar.png
 ModelScala,0.5f
+InworldScale,2f
 CartridgeType,4
 ADS_Spread_coefficient,0.1
+
+Motion,0.8
+
 
 ModelEquipped,-0.7f,0.5f,-0.3f
 ModelHigh,0.97f,0.85f,0.85f

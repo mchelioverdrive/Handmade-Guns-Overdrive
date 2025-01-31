@@ -23,6 +23,7 @@ CanObj,true
 ObjModel,M26_full.obj
 ObjTexture,M26.png
 ModelScala,0.2f
+InworldScale,2f
 Cartridge,false
 CartridgeType,4
 isOneuse,true

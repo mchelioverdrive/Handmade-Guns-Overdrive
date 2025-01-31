@@ -33,6 +33,7 @@ CanObj,true
 ObjModel,m2f.mqo
 ObjTexture,m2f.png
 ModelScala,0.5f
+InworldScale,2f
 MuzzleFlash,false
 Bursts,-1
 Rates,1

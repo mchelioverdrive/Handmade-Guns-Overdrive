@@ -24,6 +24,7 @@ CanObj,true
 ObjModel,M320.mqo
 ObjTexture,M320.png
 ModelScala,0.5f
+InworldScale,2f
 CartridgeType,4
 
 ModelEquipped,-0.7f,0.5f,-0.65f

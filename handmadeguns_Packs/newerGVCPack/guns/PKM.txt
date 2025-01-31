@@ -32,6 +32,7 @@ CanObj,true
 ObjModel,pkm.mqo
 ObjTexture,pkm.png
 ModelScala,0.5f
+InworldScale,1.8f
 CustomFlash,arrow,1
 Bursts,-1,1
 Rates,2,2

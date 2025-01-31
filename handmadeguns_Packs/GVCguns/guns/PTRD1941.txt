@@ -28,6 +28,7 @@ CanObj,true
 ObjModel,PTRD1941.mqo
 ObjTexture,PTRD1941.png
 ModelScala,0.5f
+InworldScale,1.5f
 CustomFlash,CannonMuzzleFlash,4,3
 Bursts,1
 Rates,1

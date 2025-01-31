@@ -97,10 +97,10 @@ TurretHP,200
 LMG,bofors_40mm
 
 
-Recipe1,aac
-Recipe2,aab
-Recipe3,bbb
-ItemA,minecraft,iron_ingot
-ItemB,minecraft,iron_block
-ItemC,minecraft,emerald
-addNewRecipe,HandmadeGuns,bofors_40mm,1
+//Recipe1,aac
+//Recipe2,aab
+//Recipe3,bbb
+/ItemA,minecraft,iron_ingot
+//ItemB,minecraft,iron_block
+//ItemC,minecraft,emerald
+//addNewRecipe,HandmadeGuns,bofors_40mm,1

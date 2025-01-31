@@ -28,6 +28,7 @@ CanObj,true
 ObjModel,m134.mqo
 ObjTexture,m134.png
 ModelScala,0.5f
+InworldScale,2f
 CustomFlash,arrow,1
 
 

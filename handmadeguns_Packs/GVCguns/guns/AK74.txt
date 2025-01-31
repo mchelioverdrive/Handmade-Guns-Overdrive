@@ -28,6 +28,7 @@ CanObj,true
 ObjModel,AK74.mqo
 ObjTexture,AK74.png
 ModelScala,0.5f
+InworldScale,1.8f
 CustomFlash,arrow,1
 Bursts,-1,1,0
 Rates,2,2,2

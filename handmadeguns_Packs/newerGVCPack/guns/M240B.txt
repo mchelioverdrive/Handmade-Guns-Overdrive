@@ -30,6 +30,7 @@ CanObj,true
 ObjModel,m240.mqo
 ObjTexture,m240.png
 ModelScala,0.5f
+InworldScale,1.8f
 CustomFlash,arrow,1
 Bursts,-1,-1,-1,1
 Rates,2,1.5,1.32,2

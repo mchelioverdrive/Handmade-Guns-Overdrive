@@ -23,6 +23,7 @@ CanObj,true
 ObjModel,NGP_Hand_Held_Type_M2HB_QCB.mqo
 ObjTexture,NGP_Hand_Held_Type_M2HB_QCB.png
 ModelScala,0.5f
+InworldScale,1.8f
 ThirdModelEquipped,0,0.2,-0.4
 Tabname,HMG_GVCGuns
 

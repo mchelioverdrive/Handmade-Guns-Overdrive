@@ -30,6 +30,7 @@ CanObj,true
 ObjModel,G36K.mqo
 ObjTexture,G36.png
 ModelScala,0.5f
+InworldScale,1.8f
 CustomFlash,arrow,1
 Bursts,1,-1,0
 Rates,1.6,1.6,1.6

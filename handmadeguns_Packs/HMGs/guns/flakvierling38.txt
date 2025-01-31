@@ -93,10 +93,10 @@ TurretHP,200
 LMG,Flak-38
 
 
-Recipe1,abc
-Recipe2,abb
-Recipe3,bbb
-ItemA,minecraft,iron_ingot
-ItemB,minecraft,iron_block
-ItemC,minecraft,emerald
-addNewRecipe,HandmadeGuns,Flak-38,1
+//Recipe1,abc
+//Recipe2,abb
+//Recipe3,bbb
+//ItemA,minecraft,iron_ingot
+//ItemB,minecraft,iron_block
+//ItemC,minecraft,emerald
+//addNewRecipe,HandmadeGuns,Flak-38,1
