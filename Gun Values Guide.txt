@@ -1,0 +1,117 @@
+Values are pulled from "AR_sample" weapon
+General Gun Stats:
+
+    BulletPower,8 → Likely the bullet's damage or penetration power.
+    BulletSpeed,8.0f → Speed of the bullet when fired.
+    BlletSpread,6.0f → (Typo: Bllet → Bullet?) Determines how much bullets spread when fired.
+    Recoil,1.5d → Amount of recoil when shooting.
+    ReloadTime,50 → Time in ticks to reload the weapon.
+    RemainingBullet,30 → Magazine size.
+    Attacking,2.0f → Possibly related to fire rate or attack speed.
+    Zoom,1.0f,2.0f,4.0f → Different zoom levels.
+    ZoomRender,true → Whether zoom rendering is enabled.
+    ZoomRenderType,true,true,true → Defines which zoom levels have special rendering effects.
+    ZoomRenderTypeTxture,false,false,false → Controls texture rendering during zoom (false suggests default textures stay the same).
+    Cycle,2 → Likely fire mode cycle (e.g., full-auto, burst, semi-auto).
+    Bursts,1,3,-1 → Burst fire settings: single shot, 3-round burst, and full-auto (-1?).
+    Rates,2,2,2 → Could refer to fire rate or burst timing.
+
+Gun Appearance & Sounds:
+
+    Texture,AR_sample → Texture name for the gun.
+    GunSound,handmadeguns.fire,handmadeguns.supu → Sounds for firing the weapon.
+    GunSoundReload,handmadeguns.reload → Sound for reloading.
+    CanObj,true → If the gun has a 3D model.
+    ObjModel,ar.mqo → 3D model file.
+    ObjTexture,ar.png → Texture file for the model.
+    ModelScala,0.5f → Scale factor of the 3D model.
+    CustomFlash,arrow,1 → Custom muzzle flash effect.
+
+Gun Handling:
+
+    ModelEquipped,-0.7f,0.7f,0.0f → Position of the gun when equipped.
+    ModelHigh,0.97f,0.85f,0.85f → Height scaling factors.
+    ModelWidthX,0.694f,0.694f,0.694f → Width scaling factors.
+    ModelWidthZ,0.0f,0.0f,0.0f → Z-axis scaling factors.
+    ModelRotationX,180f,180f,180f → X-axis rotation.
+    ModelRotationY,45f,45f,45 → Y-axis rotation.
+    ModelRotationZ,180f,180f,180f → Z-axis rotation.
+
+Weapon Handling While Moving:
+
+    SprintingPoint,0.5f,0.0f,0.5f → Adjusts gun positioning while sprinting.
+    SprintingRotation,20f,60f,0f → Gun rotation while sprinting.
+
+Sound & Script:
+
+    SoundSpeed,1.5f → Adjusts sound playback speed.
+    GunScript_PathType,handmadeguns_Packs/Addfixing/scripts/testrendergun.js → Path to the script controlling gun behavior.
+
+Underbarrel Attachments:
+
+This section defines a grenade launcher (UnderGL_) and shotgun (UnderSG_) attachment:
+
+    UnderGL_Sound,handmadeguns.grenade → Sound for grenade launcher.
+    UnderGL_Power,20 → Damage of the grenade launcher.
+    UnderGL_Speed,2.0f → Speed of grenade projectile.
+    UnderGL_Spread,5.0f → Spread of grenades.
+    UnderGL_Recoil,5.0d → Recoil from grenade shots.
+    UnderGL_Gravity,0.01f → Gravity effect on grenades.
+    UnderSG_Sound,handmadeguns.fire → Sound for underbarrel shotgun.
+    UnderSG_Power,4 → Damage of the shotgun.
+    UnderSG_Speed,3.0f → Shotgun projectile speed.
+    UnderSG_Spread,30.0f → Wide spread for shotgun pellets.
+    UnderSG_Recoil,5.0d → Recoil for shotgun.
+    UnderSG_Gravity,0.029f → Gravity effect on shotgun pellets.
+
+Bullet Mechanics:
+
+    BulletGravity,0.49f → How much gravity affects bullets.
+
+Scope & Crosshair:
+
+    ScopeTexture,ironsight.png,reddot.png,scope.png → Different scope textures.
+    RenderCross,false → Whether a crosshair is rendered.
+
+Magazine & Ammo Types:
+
+    UnderBarrelWeapon,0 → Whether an underbarrel weapon is attached.
+    RightType,0 → Possibly weapon classification (e.g., AR, SMG).
+    Magazine,0,HandmadeGuns,bullet_hmg → Standard magazine type.
+    MagazineSG,0,HandmadeGuns,bullet_shell_hmg → Shotgun magazine.
+    MagazineGL,0,HandmadeGuns,bullet_rr_hmg → Grenade launcher magazine.
+
+Gun Parts & Attachments:
+
+    The lines starting with AddParts, and AddChildParts, define additional parts like sights, grips, underbarrel weapons, etc.
+    attachpart lines indicate which attachment the part corresponds to.
+
+Positioning of Gun Components:
+
+    SightSetPoint,0F,1.5F,1.5F → Position of sights.
+    LightSetPoint,0.295F,1.3F,3.2F → Position of flashlight attachment.
+    LightSetAngle,0F,0F,-90F → Angle of the flashlight.
+    MuzzleSetPoint,0F,1.2F,5.8F → Position of muzzle flash effect.
+    GripSetPoint,0F,0.85F,3.5F → Position of the grip.
+
+Gun Name & Category:
+
+    Name,アサルトライフル_サンプル → Japanese for "Assault Rifle Sample".
+    AR,AR_sample → Internal name.
+
+Crafting Recipe (Commented Out):
+
+    Lines like //addRecipe,AR_sample,1,abc,0ef,000,265,265,265,280,265,280,280,280,280 suggest a crafting recipe system.
+    //ItemA,minecraft,iron_ingot → Iron ingot as a crafting component.
+
+Summary of Functionality:
+
+This file is a full configuration file for a gun in the Handmade-Guns mod. It defines:
+
+    Stats (damage, fire rate, spread, recoil).
+    Handling (zoom, recoil, sprinting behavior).
+    Sounds & Visuals (gunshot sounds, reload sounds, muzzle flash effects).
+    Model & Positioning (3D model, offsets, rotation).
+    Attachments (underbarrel grenade launcher & shotgun, scope, grip).
+    Bullet Physics (speed, gravity, spread).
+    Customization (textures, models, crafting recipes).
