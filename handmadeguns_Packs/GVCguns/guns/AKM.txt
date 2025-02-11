@@ -2,14 +2,12 @@ BulletPower,10
 BulletSpeed,14.3
 BulletGravity,0.485
 
-BlletSpread,0.1f
+BlletSpread,0.0f
 ADS_Spread_coefficient,0.1
 BlletSpreadDiffusion,5,0,1.5,0.2,3,0.5
 Cycle,2
 ElevationOffsets,     0,-0.4,-0.8,-1.4,-2 ,-2.7,-3.5
 elevationOffsets_info,0,20m ,40m ,60m ,80m,100m,120m
-
-Motion,0.95
 
 Recoil,3
 Recoil_sneaking,1.5
@@ -18,18 +16,18 @@ ReloadTime,50
 
 RemainingBullet,30
 
-Attacking,4.0f
+Attacking,6.0f
 Zoom,1.0f,1.0f,1.0f
 
 ZoomRender,true
 ZoomRenderType,true,true,false
 ZoomRenderTypeTxture,false,false,true
 
-Texture,ak47
+Texture,AKM
 GunSound,handmadeguns.AK47,handmadeguns.supu
 GunSoundReload,handmadeguns.reload
 CanObj,true
-ObjModel,ak47.mqo
+ObjModel,AKM.mqo
 ObjTexture,ak47.png
 ModelScala,0.5f
 InworldScale,1.8f
@@ -198,7 +196,7 @@ Tabname,HMG_GVCGuns
 UseUnderGun'smodel,true
 UnderGunRotation,-90f,0,0
 UnderGunOffset,0f,0.5639,5.6004
-Name,AK-47
-AR,AK47
+Name,AKM
+AR,AKM
 
 //addRecipe,AR_sample,1,abc,0ef,000,265,265,265,280,265,280,280,280,280
