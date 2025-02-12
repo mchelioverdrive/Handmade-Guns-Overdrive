@@ -9,8 +9,8 @@ Cycle,2
 ElevationOffsets,     0,-0.4,-0.8,-1.4,-2 ,-2.7,-3.5
 elevationOffsets_info,0,20m ,40m ,60m ,80m,100m,120m
 
-Recoil,9
-Recoil_sneaking,5
+Recoil,7
+Recoil_sneaking,3
 
 ReloadTime,50
 
@@ -27,7 +27,7 @@ Texture,akdraco
 GunSound,handmadeguns.AK47,handmadeguns.supu
 GunSoundReload,handmadeguns.reload
 CanObj,true
-ObjModel,akdraco.mqo
+ObjModel,akdracobrace.mqo
 ObjTexture,ak47.png
 ModelScala,0.5f
 InworldScale,1.8f
@@ -196,7 +196,7 @@ Tabname,HMG_GVCGuns
 UseUnderGun'smodel,true
 UnderGunRotation,-90f,0,0
 UnderGunOffset,0f,0.5639,5.6004
-Name,AK Draco Pistol
-AR,Draco
+Name,AK Draco Pistol with Brace
+AR,DracoBrace
 
 //addRecipe,AR_sample,1,abc,0ef,000,265,265,265,280,265,280,280,280,280

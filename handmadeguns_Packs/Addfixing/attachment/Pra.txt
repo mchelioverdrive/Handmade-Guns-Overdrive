@@ -8,7 +8,7 @@ Magazine,Prastic
 Recipe1,aba
 Recipe2,   
 Recipe3,   
-ItemA,minecraft,glass
-ItemB,minecraft,iron_ingot
-addNewRecipe,HandmadeGuns,Prastic,6
+ItemA,minecraft,coal
+ItemB,minecraft,reeds
+addNewRecipe,HandmadeGuns,Prastic,12
 
