@@ -1,5 +1,6 @@
 BulletPower,8
-BulletSpeed,15
+BulletSpeed,18
+//15 for 47 RPK
 BulletGravity,0.485
 Class,3
 BlletSpread,0.0f
