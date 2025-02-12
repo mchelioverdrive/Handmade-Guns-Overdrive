@@ -93,15 +93,15 @@ AddParts,Base_Sys
 	AddPartsOnReloadOffsetAndRotation,0,0,0,0,0,0
 	AddYawInfoKey,-360,0,0,0,0,-360,0		,360,0,0,0,0,360,0
 
-AddChildParts,SYS_CMAG_Branch
-		AddPartsRotationCenterAndRotationAmount,0,0,0,0,0,0
-		AddPartsRotationCenterAndRotationAmount,0,0,0,0,0,0
-		RenderOnNormal
-		AddPartsOnADSOffsetAndRotation,0,0,0,0,0,0
-		AddPartsOnRecoilOffsetAndRotation,0,0,0,0,0,0
-		AddPartsOnCockOffsetAndRotation,0,0,0,0,0,0
-		AddPartsOnReloadOffsetAndRotation,0,0,0,0,0,0
-		NeedDraw_Current_Magazine_ID_List,false,true
+//AddChildParts,SYS_CMAG_Branch
+//		AddPartsRotationCenterAndRotationAmount,0,0,0,0,0,0
+//		AddPartsRotationCenterAndRotationAmount,0,0,0,0,0,0
+//		RenderOnNormal
+//		AddPartsOnADSOffsetAndRotation,0,0,0,0,0,0
+//		AddPartsOnRecoilOffsetAndRotation,0,0,0,0,0,0
+//		AddPartsOnCockOffsetAndRotation,0,0,0,0,0,0
+//		AddPartsOnReloadOffsetAndRotation,0,0,0,0,0,0
+//		NeedDraw_Current_Magazine_ID_List,false,true
 
 
 	AddChildParts,mat1
@@ -164,19 +164,28 @@ AddChildParts,SYS_CMAG_Branch
 			AddReloadMotionKey,98,0,0,0,0,0,0,		   100,0,0,0,0,0,0
 		BackParts
 
-		AddChildParts,Cmag
-			AddPartsRotationCenterAndRotationAmount,0,0,0.0,0,0,0
-			RenderOnNormal
-			AddPartsOnADSOffsetAndRotation,0,0,0,0,0,0
-			AddPartsOnRecoilOffsetAndRotation,0,0,0,0,0,0
-			AddPartsOnCockOffsetAndRotation,0,0,0,0,0,0
-			AddPartsOnReloadOffsetAndRotation,0,0,0,0,0,0
-				
-			AddReloadMotionKey,0,0,0,0,0,0,0,           10,0,-5,-1,0,0,0
-			AddReloadMotionKey,10,false,          30
-			AddReloadMotionKey,30,0,-2,-0.5,0,0,0,      60,0,0,0,0,0,0
-			AddReloadMotionKey,60,0,0,0,0,0,0,          75,0,0,0,0,0,0
-		BackParts
+	//	AddChildParts,Cmag
+	//		AddPartsRotationCenterAndRotationAmount,0,0,0.0,0,0,0
+	//		RenderOnNormal
+	//		AddPartsOnADSOffsetAndRotation,0,0,0,0,0,0
+	//		AddPartsOnRecoilOffsetAndRotation,0,0,0,0,0,0
+	//		AddPartsOnCockOffsetAndRotation,0,0,0,0,0,0
+	//		AddPartsOnReloadOffsetAndRotation,0,0,0,0,0,0
+	//			
+	//		AddReloadMotionKey,0,0,0,0,0,0,0,           10,0,-5,-1,0,0,0
+	//		AddReloadMotionKey,10,false,          30
+	//		AddReloadMotionKey,30,0,-2,-0.5,0,0,0,      60,0,0,0,0,0,0
+	//		AddReloadMotionKey,60,0,0,0,0,0,0,          75,0,0,0,0,0,0
+	//	BackParts
+	
+	AddChildParts,obj1
+			SetAsNormalParts
+			AddReloadMotionKey,0,0,0,0,0,0,0,		   5,0,-5,-1,0,0,0
+			AddReloadMotionKey,5,false,		  10
+			AddReloadMotionKey,30,0,-2,-0.5,0,0,0,	  40,0,0,0,0,0,0
+			AddReloadMotionKey,40,0,0,0,0,0,0,		  75,0,0,0,0,0,0
+			NeedDraw_Current_Magazine_ID_List,false,true
+	BackParts
 
 		AddChildParts,mat22
 			AddPartsRotationCenterAndRotationAmount,0,1.700,2.100,0,0,0
@@ -208,7 +217,7 @@ AddChildParts,SYS_CMAG_Branch
 			AddPartsOnRecoilOffsetAndRotation,0,0,0,0,0,0
 			AddPartsOnCockOffsetAndRotation,0,0,0,0,0,0
 			AddPartsOnReloadOffsetAndRotation,0,0,0,0,0,0
-	
+			NeedDraw_Current_Magazine_ID_List,true,false
 			AddReloadMotionKey,0,0,0,0,0,0,0,		   5,0,-5,-1,0,0,-180
 			AddReloadMotionKey,5,false,		  	30
 			AddReloadMotionKey,30,0,-2,0,0,0,0,		40,0,0,0,0,0,0
