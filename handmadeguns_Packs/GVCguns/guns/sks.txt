@@ -118,19 +118,33 @@ AddParts,mat1
         attachpart
         swordbase
     BackParts
-    AddChildParts,mat3
-        AddPartsRotationCenterAndRotationAmount,0,0,0.0,0,0,0
-        RenderOnNormal
-        AddPartsOnADSOffsetAndRotation,0,0,0,0,0,0
-        AddPartsOnRecoilOffsetAndRotation,0,0,0,0,0,0
-        AddPartsOnCockOffsetAndRotation,0,0,0,0,0,0
-        AddPartsOnReloadOffsetAndRotation,0,0,0,0,0,0
+ //   AddChildParts,mat3
+ //       AddPartsRotationCenterAndRotationAmount,0,0,0.0,0,0,0
+ //       RenderOnNormal
+ //       AddPartsOnADSOffsetAndRotation,0,0,0,0,0,0
+ //       AddPartsOnRecoilOffsetAndRotation,0,0,0,0,0,0
+ //       AddPartsOnCockOffsetAndRotation,0,0,0,0,0,0
+ //       AddPartsOnReloadOffsetAndRotation,0,0,0,0,0,0
+ //
+ //       AddReloadMotionKey,0,0,0,0,0,0,0,           5,0,-5,-1,0,0,0
+ //       AddReloadMotionKey,5,false,          10
+ //       AddReloadMotionKey,10,0,-2,-0.5,0,0,0,      30,0,0,0,0,0,0
+ //       AddReloadMotionKey,30,0,0,0,0,0,0,          50,0,0,0,0,0,0
+ //   BackParts
+ //for mag removal. Only Modern SKS and its a bitch to do LOOOOOOL
+ 
+   AddChildParts,mat3
+       AddPartsRotationCenterAndRotationAmount,0,0,0.0,0,0,0
+       RenderOnNormal
+       AddPartsOnADSOffsetAndRotation,0,0,0,0,0,0
+       AddPartsOnRecoilOffsetAndRotation,0,0,0,0,0,0
+       AddPartsOnCockOffsetAndRotation,0,0,0,0,0,0
+       AddPartsOnReloadOffsetAndRotation,0,0,0,0,0,0
 
-        AddReloadMotionKey,0,0,0,0,0,0,0,           5,0,-5,-1,0,0,0
-        AddReloadMotionKey,5,false,          10
-        AddReloadMotionKey,10,0,-2,-0.5,0,0,0,      30,0,0,0,0,0,0
-        AddReloadMotionKey,30,0,0,0,0,0,0,          50,0,0,0,0,0,0
-    BackParts
+       
+   BackParts
+ 
+ 
     AddChildParts,mat2
         AddPartsRotationCenterAndRotationAmount,0,0,0,0,0,0
         RenderOnNormal
