@@ -1,5 +1,5 @@
 BulletPower,10
-BulletSpeed,14.3
+BulletSpeed,15.2
 BulletGravity,0.485
 BulletSpread,0.1f
 Recoil,5.0d

@@ -12,8 +12,8 @@ Cycle,2
 
 Motion,0.75
 
-Recoil,3
-Recoil_sneaking,1.4
+Recoil,2.8
+Recoil_sneaking,1.2
 
 ReloadTime,75
 
