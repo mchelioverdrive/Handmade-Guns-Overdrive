@@ -1,19 +1,19 @@
 BulletPower,0
 canBounce,true
-BounceRate,0.05
-BounceLimit,360
+BounceRate,0.18
+BounceLimit,1800
 bulletFuse,40
-BulletSpeed,1.2f
+BulletSpeed,2.2f
 BlletSpread,2.0f
 Recoil,0
-ReloadTime,20
+ReloadTime,40
 RemainingBullet,1
 Attacking,2.0f
 Zoom,1.1f,2.0f,4.0f
 ZoomRender,true
 ZoomRenderType,true,true,true
 ZoomRenderTypeTxture,false,false,false
-Explosion,5
+Explosion,8
 BlockDestory,false
 damagerange,10
 Texture,M26
@@ -27,7 +27,7 @@ InworldScale,2f
 Cartridge,false
 CartridgeType,4
 isOneuse,true
-MaxstackSize,10
+MaxstackSize,3
 MuzzleFlash,false
 BulletNameALL,M26grenade
 
@@ -55,7 +55,7 @@ Mat22Point,0.0f,1.05f,0.0f
 Mat22Rotation,0f,0f,-90f
 
 //0307
-BulletGravity,1f
+BulletGravity,0.8f
 
 ScopeTexture,acog.png,acog.png,scope.png
 RenderCross,false

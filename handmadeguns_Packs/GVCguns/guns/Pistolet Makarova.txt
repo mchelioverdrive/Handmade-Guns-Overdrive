@@ -1,4 +1,4 @@
-BulletPower,7
+BulletPower,6
 BulletSpeed,6.3
 BulletGravity,0.485
 Class,0
@@ -36,7 +36,7 @@ Bursts,1
 Rates,1
 
 attachRestriction,true
-allowattach,Suppressor
+//allowattach,Suppressor
 //allowattach,reddot
 //allowattach,right
 //allowattach,Bullet_AT
@@ -74,7 +74,11 @@ SoundSpeed,1.5f
 ScopeTexture,null.png,null.png,scope.png
 RenderCross,false
 
-Magazine,0,HandmadeGuns,bullet_hg_hmg
+Magazine,0,HandmadeGuns,bullet_hg_9mm8rnd
+
+//MultiMagazine,HandmadeGuns:bullet_hg_9mm8rnd,HandmadeGuns:
+//fuck this gun for having a OBJ model I dont care
+
 MagazineSG,0,HandmadeGuns,bullet_shell_hmg
 MagazineGL,0,HandmadeGuns,bullet_rr_hmg
 

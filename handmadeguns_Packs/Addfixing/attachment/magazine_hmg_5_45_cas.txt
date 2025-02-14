@@ -1,7 +1,7 @@
 Texture,545bullet_cas
 Stack,1
 BulletRound,60
-Name,60 Rnd 5.45x39mm Casket Magazine
+Name,60 Rnd 5.45x39mm Quad-Stack/Casket Magazine
 
 Tabname,HMG_Ammo
 

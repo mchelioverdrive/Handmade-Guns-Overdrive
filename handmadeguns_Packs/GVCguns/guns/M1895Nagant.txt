@@ -1,4 +1,4 @@
-BulletPower,8
+BulletPower,9
 BulletSpeed,6.7
 BulletGravity,0.485
 Class,0
@@ -62,7 +62,10 @@ SoundSpeed,0.8f
 ScopeTexture,null.png,null.png,scope.png
 RenderCross,false
 
-Magazine,0,HandmadeGuns,bullet_hg_hmg
+Magazine,0,HandmadeGuns,7.6238mmR bullet
+
+//RemainingBullet,7
+
 MagazineSG,0,HandmadeGuns,bullet_shell_hmg
 MagazineGL,0,HandmadeGuns,bullet_rr_hmg
 

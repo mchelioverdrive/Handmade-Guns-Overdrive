@@ -9,7 +9,7 @@ ElevationOffsets,0.0 , -0.40336760008957084 , -0.8066952200016713 , -1.209942903
 elevationOffsets_info,0 , 20m  ,40m  ,60m ,80m ,100m ,120m , 140m
 Cycle,2
 
-Motion,0.95
+Motion,0.88
 
 
 Recoil,10

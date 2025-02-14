@@ -1,14 +1,14 @@
 BulletPower,9
-BulletSpeed,18
+BulletSpeed,17.5
 BulletGravity,0.485
 
-BlletSpread,0.0f
-ADS_Spread_coefficient,0.0
-BlletSpreadDiffusion,4,0,1.8,0.1,2,0.8
+BlletSpread,0.15f
+ADS_Spread_coefficient,0.15
+BlletSpreadDiffusion,5,0,1.8,0.1,2,0.8
 Cycle,1.6
 
-Recoil,2
-Recoil_sneaking,1.2
+Recoil,3
+Recoil_sneaking,1.25
 
 ReloadTime,50
 
@@ -66,7 +66,9 @@ RenderCross,false
 //Magazine,0,HandmadeGuns,5.56mm magazine
 MagazineSG,0,HandmadeGuns,bullet_shell_hmg
 MagazineGL,0,HandmadeGuns,bullet_rr_hmg
-MultiMagazine,HandmadeGuns:5.56mm magazine,HandmadeGuns:bullet_lmg_hmg_CMag
+MultiMagazine,HandmadeGuns:5.56mm magazineg36
+//,HandmadeGuns:bullet_lmg_hmg_CMag
+//,HandmadeGuns:5.56mm magazine20,HandmadeGuns:5.56mm magazine90
 
 Tabname,HMG_GVCGuns
 
@@ -95,6 +97,7 @@ AddParts,Base_Sys
 		AddPartsOnCockOffsetAndRotation,0,0,0,0,0,0
 		AddPartsOnReloadOffsetAndRotation,0,0,0,0,0,0
 		NeedDraw_Current_Magazine_ID_List,false,true
+		//,false,false
 		AddChildParts,Body
 			AddPartsRotationCenterAndRotationAmount,0,0,0,0,0,0
 			AddPartsRotationCenterAndRotationAmount,0,0,0,0,0,0
@@ -201,6 +204,7 @@ AddParts,Base_Sys
 		AddPartsOnCockOffsetAndRotation,0,0,0,0,0,0
 		AddPartsOnReloadOffsetAndRotation,0,0,0,0,0,0
 		NeedDraw_Current_Magazine_ID_List,true,false
+		//,true,true
 		AddChildParts,Body
 			AddPartsRotationCenterAndRotationAmount,0,0,0,0,0,0
 			AddPartsRotationCenterAndRotationAmount,0,0,0,0,0,0
@@ -331,6 +335,8 @@ AddParts,Base_Sys
 			
 			
 			AddChildParts,Magazine
+				NeedDraw_Current_Magazine_ID_List,true,false
+				//,false,false
 				AddPartsRotationCenterAndRotationAmount,0,0,0.0,0,0,0
 				RenderOnNormal
 				AddPartsOnADSOffsetAndRotation,0,0,0,0,0,0
@@ -342,6 +348,35 @@ AddParts,Base_Sys
 				AddReloadMotionKey,10,0,-2,-0.5,0,0,0,	  35,0,0,0,0,0,0
 				AddReloadMotionKey,35,0,0,0,0,0,0,		  50,0,0,0,0,0,0
 			BackParts
+
+//			AddChildParts,twenty
+//				NeedDraw_Current_Magazine_ID_List,false,false,true,false
+//				AddPartsRotationCenterAndRotationAmount,0,0,0.0,0,0,0
+//				RenderOnNormal
+//				AddPartsOnADSOffsetAndRotation,0,0,0,0,0,0
+//				AddPartsOnRecoilOffsetAndRotation,0,0,0,0,0,0
+//				AddPartsOnCockOffsetAndRotation,0,0,0,0,0,0
+//				AddPartsOnReloadOffsetAndRotation,0,0,0,0,0,0
+//				AddReloadMotionKey,0,0,0,0,0,0,0,		   5,0,-5,-1,0,0,0
+//				AddReloadMotionKey,5,false,		  10
+//				AddReloadMotionKey,10,0,-2,-0.5,0,0,0,	  35,0,0,0,0,0,0
+//				AddReloadMotionKey,35,0,0,0,0,0,0,		  50,0,0,0,0,0,0
+//			BackParts
+			
+//			AddChildParts,ninety
+//				NeedDraw_Current_Magazine_ID_List,false,false,false,true
+//				AddPartsRotationCenterAndRotationAmount,0,0,0.0,0,0,0
+//				RenderOnNormal
+//				AddPartsOnADSOffsetAndRotation,0,0,0,0,0,0
+//				AddPartsOnRecoilOffsetAndRotation,0,0,0,0,0,0
+//				AddPartsOnCockOffsetAndRotation,0,0,0,0,0,0
+//				AddPartsOnReloadOffsetAndRotation,0,0,0,0,0,0
+//				AddReloadMotionKey,0,0,0,0,0,0,0,		   5,0,-5,-1,0,0,0
+//				AddReloadMotionKey,5,false,		  10
+//				AddReloadMotionKey,10,0,-2,-0.5,0,0,0,	  35,0,0,0,0,0,0
+//				AddReloadMotionKey,35,0,0,0,0,0,0,		  50,0,0,0,0,0,0
+//			BackParts
+			
 			
 			AddChildParts,Bolt
 				AddPartsRotationCenterAndRotationAmount,0,0,0,0,0,0

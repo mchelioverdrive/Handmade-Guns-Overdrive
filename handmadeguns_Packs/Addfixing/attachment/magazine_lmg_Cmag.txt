@@ -8,9 +8,9 @@ Tabname,HMG_Ammo
 
 CustomMagazine,bullet_lmg_hmg_CMag
 Recipe1,ab 
-Recipe2,bb 
+Recipe2,bc 
 Recipe3,c  
-ItemA,minecraft,iron_block
-ItemB,minecraft,gunpowder
-ItemC,minecraft,emerald
-addNewRecipe,HandmadeGuns,bullet_lmg_hmg_CMag,3
+ItemA,minecraft,gunpowder
+ItemB,minecraft,iron_block
+ItemC,HandmadeGuns,5.56mm magazine
+addNewRecipe,HandmadeGuns,bullet_lmg_hmg_CMag,1

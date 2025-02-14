@@ -59,7 +59,10 @@ SoundSpeed,0.8f
 ScopeTexture,scope_m110.png,scope_m110.png,scope_m110.png
 RenderCross,false
 
-Magazine,0,HandmadeGuns,7.62mm magazine
+//Magazine,0,HandmadeGuns,7.62mm sr magazine
+MultiMagazine,HandmadeGuns:7.62mm sr magazine,HandmadeGuns:7.62mm sr20 magazine
+
+
 MagazineSG,0,HandmadeGuns,bullet_shell_hmg
 MagazineGL,0,HandmadeGuns,bullet_rr_hmg
 
@@ -71,6 +74,15 @@ ReloadMotion
 3,     40f, 0f , 0f,-0.3f,0.3f , -20f,0f,0f , 0f , 0.2f,0.3f,1.10f , 0.7f,0f,0f , 0f,0f,0f , 0f,0f,0f , 0f , 0f, 0f,0f , 0f,0f,0f , 0f,0f,0f
 4,     50f, 0f , 0f,-0.3f,0.3f , 0f  ,0f,0f , 1f , 0f  ,0f  ,0f    , 0f ,0f,0f , 0f,0f,0f , 0f,0f,0f , 0f , 0f, 0f,0f , 0f,0f,0f , 0f,0f,0f
 }
+
+		AddChildParts,twenty
+			SetAsNormalParts
+			AddReloadMotionKey,0,0,0,0,0,0,0,		   5,0,-5,-1,0,0,0
+			AddReloadMotionKey,5,false,		  10
+			AddReloadMotionKey,30,0,-2,-0.5,0,0,0,	  40,0,0,0,0,0,0
+			AddReloadMotionKey,40,0,0,0,0,0,0,		  75,0,0,0,0,0,0
+			NeedDraw_Current_Magazine_ID_List,false,true
+		BackParts
 
 Tabname,HMG_GVCGuns
 Name,M110 SASS
