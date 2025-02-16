@@ -5,7 +5,7 @@ BulletGravity,0.485
 
 BlletSpread,2.0F
 ADS_Spread_coefficient,0.0
-BlletSpreadDiffusion,6,0,0.3,0,2,0.1
+BlletSpreadDiffusion,12,0,0.3,0,2,0.1
 Cycle,1
 
 Motion,0.2
@@ -66,6 +66,9 @@ RenderCross,false
 UnderBarrelWeapon,0
 RightType,0
 Magazine,0,HandmadeGuns,bullet_lmg_hmg_mini
+
+//MultiMagazine,HandmadeGuns:bullet_lmg_hmg_mini,HandMade
+
 MagazineSG,0,HandmadeGuns,bullet_shell_hmg
 MagazineGL,0,HandmadeGuns,bullet_rr_hmg
 ReloadMotion

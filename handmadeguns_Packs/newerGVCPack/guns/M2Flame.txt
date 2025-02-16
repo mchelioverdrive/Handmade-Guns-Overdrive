@@ -65,7 +65,7 @@ SoundSpeed,1.5f
 ScopeTexture,null.png,null.png,scope.png
 RenderCross,false
 
-Magazine,0,minecraft,lava_bucket
+Magazine,0,HandmadeGuns,gastank
 MagazineSG,0,HandmadeGuns,bullet_shell_hmg
 MagazineGL,0,HandmadeGuns,bullet_rr_hmg
 

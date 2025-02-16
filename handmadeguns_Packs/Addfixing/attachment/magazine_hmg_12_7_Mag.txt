@@ -13,4 +13,4 @@ Recipe3,c
 ItemA,minecraft,iron_block
 ItemB,minecraft,gunpowder
 ItemC,minecraft,emerald
-addNewRecipe,HandmadeGuns,12.7mm Magazine,3
+addNewRecipe,HandmadeGuns,12.7mm Magazine,1

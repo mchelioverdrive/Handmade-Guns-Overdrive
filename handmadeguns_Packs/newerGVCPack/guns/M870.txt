@@ -69,7 +69,9 @@ ScopeTexture,ironsight.png,reddot.png,scope.png
 RenderCross,false
 RightType,1
 Automatic,false
-Magazine,0,HandmadeGuns,bullet_shell_hmg
+//Magazine,0,HandmadeGuns,bullet_shell_hmg
+
+MultiMagazine,HandmadeGuns:bullet_shell_hmg,HandmadeGuns:bullet_shell_slug
 
 Tabname,HMG_GVCGuns
 guntype,1
