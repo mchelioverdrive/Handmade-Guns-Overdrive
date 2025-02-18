@@ -1,8 +1,9 @@
-BulletPower,8
+BulletPower,6
 BulletSpeed,7.3f
-BlletSpread,2.2f
-BlletSpreadDiffusion,5,0,1,0.5,4,0.5
+BlletSpread,20.2f
+BlletSpreadDiffusion,1,0,1,0.5,4,0.5
 BulletGravity,0.485
+ADS_Spread_coefficient,0.1
 Class,1
 Recoil,20
 Recoil_sneaking,12
@@ -22,7 +23,7 @@ ObjModel,m870.mqo
 ObjTexture,m870.png
 ModelScala,0.5f
 InworldScale,1.8f
-bulletFuse,16
+bulletFuse,8
 Bursts,1
 Rates,0
 
@@ -52,7 +53,7 @@ Mat22Rotation,90f,0f,0f
 Mat25Point,0.0f,0.3f,5.0f
 Mat25Rotation,0f,0f,0f
 CockingTime,20
-ShotGun_Pellet,9
+ShotGun_Pellet,40
 
 Mat25,true
 CockedLeftHand,true
@@ -69,12 +70,14 @@ ScopeTexture,ironsight.png,reddot.png,scope.png
 RenderCross,false
 RightType,1
 Automatic,false
-Magazine,0,HandmadeGuns,bullet_shell_hmg
+//Magazine,0,HandmadeGuns,bullet_shell_hmg
+
+Magazine,0,HandmadeGuns,bullet_shell_bird
 
 //MultiMagazine,HandmadeGuns:bullet_shell_hmg,HandmadeGuns:bullet_shell_slug
 
 Tabname,HMG_GVCGuns
 guntype,1
-Unified_guns,Remington Model 870
+Unified_guns,Remington Model 870 (BirdShot 4)
 
-//addRecipe,M870,1,abc,def,000,265,265,280,280,265,280,280,280,280
+//addRecipe,M870b,1,abc,def,000,265,265,280,280,265,280,280,280,280

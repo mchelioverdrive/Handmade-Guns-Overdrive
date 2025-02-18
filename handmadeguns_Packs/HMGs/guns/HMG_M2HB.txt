@@ -5,8 +5,8 @@ BlletSpread,2.5F
 ADS_Spread_coefficient,0.7
 BlletSpreadDiffusion,8,0,1.5,0.1,2,0.7
 Motion,0.35
-Recoil,20.0d
-Recoil_sneaking,2.5
+Recoil,40.0d
+Recoil_sneaking,20.5
 ReloadTime,60
 RemainingBullet,110
 Attacking,2.0f
@@ -28,7 +28,7 @@ ThirdModelEquipped,0,0.2,-0.4
 Tabname,HMG_GVCGuns
 
 Canfix,true
-NeedFix,true
+NeedFix,false
 FixAsEntity,true
 OnEntity_BarrelPoint,0,-0.17047,0.93809
 OnEntity_RotationPitchPoint,0,-0.31524,-0.01838
@@ -384,8 +384,8 @@ AddChildParts,naught
 BackParts
 BackParts
 
-Bursts,-1,1,0
-Rates,4,4,4
+Bursts,-1,-1,-1,1,0
+Rates,4,3,2
 
 GunSoundLV,5.0f,5.0f
 GunSoundReloadLV,1.0f
@@ -433,7 +433,7 @@ ReloadMotion
 BulletNameALL,12_7mmBullet_Pink
 BulletNameCart,12_7mmCart
 
-Name,Heavy Machine Gun M2HB
+Name,M2HB Heavy Machine Gun
 LMG,byfrou01_M2HB_fromNGP
 
 Recipe1, c 

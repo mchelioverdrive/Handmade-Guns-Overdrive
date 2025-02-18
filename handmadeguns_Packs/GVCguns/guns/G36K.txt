@@ -1,4 +1,4 @@
-BulletPower,9
+BulletPower,8
 BulletSpeed,17.5
 BulletGravity,0.485
 
@@ -96,7 +96,7 @@ AddParts,Base_Sys
 		AddPartsOnRecoilOffsetAndRotation,0,0,0,0,0,0
 		AddPartsOnCockOffsetAndRotation,0,0,0,0,0,0
 		AddPartsOnReloadOffsetAndRotation,0,0,0,0,0,0
-		NeedDraw_Current_Magazine_ID_List,false,true
+		//NeedDraw_Current_Magazine_ID_List,false,true
 		//,false,false
 		AddChildParts,Body
 			AddPartsRotationCenterAndRotationAmount,0,0,0,0,0,0
@@ -152,20 +152,19 @@ AddParts,Base_Sys
 			BackParts
 			
 			
-			
-			
-			AddChildParts,Cmag
+
+			AddChildParts,Magazine
+				//,false,false
 				AddPartsRotationCenterAndRotationAmount,0,0,0.0,0,0,0
 				RenderOnNormal
 				AddPartsOnADSOffsetAndRotation,0,0,0,0,0,0
 				AddPartsOnRecoilOffsetAndRotation,0,0,0,0,0,0
 				AddPartsOnCockOffsetAndRotation,0,0,0,0,0,0
 				AddPartsOnReloadOffsetAndRotation,0,0,0,0,0,0
-				
-				AddReloadMotionKey,0,0,0,0,0,0,0,		   10,0,-5,-1,0,0,0
-				AddReloadMotionKey,10,false,		  30
-				AddReloadMotionKey,30,0,-2,-0.5,0,0,0,	  60,0,0,0,0,0,0
-				AddReloadMotionKey,60,0,0,0,0,0,0,		  75,0,0,0,0,0,0
+				AddReloadMotionKey,0,0,0,0,0,0,0,		   5,0,-5,-1,0,0,0
+				AddReloadMotionKey,5,false,		  10
+				AddReloadMotionKey,10,0,-2,-0.5,0,0,0,	  35,0,0,0,0,0,0
+				AddReloadMotionKey,35,0,0,0,0,0,0,		  50,0,0,0,0,0,0
 			BackParts
 			
 			AddChildParts,Bolt
@@ -195,214 +194,7 @@ AddParts,Base_Sys
 			BackParts
 		BackParts
 	BackParts
-	AddChildParts,SYS_NormalMag_Branch
-		AddPartsRotationCenterAndRotationAmount,0,0,0,0,0,0
-		AddPartsRotationCenterAndRotationAmount,0,0,0,0,0,0
-		RenderOnNormal
-		AddPartsOnADSOffsetAndRotation,0,0,0,0,0,0
-		AddPartsOnRecoilOffsetAndRotation,0,0,0,0,0,0
-		AddPartsOnCockOffsetAndRotation,0,0,0,0,0,0
-		AddPartsOnReloadOffsetAndRotation,0,0,0,0,0,0
-		NeedDraw_Current_Magazine_ID_List,true,false
-		//,true,true
-		AddChildParts,Body
-			AddPartsRotationCenterAndRotationAmount,0,0,0,0,0,0
-			AddPartsRotationCenterAndRotationAmount,0,0,0,0,0,0
-			RenderOnNormal
-			AddPartsOnADSOffsetAndRotation,0,0,0,0,0,0
-			AddPartsOnRecoilOffsetAndRotation,0,0,0,0,0,0
-			AddPartsOnCockOffsetAndRotation,0,0,0,0,0,0
-			AddPartsOnReloadOffsetAndRotation,0,0,0,0,0,0
-			
-			AddReloadMotionKey,0 ,0,0,0,0,0,0,			5 ,0,0,0,0,0,0
-			AddReloadMotionKey,5 ,0,0,0,0,0,0,			15,0,0,0,15,0,30
-			AddReloadMotionKey,15,0,0,0,15,0,30,		  40,0,0,0,15,0,30
-			AddReloadMotionKey,40,0,0,0,15,0,30,		  50,0,0,0,0,0,0
-			
-			AddChildParts,NightVision
-				AddPartsRotationCenterAndRotationAmount,0,0,0,0,0,0
-				RenderOnNormal
-				AddPartsOnADSOffsetAndRotation,0,0,0,0,0,0
-				AddPartsOnRecoilOffsetAndRotation,0,0,0,0,0,0
-				AddPartsOnCockOffsetAndRotation,0,0,0,0,0,0
-				AddPartsOnReloadOffsetAndRotation,0,0,0,0,0,0
-				attachpart
-				dot
-			BackParts
-
-			AddChildParts,SightBase(SYS)
-				AddPartsRotationCenterAndRotationAmount,0,0,0.0,0,0,0
-				RenderOnNormal
-				AddPartsOnADSOffsetAndRotation,0,0,0,0,0,0
-				AddPartsOnRecoilOffsetAndRotation,0,0,0,0,0,0
-				AddPartsOnCockOffsetAndRotation,0,0,0,0,0,0
-				AddPartsOnReloadOffsetAndRotation,0,0,0,0,0,0
-				
-				attachpart
-				sightbase
-			BackParts
-			
-			AddChildParts,UnderGunBase(SYS)
-				AddPartsRotationCenterAndRotationAmount,0,0,0.0,0,0,0
-				RenderOnNormal
-				AddPartsOnADSOffsetAndRotation,0,0,0,0,0,0
-				AddPartsOnRecoilOffsetAndRotation,0,0,0,0,0,0
-				AddPartsOnCockOffsetAndRotation,0,0,0,0,0,0
-				AddPartsOnReloadOffsetAndRotation,0,0,0,0,0,0
-				
-				attachpart
-				underGunbase
-			BackParts
-			
-			AddChildParts,UnderGripBase(SYS)
-				AddPartsRotationCenterAndRotationAmount,0,0,0.0,0,0,0
-				RenderOnNormal
-				AddPartsOnADSOffsetAndRotation,0,0,0,0,0,0
-				AddPartsOnRecoilOffsetAndRotation,0,0,0,0,0,0
-				AddPartsOnCockOffsetAndRotation,0,0,0,0,0,0
-				AddPartsOnReloadOffsetAndRotation,0,0,0,0,0,0
-				
-				attachpart
-				gripBase
-			BackParts
-			AddChildParts,UnderSwordBase(SYS)
-				AddPartsRotationCenterAndRotationAmount,0,0,0.0,0,0,0
-				RenderOnNormal
-				AddPartsOnADSOffsetAndRotation,0,0,0,0,0,0
-				AddPartsOnRecoilOffsetAndRotation,0,0,0,0,0,0
-				AddPartsOnCockOffsetAndRotation,0,0,0,0,0,0
-				AddPartsOnReloadOffsetAndRotation,0,0,0,0,0,0
-				
-				attachpart
-				swordbase
-			BackParts
-			
-			AddChildParts,BarrelBase(SYS)
-				AddPartsRotationCenterAndRotationAmount,0,0,0.0,0,0,0
-				RenderOnNormal
-				AddPartsOnADSOffsetAndRotation,0,0,0,0,0,0
-				AddPartsOnRecoilOffsetAndRotation,0,0,0,0,0,0
-				AddPartsOnCockOffsetAndRotation,0,0,0,0,0,0
-				AddPartsOnReloadOffsetAndRotation,0,0,0,0,0,0
-				
-				attachpart
-				muzzulebase
-			BackParts
-			
-			AddChildParts,OverBarrelBase(SYS)
-				AddPartsRotationCenterAndRotationAmount,0,0,0.0,0,0,0
-				RenderOnNormal
-				AddPartsOnADSOffsetAndRotation,0,0,0,0,0,0
-				AddPartsOnRecoilOffsetAndRotation,0,0,0,0,0,0
-				AddPartsOnCockOffsetAndRotation,0,0,0,0,0,0
-				AddPartsOnReloadOffsetAndRotation,0,0,0,0,0,0
-				
-				attachpart
-				overbarrelbase
-			BackParts
-
-			AddChildParts,Larm
-				AddPartsRotationCenterAndRotationAmount,0,0,0,0,0,0
-				AddPartsRotationCenterAndRotationAmount,0,0,0,0,0,0
-				RenderOnNormal
-				AddPartsOnADSOffsetAndRotation,0,0,0,0,0,0
-				AddPartsOnRecoilOffsetAndRotation,0,0,0,0,0,0
-				AddPartsOnCockOffsetAndRotation,0,0,0,0,0,0
-				AddPartsOnReloadOffsetAndRotation,0,0,0,0,0,0
-			
-				AddReloadMotionKey,0,0,0,0,0,0,0,			5,0,0,0,0,0,0
-				AddReloadMotionKey,5,0,0,0,0,0,0,			10,0,-2,-1,0,0,0
-				AddReloadMotionKey,10,0,-2,-1,0,0,0,		 35,0,0,-1,0,0,0
-			
-				AddReloadMotionKey,35,0,0,-1,0,0,0,		   38,0,0.75,0,0,0,0
-				AddReloadMotionKey,38,0,0.75,0,0,0,0,		 41,0,0.75,-1,0,0,0
-				AddReloadMotionKey,41,0,0.75,-1,0,0,0,	 45,0,0.75,0,0,0,0
-				AddReloadMotionKey,45,0,0.75,0,0,0,0,	 50,0,0,0,0,0,0
-			BackParts
-			AddChildParts,Rarm
-				AddPartsRotationCenterAndRotationAmount,0,0,0,0,0,0
-				AddPartsRotationCenterAndRotationAmount,0,0,0,0,0,0
-				RenderOnNormal
-				AddPartsOnADSOffsetAndRotation,0,0,0,0,0,0
-				AddPartsOnRecoilOffsetAndRotation,0,0,0,0,0,0
-				AddPartsOnCockOffsetAndRotation,0,0,0,0,0,0
-				AddPartsOnReloadOffsetAndRotation,0,0,0,0,0,0
-			
-				AddReloadMotionKey,0,0,0,0,0,0,0,			50,0,0,0,0,0,0
-			BackParts
-			
-			
-			
-			
-			AddChildParts,Magazine
-				NeedDraw_Current_Magazine_ID_List,true,false
-				//,false,false
-				AddPartsRotationCenterAndRotationAmount,0,0,0.0,0,0,0
-				RenderOnNormal
-				AddPartsOnADSOffsetAndRotation,0,0,0,0,0,0
-				AddPartsOnRecoilOffsetAndRotation,0,0,0,0,0,0
-				AddPartsOnCockOffsetAndRotation,0,0,0,0,0,0
-				AddPartsOnReloadOffsetAndRotation,0,0,0,0,0,0
-				AddReloadMotionKey,0,0,0,0,0,0,0,		   5,0,-5,-1,0,0,0
-				AddReloadMotionKey,5,false,		  10
-				AddReloadMotionKey,10,0,-2,-0.5,0,0,0,	  35,0,0,0,0,0,0
-				AddReloadMotionKey,35,0,0,0,0,0,0,		  50,0,0,0,0,0,0
-			BackParts
-
-//			AddChildParts,twenty
-//				NeedDraw_Current_Magazine_ID_List,false,false,true,false
-//				AddPartsRotationCenterAndRotationAmount,0,0,0.0,0,0,0
-//				RenderOnNormal
-//				AddPartsOnADSOffsetAndRotation,0,0,0,0,0,0
-//				AddPartsOnRecoilOffsetAndRotation,0,0,0,0,0,0
-//				AddPartsOnCockOffsetAndRotation,0,0,0,0,0,0
-//				AddPartsOnReloadOffsetAndRotation,0,0,0,0,0,0
-//				AddReloadMotionKey,0,0,0,0,0,0,0,		   5,0,-5,-1,0,0,0
-//				AddReloadMotionKey,5,false,		  10
-//				AddReloadMotionKey,10,0,-2,-0.5,0,0,0,	  35,0,0,0,0,0,0
-//				AddReloadMotionKey,35,0,0,0,0,0,0,		  50,0,0,0,0,0,0
-//			BackParts
-			
-//			AddChildParts,ninety
-//				NeedDraw_Current_Magazine_ID_List,false,false,false,true
-//				AddPartsRotationCenterAndRotationAmount,0,0,0.0,0,0,0
-//				RenderOnNormal
-//				AddPartsOnADSOffsetAndRotation,0,0,0,0,0,0
-//				AddPartsOnRecoilOffsetAndRotation,0,0,0,0,0,0
-//				AddPartsOnCockOffsetAndRotation,0,0,0,0,0,0
-//				AddPartsOnReloadOffsetAndRotation,0,0,0,0,0,0
-//				AddReloadMotionKey,0,0,0,0,0,0,0,		   5,0,-5,-1,0,0,0
-//				AddReloadMotionKey,5,false,		  10
-//				AddReloadMotionKey,10,0,-2,-0.5,0,0,0,	  35,0,0,0,0,0,0
-//				AddReloadMotionKey,35,0,0,0,0,0,0,		  50,0,0,0,0,0,0
-//			BackParts
-			
-			
-			AddChildParts,Bolt
-				AddPartsRotationCenterAndRotationAmount,0,0,0,0,0,0
-				RenderOnNormal
-				AddPartsOnADSOffsetAndRotation,0,0,0,0,0,0
-				AddPartsOnRecoilOffsetAndRotation,0,0,0,0,0,0
-				AddPartsOnCockOffsetAndRotation,0,0,0,0,0,0
-				AddPartsOnReloadOffsetAndRotation,0,0,0,0,0,0
-				AddRecoilMotionKey,0,0,0,0,0,0,0,		   5,0,0,-0.4,0,0,0
-				AddRecoilMotionKey,5,0,0,-0.40,0,0,0,	   10,0,0,0,0,0,0
-				AddRecoilMotionKey,10,0,0,-0.40,0,0,0,	   12,0,0,0,0,0,0
-			
-				AddReloadMotionKey,0,0,0,0,0,0,0,		   38,0,0,0,0,0,0
-				AddReloadMotionKey,38,0,0,0,0,0,0,		  41,0,0,-1,0,0,0
-				AddReloadMotionKey,41,0,0,-1,0,0,0,	   45,0,0,0,0,0,0
-				AddReloadMotionKey,45,0,0,0,0,0,0,		  50,0,0,0,0,0,0
-			
-				AddChildParts,CockHandle
-					AddPartsRotationCenterAndRotationAmount,0,0,2.569,0,0,0
-					RenderOnNormal
-					AddPartsOnADSOffsetAndRotation,0,0,0,0,0,0
-					AddPartsOnRecoilOffsetAndRotation,0,0,0,0,0,0
-					AddPartsOnCockOffsetAndRotation,0,0,0,0,0,0
-					AddPartsOnReloadOffsetAndRotation,0,0,0,0,90,0
-				BackParts
-			BackParts
+	
 
 Name,H&K G36K
 AR,G36K
