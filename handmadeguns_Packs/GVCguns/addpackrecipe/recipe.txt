@@ -10,13 +10,45 @@ Slot9,minecraft:planks:
 CraftItem,HandmadeGuns:AK47:0:1
 
 AddRecipe
-Slot1,minecraft:stone:
-Slot2,minecraft:stone:
-Slot3,minecraft:stone:
+Slot1,HandmadeGuns:AK47
+Slot2,minecraft:iron_ingot:
+Slot3,minecraft:iron_ingot:
 Slot4,minecraft:stone:
 Slot6,minecraft:planks:
-Slot9,minecraft:planks:
-CraftItem,HandmadeGuns:CopiedAK:0:1
+Slot7,minecraft:planks:
+CraftItem,HandmadeGuns:Copied AK:0:1
+
+AddRecipe
+Slot1,HandmadeGuns:AK47
+Slot2,minecraft:iron_ingot:
+Slot3,minecraft:iron_ingot:
+Slot4,minecraft:iron_ingot:
+Slot6,minecraft:planks:
+Slot7,minecraft:emerald:
+CraftItem,HandmadeGuns:AKM:0:1
+
+AddRecipe
+Slot2,minecraft:iron_ingot:
+Slot3,minecraft:iron_ingot:
+Slot4,minecraft:iron_ingot:
+Slot6,minecraft:planks:
+Slot7,minecraft:emerald:
+CraftItem,HandmadeGuns:Draco:0:1
+
+AddRecipe
+Slot1,HandmadeGuns:Draco
+Slot2,minecraft:iron_ingot:
+Slot3,minecraft:iron_ingot:
+Slot7,minecraft:emerald:
+CraftItem,HandmadeGuns:DracoBrace:0:1
+
+AddRecipe
+Slot1,minecraft:iron_ingot:
+Slot2,minecraft:iron_ingot:
+Slot3,minecraft:iron_ingot:
+Slot6,minecraft:emerald:
+Slot7,minecraft:emerald:
+CraftItem,HandmadeGuns:SKS:0:1
 
 AddRecipe
 Slot1,minecraft:iron_ingot:
@@ -39,6 +71,13 @@ Slot9,minecraft:emerald:
 CraftItem,HandmadeGuns:AK74:0:1
 
 AddRecipe
+Slot1,HandmadeGuns:AK74
+Slot2,minecraft:iron_ingot:
+Slot8,minecraft:emerald:
+Slot9,minecraft:emerald:
+CraftItem,HandmadeGuns:AK74M:0:1
+
+AddRecipe
 Slot2,minecraft:iron_ingot:
 Slot3,minecraft:iron_ingot:
 Slot7,minecraft:emerald:
@@ -46,8 +85,8 @@ CraftItem,HandmadeGuns:AKS74U:0:1
 
 AddRecipe
 Slot1,minecraft:iron_ingot:
-Slot2,minecraft:iron_ingot:
-Slot3,minecraft:iron_ingot:
+Slot2,minecraft:iron_block:
+Slot3,minecraft:iron_block:
 Slot6,minecraft:planks:
 Slot7,minecraft:emerald:
 Slot8,minecraft:emerald:
@@ -59,9 +98,9 @@ Slot1,minecraft:iron_ingot:
 Slot2,minecraft:iron_ingot:
 Slot3,minecraft:iron_ingot:
 Slot4,minecraft:emerald:
-Slot5,HandmadeGuns:bullet_hg_hmg
-Slot6,minecraft:emerald:
-CraftItem,HandmadeGuns:M10:0:1
+Slot5,minecraft:emerald:
+Slot6,HandmadeGuns:bullet_hg_hmg
+CraftItem,HandmadeGuns:MAC-10:0:1
 
 AddRecipe
 Slot1,minecraft:iron_ingot:
@@ -80,15 +119,63 @@ Slot3,minecraft:planks:
 Slot5,minecraft:planks:
 Slot6,minecraft:planks:
 Slot7,minecraft:emerald:
-CraftItem,HandmadeGuns:M870:0:1
+CraftItem,HandmadeGuns:Remington Model 870:0:1
 
 AddRecipe
-Slot1,minecraft:iron_ingot:
+Slot1,HandmadeGuns:Remington Model 870 (BirdShot 4)
+CraftItem,HandmadeGuns:Remington Model 870:0:1
+
+AddRecipe
+Slot1,HandmadeGuns:Remington Model 870 (BirdShot 6)
+CraftItem,HandmadeGuns:Remington Model 870:0:1
+
+AddRecipe
+Slot1,HandmadeGuns:Remington Model 870 (Slug)
+CraftItem,HandmadeGuns:Remington Model 870:0:1
+
+AddRecipe
+Slot1,HandmadeGuns:Remington Model 870
+CraftItem,HandmadeGuns:Remington Model 870 (BirdShot 4):0:1
+
+AddRecipe
+Slot1,HandmadeGuns:Remington Model 870
+CraftItem,HandmadeGuns:Remington Model 870 (BirdShot 6):0:1
+
+AddRecipe
+Slot1,HandmadeGuns:Remington Model 870
+CraftItem,HandmadeGuns:Remington Model 870 (Slug):0:1
+
+AddRecipe
+Slot1,minecraft:iron_block:
 Slot2,HandmadeGuns:scope:
 Slot3,minecraft:iron_ingot:
 Slot4,minecraft:planks:
 Slot6,minecraft:planks:
 CraftItem,HandmadeGuns:SVD:0:1
+
+AddRecipe
+Slot1,minecraft:iron_block:
+Slot2,HandmadeGuns:scope:
+Slot3,minecraft:iron_ingot:
+Slot4,minecraft:iron_ingot:
+Slot6,minecraft:iron_ingot:
+CraftItem,HandmadeGuns:M110:0:1
+
+AddRecipe
+Slot1,minecraft:iron_block:
+Slot2,minecraft:emerald:
+Slot3,minecraft:iron_ingot:
+Slot4,minecraft:iron_ingot:
+Slot6,minecraft:iron_ingot:
+CraftItem,HandmadeGuns:M32 MGL:0:1
+
+AddRecipe
+Slot1,minecraft:iron_ingot:
+Slot2,minecraft:emerald:
+Slot3,minecraft:iron_ingot:
+Slot4,minecraft:iron_ingot:
+Slot6,minecraft:iron_ingot:
+CraftItem,HandmadeGuns:M320 GLM:0:1
 
 AddRecipe
 Slot1,minecraft:iron_ingot:
@@ -105,10 +192,17 @@ Slot2,minecraft:iron_ingot:
 Slot3,HandmadeGuns:Prastic
 Slot4,minecraft:emerald:
 Slot6,HandmadeGuns:Prastic
+CraftItem,HandmadeGuns:M16A1:0:1
+
+AddRecipe
+Slot1,HandmadeGuns:M16A1
+Slot2,minecraft:iron_ingot:
+Slot3,minecraft:emerald:
+Slot4,HandmadeGuns:Prastic
 CraftItem,HandmadeGuns:M16A4:0:1
 
 AddRecipe
-Slot2,minecraft:iron_ingot:
+Slot2,HandmadeGuns:M16A4
 Slot3,HandmadeGuns:Prastic
 Slot4,minecraft:emerald:
 Slot6,HandmadeGuns:Prastic
@@ -119,8 +213,17 @@ Slot2,minecraft:iron_ingot:
 Slot3,HandmadeGuns:Prastic
 Slot4,minecraft:emerald:
 Slot6,HandmadeGuns:bullet_hg_hmg
-CraftItem,HandmadeGuns:M9:0:1
+CraftItem,HandmadeGuns:Beretta M9:0:1
 
+
+AddRecipe
+Slot1,minecraft:iron_ingot:
+Slot2,minecraft:iron_ingot:
+Slot3,HandmadeGuns:Prastic
+Slot4,minecraft:emerald:
+Slot5,minecraft:emerald:
+Slot6,HandmadeGuns:bullet_hg_hmg
+CraftItem,HandmadeGuns:Remington Model 700:0:1
 
 AddRecipe
 Slot1,minecraft:iron_ingot:
@@ -179,6 +282,25 @@ Slot8,minecraft:emerald:
 CraftItem,HandmadeGuns:M249:0:1
 
 AddRecipe
+Slot1,minecraft:iron_block:
+Slot2,minecraft:iron_block:
+Slot3,minecraft:iron_ingot:
+Slot4,HandmadeGuns:Prastic
+Slot5,HandmadeGuns:Prastic
+Slot6,HandmadeGuns:Prastic
+Slot7,minecraft:emerald:
+Slot8,minecraft:emerald:
+Slot9,minecraft:emerald:
+CraftItem,HandmadeGuns:M240B:0:1
+
+AddRecipe
+Slot1,minecraft:iron_block:
+Slot2,minecraft:iron_block:
+Slot3,minecraft:iron_ingot:
+Slot7,minecraft:emerald:
+CraftItem,HandmadeGuns:M2 Flame Thrower:0:1
+
+AddRecipe
 Slot1,minecraft:iron_ingot:
 Slot2,HandmadeGuns:scope:
 Slot3,HandmadeGuns:7.62mm clip:
@@ -195,7 +317,7 @@ Slot3,minecraft:iron_block:
 Slot4,HandmadeGuns:Prastic
 Slot5,HandmadeGuns:Prastic
 Slot6,HandmadeGuns:Prastic
-CraftItem,HandmadeGuns:M82A3:0:1
+CraftItem,HandmadeGuns:Barrett M82:0:1
 
 AddRecipe
 Slot1,minecraft:iron_ingot:
@@ -304,6 +426,13 @@ Slot2,minecraft:iron_block:
 Slot5,minecraft:planks:
 Slot6,minecraft:wool:
 CraftItem,HandmadeGuns:PTRD1941:0:1
+
+AddRecipe
+Slot1,minecraft:iron_block:
+Slot2,minecraft:iron_block:
+Slot5,minecraft:planks:
+Slot6,minecraft:wool:
+CraftItem,HandmadeGuns:Mk153 SMAW:0:1
 
 AddRecipe
 Slot1,minecraft:diamond:

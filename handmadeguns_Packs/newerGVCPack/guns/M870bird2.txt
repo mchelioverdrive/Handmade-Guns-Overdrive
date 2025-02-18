@@ -81,3 +81,4 @@ guntype,1
 Unified_guns,Remington Model 870 (BirdShot 6)
 
 //addRecipe,M870bs,1,abc,def,000,265,265,280,280,265,280,280,280,280
+

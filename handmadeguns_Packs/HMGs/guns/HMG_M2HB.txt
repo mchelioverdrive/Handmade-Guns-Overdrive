@@ -442,4 +442,4 @@ Recipe3,abc
 ItemA,minecraft,iron_ingot
 ItemB,minecraft,iron_block
 ItemC,minecraft,emerald
-addNewRecipe,HandmadeGuns,byfrou01_M2HB,1
+addNewRecipe,HandmadeGuns,byfrou01_M2HB_fromNGP,1

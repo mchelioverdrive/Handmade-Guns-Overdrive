@@ -78,3 +78,5 @@ guntype,1
 Unified_guns,Remington Model 870
 
 //addRecipe,M870,1,abc,def,000,265,265,280,280,265,280,280,280,280
+//AR,M870
+
