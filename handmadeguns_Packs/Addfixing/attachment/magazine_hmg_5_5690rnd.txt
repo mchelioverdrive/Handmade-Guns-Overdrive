@@ -8,10 +8,4 @@ Tabname,HMG_Ammo
 
 CustomMagazine,5.56mm magazine90
 
-Recipe1,aa 
-Recipe2,bb 
-Recipe3,cc 
-ItemA,HandmadeGuns,5.56mm magazine
-ItemB,minecraft,iron_block
-ItemC,minecraft,emerald
-addNewRecipe,HandmadeGuns,5.56mm magazine90,1
+

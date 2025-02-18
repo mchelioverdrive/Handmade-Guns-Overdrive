@@ -4,4 +4,5 @@ BulletRound,15
 Tabname,HMG_Ammo
 Name,15 Rnd 9x19mm Parabellum SIG Magazine
 Magazine,bullet_hg_9mm15sig
-addRecipe,bullet_hg_9mm15sig,2,a00,0e0,000,265,289,289,289,289,289,289,289,289
+//addRecipe,bullet_hg_9mm15sig,2,a00,0e0,000,265,289,289,289,289,289,289,289,289
+

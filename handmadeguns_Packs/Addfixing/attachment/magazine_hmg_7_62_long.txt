@@ -10,7 +10,7 @@ CustomMagazine,7.62mm long magazine
 Recipe1,a  
 Recipe2,a  
 Recipe3,cc 
-ItemA,HandmadeGuns,7.62mm magazine 30Round
-ItemB,minecraft,gunpowder
+ItemA,HandmadeGuns,7.62mm magazine 20Round
+ItemB,HandmadeGuns,7.62mm magazine 20Round
 ItemC,minecraft,iron_ingot
 addNewRecipe,HandmadeGuns,7.62mm long magazine,1

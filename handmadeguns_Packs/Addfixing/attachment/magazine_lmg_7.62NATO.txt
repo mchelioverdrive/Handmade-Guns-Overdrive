@@ -9,7 +9,7 @@ CustomMagazine,bullet_lmg_hmg_7_62_NATO
 
 Recipe1,aaa
 Recipe2,ccc
-Recipe3,bbd
+Recipe3,bbb
 ItemA,minecraft,iron_block
 ItemB,minecraft,emerald
 ItemC,minecraft,gunpowder
@@ -17,9 +17,4 @@ ItemD,HandmadeGuns,NATO_Certificate
 addNewRecipe,HandmadeGuns,bullet_lmg_hmg_7_62_NATO,1
 
 
-Recipe1,ab 
-Recipe2,   
-Recipe3,   
-ItemA,HandmadeGuns,bullet_lmg_hmg
-ItemB,HandmadeGuns,NATO_Certificate
-addNewRecipe,HandmadeGuns,bullet_lmg_hmg_7_62_NATO,1
+

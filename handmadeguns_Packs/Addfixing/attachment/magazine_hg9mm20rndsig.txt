@@ -4,4 +4,14 @@ Tabname,HMG_Ammo
 BulletRound,20
 Name,20 Rnd 9x19mm Parabellum SIG Magazine
 Magazine,bullet_hg_9mm20sig
-addRecipe,bullet_hg_9mm20sig,2,a00,0e0,000,265,289,289,289,289,289,289,289,289
+//addRecipe,bullet_hg_9mm20sig,2,a00,0e0,000,265,289,289,289,289,289,289,289,289
+
+
+Recipe1,aaa
+Recipe2,aa 
+Recipe3,   
+ItemA,HandmadeGuns:bullet_hg_hmg
+ItemB,minecraft,emerald
+ItemC,HandmadeGuns,bullet_lmg_hmg_7_62_WP
+//ItemD,HandmadeGuns,WP_Certificate
+addNewRecipe,HandmadeGuns,bullet_hg_9mm20sig,2
