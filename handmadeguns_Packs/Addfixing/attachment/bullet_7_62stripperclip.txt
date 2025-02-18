@@ -7,8 +7,8 @@ Tabname,HMG_Ammo
 
 CustomMagazine,7.62mm Stripper
 
-Recipe1,aaa
-Recipe2,baa
+Recipe1,a  
+Recipe2,b  
 Recipe3,   
 ItemA,HandmadeGuns,7.62mm bullet
 ItemB,minecraft,iron_ingot

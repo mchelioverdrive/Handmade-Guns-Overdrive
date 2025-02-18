@@ -7,9 +7,9 @@ Tabname,HMG_Ammo
 
 CustomMagazine,gastank
 
-Recipe1,aa 
-Recipe2,cc 
-Recipe3,bb 
+Recipe1,aa
+Recipe2,cc
+Recipe3,bb
 ItemA,minecraft,iron_block
 ItemB,minecraft,emerald_block
 ItemC,minecraft,iron_ingot

@@ -4,14 +4,4 @@ Tabname,HMG_Ammo
 Name,7 Rnd .45 ACP Box Magazine
 BulletRound,7
 Magazine,bullet_hg_hmg19117
-//addRecipe,bullet_hg_hmg19117,2,a00,0e0,000,265,289,289,289,289,289,289,289,289
-
-
-Recipe1,  a
-Recipe2,   
-Recipe3,   
-ItemA,HandmadeGuns:bullet_hg_hmg
-ItemB,minecraft,emerald
-ItemC,HandmadeGuns,bullet_lmg_hmg_7_62_WP
-//ItemD,HandmadeGuns,WP_Certificate
-addNewRecipe,HandmadeGuns,bullet_hg_hmg19117,4
+addRecipe,bullet_hg_hmg19117,2,a00,0e0,000,265,289,289,289,289,289,289,289,289

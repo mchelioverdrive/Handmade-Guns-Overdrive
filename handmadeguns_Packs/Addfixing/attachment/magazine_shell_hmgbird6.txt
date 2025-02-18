@@ -12,4 +12,4 @@ Recipe3,c
 ItemA,minecraft,iron_ingot
 ItemB,minecraft,gunpowder
 ItemC,HandmadeGuns,bullet_shell_bird
-addNewRecipe,HandmadeGuns,bullet_shell_bird6,2
+addNewRecipe,HandmadeGuns,bullet_shell_bird6,1
