@@ -1,18 +1,18 @@
-BulletPower,6
+BulletPower,8
 BulletSpeed,15
 BulletGravity,0.485
 Class,0
 BlletSpread,1.0f
 ADS_Spread_coefficient,0.1
 BlletSpreadDiffusion,3,0,1.5,0.1,2,0.7
-Cycle,1
+
 
 Recoil,4
 Recoil_sneaking,2
 
 ReloadTime,50
 
-RemainingBullet,32
+RemainingBullet,30
 
 Attacking,2.0f
 Zoom,1.0f,1.0f,1.0f
@@ -32,7 +32,8 @@ ModelScala,0.5f
 InworldScale,2f
 CustomFlash,arrow,1
 Bursts,1,-1
-Rates,2,2
+Rates,1.263,1.263
+Cycle,1
 
 attachRestriction,true
 allowattach,Suppressor
@@ -61,6 +62,10 @@ ScopeTexture,null.png,null.png,scope.png
 RenderCross,false
 
 Magazine,0,HandmadeGuns,bullet_hg_hmg
+
+MultiMagazine,HandmadeGuns:mp720,HandmadeGuns:mp730,HandmadeGuns:mp740
+
+
 MagazineSG,0,HandmadeGuns,bullet_shell_hmg
 MagazineGL,0,HandmadeGuns,bullet_rr_hmg
 
@@ -165,6 +170,33 @@ AddParts,mat1
 		attachpart
 		swordbase
 	BackParts
+
+	AddChildParts,twenty
+		AddPartsRotationCenterAndRotationAmount,0,0,0.0,0,0,0
+		RenderOnNormal
+		AddPartsOnADSOffsetAndRotation,0,0,0,0,0,0
+		AddPartsOnRecoilOffsetAndRotation,0,0,0,0,0,0
+		AddPartsOnCockOffsetAndRotation,0,0,0,0,0,0
+		AddPartsOnReloadOffsetAndRotation,0,0,0,0,0,0
+		NeedDraw_Current_Magazine_ID_List,true,false,false
+		AddReloadMotionKey,0,0,0,0,0,0,0,		   5,0,-5,-1,0,0,0
+		AddReloadMotionKey,5,false,		  10
+		AddReloadMotionKey,10,0,-2,-0.5,0,0,0,	  30,0,0,0,0,0,0
+		AddReloadMotionKey,30,0,0,0,0,0,0,		  50,0,0,0,0,0,0
+	BackParts
+	AddChildParts,thirty
+		AddPartsRotationCenterAndRotationAmount,0,0,0.0,0,0,0
+		RenderOnNormal
+		AddPartsOnADSOffsetAndRotation,0,0,0,0,0,0
+		AddPartsOnRecoilOffsetAndRotation,0,0,0,0,0,0
+		AddPartsOnCockOffsetAndRotation,0,0,0,0,0,0
+		AddPartsOnReloadOffsetAndRotation,0,0,0,0,0,0
+		NeedDraw_Current_Magazine_ID_List,false,true,false
+		AddReloadMotionKey,0,0,0,0,0,0,0,		   5,0,-5,-1,0,0,0
+		AddReloadMotionKey,5,false,		  10
+		AddReloadMotionKey,10,0,-2,-0.5,0,0,0,	  30,0,0,0,0,0,0
+		AddReloadMotionKey,30,0,0,0,0,0,0,		  50,0,0,0,0,0,0
+	BackParts
 	AddChildParts,mat3
 		AddPartsRotationCenterAndRotationAmount,0,0,0.0,0,0,0
 		RenderOnNormal
@@ -172,7 +204,7 @@ AddParts,mat1
 		AddPartsOnRecoilOffsetAndRotation,0,0,0,0,0,0
 		AddPartsOnCockOffsetAndRotation,0,0,0,0,0,0
 		AddPartsOnReloadOffsetAndRotation,0,0,0,0,0,0
-
+		NeedDraw_Current_Magazine_ID_List,false,false,true
 		AddReloadMotionKey,0,0,0,0,0,0,0,		   5,0,-5,-1,0,0,0
 		AddReloadMotionKey,5,false,		  10
 		AddReloadMotionKey,10,0,-2,-0.5,0,0,0,	  30,0,0,0,0,0,0

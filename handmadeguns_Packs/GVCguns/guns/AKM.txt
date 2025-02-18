@@ -62,7 +62,9 @@ SoundSpeed,1f
 ScopeTexture,null.png,null.png,scope.png
 RenderCross,false
 
-Magazine,0,HandmadeGuns,7.62mm magazine 30Round
+//Magazine,0,HandmadeGuns,7.62mm magazine 30Round
+MultiMagazine,HandmadeGuns:7.62mm magazine 30Round,HandmadeGuns:7.62mm long magazine,HandmadeGuns:7.62mm magazine 20Round,HandmadeGuns:7.62mm drum 50Round
+
 MagazineSG,0,HandmadeGuns,bullet_shell_hmg
 MagazineGL,0,HandmadeGuns,bullet_rr_hmg
 
@@ -162,6 +164,33 @@ AddParts,Sys_Zero_in
 			AddReloadMotionKey,0,0,0,0,0,0,0,            50,0,0,0,0,0,0
 		BackParts
 
+		AddChildParts,extmag
+			SetAsNormalParts
+			AddReloadMotionKey,0,0,0,0,0,0,0,		   5,0,-5,-1,0,0,0
+			AddReloadMotionKey,5,false,		  10
+			AddReloadMotionKey,30,0,-2,-0.5,0,0,0,	  40,0,0,0,0,0,0
+			AddReloadMotionKey,40,0,0,0,0,0,0,		  75,0,0,0,0,0,0
+			NeedDraw_Current_Magazine_ID_List,false,true,false,false
+		BackParts
+
+		AddChildParts,twenty
+			SetAsNormalParts
+			AddReloadMotionKey,0,0,0,0,0,0,0,		   5,0,-5,-1,0,0,0
+			AddReloadMotionKey,5,false,		  10
+			AddReloadMotionKey,30,0,-2,-0.5,0,0,0,	  40,0,0,0,0,0,0
+			AddReloadMotionKey,40,0,0,0,0,0,0,		  75,0,0,0,0,0,0
+			NeedDraw_Current_Magazine_ID_List,false,false,true,false
+		BackParts
+
+		AddChildParts,fifty
+			SetAsNormalParts
+			AddReloadMotionKey,0,0,0,0,0,0,0,		   5,0,-5,-1,0,0,0
+			AddReloadMotionKey,5,false,		  10
+			AddReloadMotionKey,30,0,-2,-0.5,0,0,0,	  40,0,0,0,0,0,0
+			AddReloadMotionKey,40,0,0,0,0,0,0,		  75,0,0,0,0,0,0
+			NeedDraw_Current_Magazine_ID_List,false,false,false,true
+		BackParts
+
 		AddChildParts,mat3
 		    AddPartsRotationCenterAndRotationAmount,0,0,0.0,0,0,0
 		    RenderOnNormal
@@ -169,7 +198,7 @@ AddParts,Sys_Zero_in
 		    AddPartsOnRecoilOffsetAndRotation,0,0,0,0,0,0
 		    AddPartsOnCockOffsetAndRotation,0,0,0,0,0,0
 		    AddPartsOnReloadOffsetAndRotation,0,0,0,0,0,0
-
+		    NeedDraw_Current_Magazine_ID_List,true,false,false,false
 		    AddReloadMotionKey,0,0,0,0,0,0,0,           5,0,-5,-1,0,0,0
 		    AddReloadMotionKey,5,false,          10
 		    AddReloadMotionKey,10,0,-2,-0.5,0,0,0,      30,0,0,0,0,0,0

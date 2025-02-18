@@ -5,7 +5,7 @@ BulletSpread,0.1f
 Recoil,5.0d
 ReloadTime,50
 RemainingBullet,10
-Attacking,2.0f
+Attacking,3.0f
 Zoom,2.0f,4.0f,8.0f
 ZoomRender,true
 ZoomRenderType,true,true,false
@@ -28,11 +28,16 @@ ModelRotationX,180f,180f,180f
 ModelRotationY,45f,45f,45
 ModelRotationZ,180f,180f,180f
 
+Motion,0.95
+
 ModelArm,true
 ModelArmRotationR,-1.57f,-0.2f,-1.57f
 ModelArmOffsetR,0.2f,0.5f,0.5f
-ModelArmRotationL,-0.0f,-2.0f,2.0f
-ModelArmOffsetL,0.3f,0.6f,-0.3f
+//ModelArmRotationL,-0.0f,-2.0f,2.0f
+ModelArmRotationL,-0.0f,-2.4f,2.0f
+ModelArmOffsetL,0.1f,0.6f,-0.3f
+
+//ModelArmOffsetL,0.13f,0.31f,-0.3f
 Magazine,0,HandmadeGuns,7.62mm Stripper
 MagazineItemCount,1
 AddParts,mat1

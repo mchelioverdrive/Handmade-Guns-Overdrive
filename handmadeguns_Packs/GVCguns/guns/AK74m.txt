@@ -2,9 +2,9 @@ BulletPower,8
 BulletSpeed,18
 BulletGravity,0.485
 
-BlletSpread,0.15f
-ADS_Spread_coefficient,0.3
-BlletSpreadDiffusion,5,0,0.9,0.2,3,0.4
+BlletSpread,0.1f
+ADS_Spread_coefficient,0.1
+BlletSpreadDiffusion,3,0,0.9,0.2,3,0.4
 
 
 Recoil,3
@@ -25,7 +25,7 @@ Texture,AK74
 GunSound,handmadeguns.AK74,handmadeguns.supu
 GunSoundReload,handmadeguns.reload
 CanObj,true
-ObjModel,AK74.mqo
+ObjModel,AK74m.mqo
 ObjTexture,AK74.png
 ModelScala,0.5f
 InworldScale,1.8f
@@ -191,7 +191,7 @@ AddParts,mat1
 
 
 Tabname,HMG_GVCGuns
-Name,AK-74
-AR,AK74
+Name,AK-74M
+AR,AK74M
 
 //addRecipe,AR_sample,1,abc,0ef,000,265,265,265,280,265,280,280,280,280

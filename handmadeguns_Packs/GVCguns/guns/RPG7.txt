@@ -16,6 +16,7 @@ ZoomRender,true
 ZoomRenderType,true,true,false
 ZoomRenderTypeTxture,false,true,true
 ReloadMat3,false
+//???
 
 ScopeTexture,rr.png,redPoint.png,scope_RPG7.png
 Explosion,15.0f
