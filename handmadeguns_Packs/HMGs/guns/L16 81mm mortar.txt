@@ -97,6 +97,14 @@ AddParts,$body
         BackParts
     BackParts
 
+
+
+
+Name,L16 Mortar
+restrictTurretMoveSpeed,4,4
+TurretHP,20
+GL,L16 Mortar
+
 Recipe1,  a
 Recipe2, aa
 Recipe3, bc
@@ -104,9 +112,3 @@ ItemA,minecraft,iron_ingot
 ItemB,minecraft,iron_block
 ItemC,minecraft,emerald
 addNewRecipe,HandmadeGuns,L16 Mortar,1
-
-
-Name,L16 Mortar
-restrictTurretMoveSpeed,4,4
-TurretHP,20
-GL,L16 Mortar

@@ -12,10 +12,6 @@ CraftItem,HandmadeGuns:AK47:0:1
 AddRecipe
 Slot1,HandmadeGuns:AK47
 Slot2,minecraft:iron_ingot:
-Slot3,minecraft:iron_ingot:
-Slot4,minecraft:stone:
-Slot6,minecraft:planks:
-Slot7,minecraft:planks:
 CraftItem,HandmadeGuns:Copied AK:0:1
 
 AddRecipe
