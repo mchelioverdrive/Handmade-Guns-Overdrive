@@ -10,7 +10,7 @@ Recoil,20
 Recoil_sneaking,12
 ReloadTime,50
 RemainingBullet,8
-Attacking,2.0f
+Attacking,6.0f
 Zoom,1.0f,2.0f,4.0f
 ZoomRender,true
 ZoomRenderType,true,true,false

@@ -1,7 +1,7 @@
 Texture,762sr20magazine
 Stack,1
 BulletRound,20
-Name,20 Rnd 7.62x51mm NATO Detachable SR-25 Pattern Box Magazine
+Name,20 Rnd 7.62x51mm NATO SR-25 Pattern Box Magazine
 
 Tabname,HMG_Ammo
 

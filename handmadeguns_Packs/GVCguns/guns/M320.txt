@@ -10,7 +10,7 @@ Recoil_sneaking,4
 ReloadTime,30
 BlockDestory,true
 RemainingBullet,1
-Attacking,2.0f
+Attacking,3.0f
 Zoom,1.1f,2.0f,4.0f
 ZoomRender,true
 ZoomRenderType,true,true,true

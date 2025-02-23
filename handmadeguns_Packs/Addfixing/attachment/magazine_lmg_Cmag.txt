@@ -7,7 +7,7 @@ Name,100 Rnd 5.56x45mm Beta C-Mag
 Tabname,HMG_Ammo
 
 CustomMagazine,bullet_lmg_hmg_CMag
-Recipe1,ab 
+Recipe1,abc
 Recipe2,bc 
 Recipe3,c  
 ItemA,minecraft,gunpowder

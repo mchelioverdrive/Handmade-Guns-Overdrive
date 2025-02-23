@@ -8,7 +8,7 @@ Tabname,HMG_Ammo
 
 CustomMagazine,5.56mm magazine90
 
-Recipe1,aa 
+Recipe1,aaa
 Recipe2,bb 
 Recipe3,cc 
 ItemA,HandmadeGuns,5.56mm magazine

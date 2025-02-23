@@ -18,7 +18,7 @@ ReloadTime,50
 
 RemainingBullet,30
 
-Attacking,4.0f
+Attacking,6.0f
 Zoom,1.0f,1.0f,1.0f
 
 ZoomRender,true
@@ -40,7 +40,6 @@ Rates,1.845,1.845,1.845
 //1.85 - 648
 //1.84 - 652
 
-attachRestriction,true
 
 //ModelEquipped,-0.7f,0.7f,-0.4f
 ModelEquipped,-0.7f,0.2f,-0.5f
@@ -63,13 +62,16 @@ ModelArmOffsetL,0.13f,0.31f,-0.5f
 SprintingPoint,0.8f,0.2f,0.5f
 SprintingRotation,20f,60f,0f
 
+attachRestriction,true
+allowattach,byfrou01_Bayonet
+
 SoundSpeed,1f
 
 ScopeTexture,null.png,null.png,scope.png
 RenderCross,false
 
 //Magazine,0,HandmadeGuns,7.62mm magazine 30Round
-MultiMagazine,HandmadeGuns:7.62mm magazine 30Round,HandmadeGuns:7.62mm long magazine,HandmadeGuns:7.62mm magazine 20Round,HandmadeGuns:7.62mm drum 50Round
+MultiMagazine,HandmadeGuns:7.62mm magazine 30Round,HandmadeGuns:7.62mm long magazine,HandmadeGuns:7.62mm magazine 20Round,HandmadeGuns:7.62mm drum 50Round,HandmadeGuns:7.62mm drum 75Round
 MagazineSG,0,HandmadeGuns,bullet_shell_hmg
 MagazineGL,0,HandmadeGuns,bullet_rr_hmg
 
@@ -185,7 +187,7 @@ AddParts,Sys_Zero_in
 		    AddPartsOnRecoilOffsetAndRotation,0,0,0,0,0,0
 		    AddPartsOnCockOffsetAndRotation,0,0,0,0,0,0
 		    AddPartsOnReloadOffsetAndRotation,0,0,0,0,0,0
-		    NeedDraw_Current_Magazine_ID_List,true,false,false,false
+		    NeedDraw_Current_Magazine_ID_List,true,false,false,false,false
 		    AddReloadMotionKey,0,0,0,0,0,0,0,           5,0,-5,-1,0,0,0
 		    AddReloadMotionKey,5,false,          10
 		    AddReloadMotionKey,10,0,-2,-0.5,0,0,0,      30,0,0,0,0,0,0
@@ -198,7 +200,7 @@ AddParts,Sys_Zero_in
 			AddReloadMotionKey,5,false,		  10
 			AddReloadMotionKey,30,0,-2,-0.5,0,0,0,	  40,0,0,0,0,0,0
 			AddReloadMotionKey,40,0,0,0,0,0,0,		  75,0,0,0,0,0,0
-			NeedDraw_Current_Magazine_ID_List,false,true,false,false
+			NeedDraw_Current_Magazine_ID_List,false,true,false,false,false
 		BackParts
 
 		AddChildParts,twenty
@@ -207,7 +209,7 @@ AddParts,Sys_Zero_in
 			AddReloadMotionKey,5,false,		  10
 			AddReloadMotionKey,30,0,-2,-0.5,0,0,0,	  40,0,0,0,0,0,0
 			AddReloadMotionKey,40,0,0,0,0,0,0,		  75,0,0,0,0,0,0
-			NeedDraw_Current_Magazine_ID_List,false,false,true,false
+			NeedDraw_Current_Magazine_ID_List,false,false,true,false,false
 		BackParts
 
 		AddChildParts,fifty
@@ -216,7 +218,16 @@ AddParts,Sys_Zero_in
 			AddReloadMotionKey,5,false,		  10
 			AddReloadMotionKey,30,0,-2,-0.5,0,0,0,	  40,0,0,0,0,0,0
 			AddReloadMotionKey,40,0,0,0,0,0,0,		  75,0,0,0,0,0,0
-			NeedDraw_Current_Magazine_ID_List,false,false,false,true
+			NeedDraw_Current_Magazine_ID_List,false,false,false,true,false
+		BackParts
+
+		AddChildParts,rpkmag
+			SetAsNormalParts
+			AddReloadMotionKey,0,0,0,0,0,0,0,		   5,0,-5,-1,0,0,0
+			AddReloadMotionKey,5,false,		  10
+			AddReloadMotionKey,30,0,-2,-0.5,0,0,0,	  40,0,0,0,0,0,0
+			AddReloadMotionKey,40,0,0,0,0,0,0,		  75,0,0,0,0,0,0
+			NeedDraw_Current_Magazine_ID_List,false,false,false,false,true
 		BackParts
 
 

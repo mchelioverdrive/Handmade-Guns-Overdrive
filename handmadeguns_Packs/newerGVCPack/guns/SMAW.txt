@@ -9,7 +9,7 @@ resistance,0.95f
 Recoil,2.0d
 ReloadTime,100
 RemainingBullet,1
-Attacking,2.0f
+Attacking,6.0f
 ElevationOffsets,-0
 Zoom,4.0f,4.0f,4.0f
 ZoomRender,true

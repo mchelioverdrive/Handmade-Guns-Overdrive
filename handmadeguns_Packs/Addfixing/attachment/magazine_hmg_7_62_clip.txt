@@ -15,8 +15,4 @@ ItemB,minecraft,gunpowder
 ItemC,minecraft,emerald
 addNewRecipe,HandmadeGuns,.223 Remington clip,1
 
-Recipe1,a  
-Recipe2,a  
-Recipe3,a  
-ItemA,HandmadeGuns,.223 Remington clip
-addNewRecipe,HandmadeGuns,.223 Remington clip,1
+

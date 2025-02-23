@@ -9,7 +9,7 @@ resistance,0.95f
 Recoil,2.0d
 ReloadTime,100
 RemainingBullet,1
-Attacking,2.0f
+Attacking,6.0f
 ElevationOffsets,-0
 Zoom,1.0f,1.0f,4.0f
 ZoomRender,true
@@ -30,7 +30,7 @@ ObjTexture,rpg7.png
 ModelScala,0.5f
 InworldScale,1.8f
 
-Motion,0.9
+Motion,0.6
 
 ModelEquipped,-0.7f,0.4f,0.55f
 ModelHigh,0.775f,0.50f,0.85f

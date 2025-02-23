@@ -10,7 +10,7 @@ Recoil,0.0d
 ReloadTime,0
 RemainingBullet,1
 isOneuse,true
-Attacking,2.0f
+Attacking,6.0f
 Zoom,1.0f,1.0f,4.0f
 ZoomRender,true
 ZoomRenderType,true,true,false

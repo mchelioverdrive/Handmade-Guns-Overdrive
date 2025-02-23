@@ -18,7 +18,7 @@ ReloadTime,100
 
 RemainingBullet,200
 
-Attacking,7.0f
+Attacking,6.0f
 Zoom,1.0f,1.0f,4.0f
 
 ZoomRender,true

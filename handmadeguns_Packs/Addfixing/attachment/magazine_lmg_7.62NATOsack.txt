@@ -14,4 +14,4 @@ ItemA,minecraft,iron_ingot
 ItemB,minecraft,emerald
 ItemC,minecraft,gunpowder
 //ItemD,HandmadeGuns,NATO_Certificate
-addNewRecipe,HandmadeGuns,bullet_lmg_hmg_7_62_NATO,1
+addNewRecipe,HandmadeGuns,bullet_lmg_hmg_7_62_NATOsack,1

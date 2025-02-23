@@ -14,7 +14,7 @@ Recoil_sneaking,5
 
 RemainingBullet,7
 
-Attacking,0.5f
+Attacking,2.5f
 Zoom,1.0f,1.0f,1.0f
 
 ZoomRender,true
