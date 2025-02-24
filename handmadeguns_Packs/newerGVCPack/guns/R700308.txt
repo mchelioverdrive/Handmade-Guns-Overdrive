@@ -220,15 +220,21 @@ AddParts,mat1
 					AddReloadMotionKey,130,0.4,-0.5,3,	0,0,0,	135,0.8,-0.5,3,	0,20,0
 					AddReloadMotionKey,135,0.8,-0.5,3,	0,20,0,	140,0.4,-0.5,3,	0,0,0
 
-					AddReloadMotionKey,140,0.4,-0.5,3,	0,0,0,	150,0.4,-3,0,	0,0,0
-					AddReloadMotionKey,150,0.4,-3,0,	0,0,0,	160,0.4,-0.5,3,	0,0,0
-					AddReloadMotionKey,160,0.4,-0.5,3,	0,0,0,	165,0.8,-0.5,3,	0,20,0
-					AddReloadMotionKey,165,0.8,-0.5,3,	0,20,0,	170,0.4,-0.5,3,	0,0,0
+					//AddReloadMotionKey,140,0.4,-0.5,3,	0,0,0,	150,0.4,-3,0,	0,0,0
+					//AddReloadMotionKey,150,0.4,-3,0,	0,0,0,	160,0.4,-0.5,3,	0,0,0
+					//AddReloadMotionKey,160,0.4,-0.5,3,	0,0,0,	165,0.8,-0.5,3,	0,20,0
+					//AddReloadMotionKey,165,0.8,-0.5,3,	0,20,0,	170,0.4,-0.5,3,	0,0,0
 
-					AddReloadMotionKey,170,0.4,-0.5,3,	0,0,0,	175,-0.4,0.8,0,0,0,0
-					AddReloadMotionKey,175,-0.4,0.8,0,	0,0,0,	185,-0.4,0.8,0,0,0,0
-					AddReloadMotionKey,185,-0.4,0.8,0,	0,0,0,	190,0,0,0,0,0,0
-					AddReloadMotionKey,190,0,0,0,		0,0,0,	200,0,0,0,0,0,0
+					//AddReloadMotionKey,170,0.4,-0.5,3,	0,0,0,	175,-0.4,0.8,0,0,0,0
+					//AddReloadMotionKey,175,-0.4,0.8,0,	0,0,0,	185,-0.4,0.8,0,0,0,0
+					//AddReloadMotionKey,185,-0.4,0.8,0,	0,0,0,	190,0,0,0,0,0,0
+					//AddReloadMotionKey,190,0,0,0,		0,0,0,	200,0,0,0,0,0,0
+
+					AddReloadMotionKey,140,0.4,-0.5,3,	0,0,0,	150,-0.4,0.8,0,0,0,0
+					AddReloadMotionKey,150,-0.4,0.8,0,	0,0,0,	160,-0.4,0.8,0,0,0,0
+					AddReloadMotionKey,160,-0.4,0.8,0,	0,0,0,	165,0,0,0,0,0,0
+					AddReloadMotionKey,165,0,0,0,		0,0,0,	170,0,0,0,0,0,0
+
 				BackParts
 			BackParts
 		BackParts
