@@ -69,5 +69,6 @@
   "handmadeguns.SKS": {"category": "neutral","sounds": ["SKS"]},
   "handmadeguns.81Motar": {"category": "neutral","sounds": ["81Motar"]},
   "handmadeguns.155mm_Fire": {"category": "neutral","sounds": ["155mm_Fire"]},
+  "handmadeguns.r700308": {"category": "neutral","sounds": ["r700308"]},
   "handmadeguns.nulls": {"category": "neutral","sounds": ["nulls"]}
 }
