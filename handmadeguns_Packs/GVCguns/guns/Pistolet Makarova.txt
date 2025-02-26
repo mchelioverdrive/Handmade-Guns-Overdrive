@@ -23,11 +23,11 @@ ZoomRenderType,true,true,true
 ZoomRenderTypeTxture,false,false,false
 
 Texture,PM
-GunSound,handmadeguns.Makarov,handmadeguns.Makarov
+GunSound,handmadeguns.Makarov,handmadeguns.supu
 GunSoundLV,4,4
 GunSoundReload,handmadeguns.reload
 CanObj,true
-ObjModel,PMMakarov.obj
+ObjModel,makarovfix.mqo
 ObjTexture,PMMakarov.png
 ModelScala,0.5f
 InworldScale,2f
@@ -36,7 +36,7 @@ Bursts,1
 Rates,1
 
 attachRestriction,true
-//allowattach,Suppressor
+allowattach,Suppressor
 //allowattach,reddot
 //allowattach,right
 //allowattach,Bullet_AT
@@ -74,10 +74,11 @@ SoundSpeed,1.5f
 ScopeTexture,null.png,null.png,scope.png
 RenderCross,false
 
-Magazine,0,HandmadeGuns,bullet_hg_9mm8rnd
+//Magazine,0,HandmadeGuns,bullet_hg_9mm8rnd
 
-//MultiMagazine,HandmadeGuns:bullet_hg_9mm8rnd,HandmadeGuns:
+MultiMagazine,HandmadeGuns:bullet_hg_9mm8rnd,HandmadeGuns:bullet_hg_9mm10rndmak,HandmadeGuns:bullet_hg_9mm12rndmak,HandmadeGuns:bullet_hg_9mm80rndmak
 //fuck this gun for having a OBJ model I dont care
+//lel fixed
 
 MagazineSG,0,HandmadeGuns,bullet_shell_hmg
 MagazineGL,0,HandmadeGuns,bullet_rr_hmg
@@ -141,7 +142,49 @@ AddParts,mat1
         AddPartsOnRecoilOffsetAndRotation,0,0,0,0,0,0
         AddPartsOnCockOffsetAndRotation,0,0,0,0,0,0
         AddPartsOnReloadOffsetAndRotation,0,0,0,0,0,0
+	NeedDraw_Current_Magazine_ID_List,true,false,false,false
+        AddReloadMotionKey,0,0,0,0,0,0,0,           5,0,-5,-1,0,0,0
+        AddReloadMotionKey,5,false,          10
+        AddReloadMotionKey,10,0,-2,-0.5,0,0,0,          15,0,0,0,0,0,0
+        AddReloadMotionKey,25,0,0,0,0,0,0,          30,0,0,0,0,0,0
+    BackParts
 
+    AddChildParts,ten
+        AddPartsRotationCenterAndRotationAmount,0,0,0.0,0,0,0
+        RenderOnNormal
+        AddPartsOnADSOffsetAndRotation,0,0,0,0,0,0
+        AddPartsOnRecoilOffsetAndRotation,0,0,0,0,0,0
+        AddPartsOnCockOffsetAndRotation,0,0,0,0,0,0
+        AddPartsOnReloadOffsetAndRotation,0,0,0,0,0,0
+	NeedDraw_Current_Magazine_ID_List,false,true,false,false
+        AddReloadMotionKey,0,0,0,0,0,0,0,           5,0,-5,-1,0,0,0
+        AddReloadMotionKey,5,false,          10
+        AddReloadMotionKey,10,0,-2,-0.5,0,0,0,          15,0,0,0,0,0,0
+        AddReloadMotionKey,25,0,0,0,0,0,0,          30,0,0,0,0,0,0
+    BackParts
+
+    AddChildParts,twelve
+        AddPartsRotationCenterAndRotationAmount,0,0,0.0,0,0,0
+        RenderOnNormal
+        AddPartsOnADSOffsetAndRotation,0,0,0,0,0,0
+        AddPartsOnRecoilOffsetAndRotation,0,0,0,0,0,0
+        AddPartsOnCockOffsetAndRotation,0,0,0,0,0,0
+        AddPartsOnReloadOffsetAndRotation,0,0,0,0,0,0
+	NeedDraw_Current_Magazine_ID_List,false,false,true,false
+        AddReloadMotionKey,0,0,0,0,0,0,0,           5,0,-5,-1,0,0,0
+        AddReloadMotionKey,5,false,          10
+        AddReloadMotionKey,10,0,-2,-0.5,0,0,0,          15,0,0,0,0,0,0
+        AddReloadMotionKey,25,0,0,0,0,0,0,          30,0,0,0,0,0,0
+    BackParts
+
+    AddChildParts,eighty
+        AddPartsRotationCenterAndRotationAmount,0,0,0.0,0,0,0
+        RenderOnNormal
+        AddPartsOnADSOffsetAndRotation,0,0,0,0,0,0
+        AddPartsOnRecoilOffsetAndRotation,0,0,0,0,0,0
+        AddPartsOnCockOffsetAndRotation,0,0,0,0,0,0
+        AddPartsOnReloadOffsetAndRotation,0,0,0,0,0,0
+	NeedDraw_Current_Magazine_ID_List,false,false,false,true
         AddReloadMotionKey,0,0,0,0,0,0,0,           5,0,-5,-1,0,0,0
         AddReloadMotionKey,5,false,          10
         AddReloadMotionKey,10,0,-2,-0.5,0,0,0,          15,0,0,0,0,0,0
@@ -164,6 +207,13 @@ AddParts,mat1
         AddReloadMotionKey,20,0,0,-0.4,0,0,0,       22,0,0,-0.4,0,0,0
         AddReloadMotionKey,22,0,0,-0.4,0,0,0,       24,0,0,0,0,0,0
         AddReloadMotionKey,24,0,0,0,0,0,0,          30,0,0,0,0,0,0
+    BackParts
+
+    AddChildParts,suppressor
+	RenderOnNormal
+	SetAsNormalParts
+	attachpart
+	muzzlepart
     BackParts
 
 Tabname,HMG_GVCGuns

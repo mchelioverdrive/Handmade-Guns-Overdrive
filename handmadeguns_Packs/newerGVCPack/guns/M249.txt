@@ -7,7 +7,7 @@ ADS_Spread_coefficient,0.1
 BlletSpreadDiffusion,6,0,1.5,0.1,2,0.7
 Cycle,1.5
 
-Motion,0.55
+Motion,0.7
 
 Recoil,3
 Recoil_sneaking,2.5
@@ -32,8 +32,8 @@ ObjTexture,m249.png
 ModelScala,0.5f
 InworldScale,1.8f
 CustomFlash,arrow,1
-Bursts,-1,-1,1
-Rates,2,1.5,2
+Bursts,-1,-1,-1,1
+Rates,1.411,1.262,1.043,2
 
 attachRestriction,true
 //allowattach,reddot

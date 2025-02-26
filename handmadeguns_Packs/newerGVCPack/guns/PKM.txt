@@ -7,9 +7,9 @@ ADS_Spread_coefficient,0.1
 BlletSpreadDiffusion,4,0,1.5,0.1,2,0.7
 ElevationOffsets,0.0 , -0.41326548428118903 , -0.8264879726717109 , -1.239624496114448 , -1.652632139177531 , -2.065468066762447 , -2.4780895506870877 , -2.8904539961025835
 elevationOffsets_info,0 , 20m  ,40m  ,60m ,80m ,100m ,120m , 140m
-Cycle,2
 
-Motion,0.5
+
+Motion,0.8
 
 Recoil,5
 Recoil_sneaking,2
@@ -34,8 +34,9 @@ ObjTexture,pkm.png
 ModelScala,0.5f
 InworldScale,1.8f
 CustomFlash,arrow,1
+Cycle,2
 Bursts,-1,1
-Rates,2,2
+Rates,1.5,1.5
 
 attachRestriction,true
 //allowattach,reddot
