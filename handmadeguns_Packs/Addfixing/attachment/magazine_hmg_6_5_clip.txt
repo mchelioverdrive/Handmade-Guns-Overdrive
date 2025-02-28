@@ -1,7 +1,7 @@
 Texture,6_5bulletclip
 Stack,2
 BulletRound,5
-Name,5 Round 6.5mm clip
+Name,5 Rnd 6.5mm clip
 
 Tabname,HMG_Ammo
 

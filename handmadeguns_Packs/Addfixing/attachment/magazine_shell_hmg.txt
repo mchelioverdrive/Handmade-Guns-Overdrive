@@ -1,5 +1,6 @@
 Texture,bullet_shell
 Stack,16
+BulletRound,1
 Tabname,HMG_Ammo
 Name,12 Gauge Buckshot Shell
 Magazine,bullet_shell_hmg

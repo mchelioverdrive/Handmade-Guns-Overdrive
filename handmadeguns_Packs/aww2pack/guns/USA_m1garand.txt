@@ -1,14 +1,17 @@
-BulletPower,7
-BulletSpeed,4.0f
-BulletSpread,4.5f
+BulletPower,15
+BulletSpeed,17.0f
+BulletSpread,0.5f
 Recoil,5.0d
 ReloadTime,50
 RemainingBullet,8
-Attacking,2.0f
-Zoom,2.0f,4.0f,8.0f
+Attacking,5.0f
+Zoom,1.4f,4.0f,8.0f
 ZoomRender,true
 ZoomRenderType,true,true,false
 ZoomRenderTypeTxture,false,false,true
+
+Motion,0.93
+
 Cartridge,true
 Texture,m1garand
 SoundSpeed,1.2f
@@ -19,8 +22,9 @@ CanObj,true
 ObjModel,m1garand.mqo
 ObjTexture,a_pallete1.png
 ModelScala,0.5f
-ModelEquipped,-0.7f,0.7f,0.0f
-ModelHigh,1.35f,0.85f,0.85f
+InworldScale,1.8f
+ModelEquipped,-0.3f,0.7f,-0.3f
+ModelHigh,1.27f,1.27f,1.27f
 SimpleADSOffsetX,0,0,0
 ModelWidthZ,0.0f,0.0f,0.0f
 ModelRotationX,180f,180f,180f
@@ -28,14 +32,14 @@ ModelRotationY,45f,45f,45
 ModelRotationZ,180f,180f,180f
 ModelArm,true
 ModelArmRotationR,-1.57f,0f,-1.57f
-ModelArmOffsetR,0.5f,0.5f,0.5f
+ModelArmOffsetR,0.38f,0.5f,0.5f
 ModelArmRotationL,-0.0f,-2.3f,2.0f
-ModelArmOffsetL,0.1f,0.6f,-1.2f
+ModelArmOffsetL,0.2f,0.6f,-0.2f
 
 ScopeTexture,ironsight.png,reddot.png,scope.png
 RenderCross,false
 Automatic,true
-Magazine,0,HandmadeGuns,7.62mm bullet
+Magazine,0,HandmadeGuns,7.62x63mm bullet
 MagazineItemCount,8
 Tabname,HMG_WW2Guns
 

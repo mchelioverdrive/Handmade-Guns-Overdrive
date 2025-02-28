@@ -8,7 +8,7 @@ BlletSpreadDiffusion,12,0,1.8,0.2,4,1,0.6
 
 Cycle,2
 
-Motion,0.5
+Motion,0.45
 
 Recoil,30
 Recoil_sneaking,7.5
