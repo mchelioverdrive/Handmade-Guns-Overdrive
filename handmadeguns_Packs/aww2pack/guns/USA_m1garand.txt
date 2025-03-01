@@ -39,8 +39,8 @@ ModelArmOffsetL,0.2f,0.6f,-0.2f
 ScopeTexture,ironsight.png,reddot.png,scope.png
 RenderCross,false
 Automatic,true
-Magazine,0,HandmadeGuns,7.62x63mm bullet
-MagazineItemCount,8
+Magazine,0,HandmadeGuns,7.62x63mm bulletclip
+MagazineItemCount,1
 Tabname,HMG_WW2Guns
 
 AddParts,mat1
@@ -116,3 +116,4 @@ AddParts,mat1
 	BackParts
 
 SR,M1Garand
+Name,M1 Garand (.30-06)

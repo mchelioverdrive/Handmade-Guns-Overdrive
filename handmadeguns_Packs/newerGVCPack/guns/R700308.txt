@@ -241,5 +241,5 @@ AddParts,mat1
 	BackParts
 
 Tabname,HMG_GVCGuns
-Name,Remington Model 700 (308 Winchester)
+Name,Remington Model 700 (.308 Winchester)
 SR,Remington Model 700 308

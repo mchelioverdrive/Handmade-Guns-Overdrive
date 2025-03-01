@@ -6,6 +6,20 @@ BlletSpread,0.0f
 ADS_Spread_coefficient,3.0
 BlletSpreadDiffusion,12,0,1.8,0.2,4,1,0.6
 
+Canfix,true
+NeedFix,false
+FixAsEntity,true
+OnEntity_BarrelPoint,0,0.17047,1.23809
+OnEntity_RotationPitchPoint,0,-0.31524,-0.01838
+OnEntity_RotationYawPoint,0,-0.31524,-0.01838
+OnEntity_Yoffset,0.18
+OnEntity_PlayerPosOffset,0,-0.4,1.4
+//Turretanglelimit,30,-12,45,-45
+
+//ThirdModelEquipped,0,0.2,-0.4
+
+UnderBarrelWeapon,0
+
 Cycle,2
 
 Motion,0.45
@@ -68,6 +82,8 @@ MagazineSG,0,HandmadeGuns,bullet_shell_hmg
 MagazineGL,0,HandmadeGuns,bullet_rr_hmg
 
 AddParts,mat1
+    AddYawInfoKey,-360,0,0,0,0,-360,0		,360,0,0,0,0,360,0
+    AddPitchInfoKey,-40,0,0,0,-40,0,0 , 360,0,0,0,360,0,0
     AddPartsRotationCenterAndRotationAmount,0,0,0,0,0,0
     RenderOnNormal
     AddPartsOnADSOffsetAndRotation,0,0,0,0,0,0

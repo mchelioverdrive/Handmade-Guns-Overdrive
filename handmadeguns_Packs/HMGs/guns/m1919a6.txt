@@ -34,7 +34,7 @@ OnEntity_BarrelPoint,0,-0.17047,0.93809
 OnEntity_RotationPitchPoint,0,-0.31524,-0.01838
 OnEntity_RotationYawPoint,0,-0.31524,-0.01838
 OnEntity_Yoffset,0.52824
-OnEntity_PlayerPosOffset,0,0,1.5
+OnEntity_PlayerPosOffset,0,0.2,1.1
 Turretanglelimit,30,-12,45,-45
 
 AddParts,naught
