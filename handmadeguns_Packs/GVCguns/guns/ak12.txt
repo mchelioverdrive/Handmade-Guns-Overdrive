@@ -30,8 +30,8 @@ ObjTexture,ak12.png
 ModelScala,0.5f
 InworldScale,1.8f
 CustomFlash,arrow,1
-Bursts,-1,1,0
-Rates,1.713,1.713,1.713
+Bursts,-1,2,1,0
+Rates,1.713,1.713,1.713,1.713
 Cycle,1.9
 
 ElevationOffsets,	 0,-0.3,-0.6,-0.9,-1.35,-1.7,-2.2
