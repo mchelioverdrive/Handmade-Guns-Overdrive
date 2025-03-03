@@ -19,7 +19,7 @@ GunSoundReload,handmadeguns.reload
 //GunSoundCooking,handmadeguns.cooking
 CanObj,true
 ObjModel,m1014.mqo
-ObjTexture,M1014.png
+ObjTexture,m1014.png
 ModelScala,0.5f
 InworldScale,1.8f
 bulletFuse,16

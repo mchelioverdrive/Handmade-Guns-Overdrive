@@ -286,7 +286,7 @@ CartridgeType,3
 ScopeTexture,ironsight.png,reddot.png,scope.png
 RenderCross,false
 RightType,1
-Magazine,0,HandmadeGuns,bullet_shell_hmgmag
+Magazine,0,HandmadeGuns,bullet_shell_hmgmagsaiga
 
 Automatic,false
 
