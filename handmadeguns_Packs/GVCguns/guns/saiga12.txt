@@ -40,9 +40,14 @@ attachRestriction,true
 //ModelEquipped,-0.7f,0.7f,0.0f
 ModelEquipped,-0.7f,0.2f,-0.5f
 
-ModelHigh,0.97f,0.85f,0.85f
-ModelWidthX,0.694f,0.694f,0.694f
-ModelWidthZ,0.0f,0.0f,0.0f
+
+SimpleADSOffsetX,0,0,0
+SimpleADSOffsetZ,0.3,0.3,0.3
+//doesnt work here for some reason
+
+ModelHigh,0.87325f,0.85f,0.85f
+//ModelWidthX,0.694f,0.694f,0.694f
+//ModelWidthZ,0.0f,0.0f,0.0f
 ModelRotationX,180f,180f,180f
 ModelRotationY,45f,45f,45
 ModelRotationZ,180f,180f,180f
@@ -54,7 +59,7 @@ ModelArm,true
 //ModelArmOffsetL,0.1f,0.4f,-1.2f
 
 ModelArmRotationR,-1.57f,0f,-1.57f
-ModelArmOffsetR,0.4f,0.3f,0.3f
+ModelArmOffsetR,0.4f,0.15f,0.25f
 ModelArmRotationL,-0.0f,-2.0f,2.0f
 ModelArmOffsetL,0.3f,0.3f,-0.4f
 
@@ -81,7 +86,7 @@ AddParts,Base_Sys
 		AddPartsOnRecoilOffsetAndRotation,0,0,0,0,0,0
 		AddPartsOnCockOffsetAndRotation,0,0,0,0,0,0
 		AddPartsOnReloadOffsetAndRotation,0,0,0,0,0,0
-		AddChildParts,body
+		AddChildParts,mat1
 			AddPartsRotationCenterAndRotationAmount,0,0,0,0,0,0
 			AddPartsRotationCenterAndRotationAmount,0,0,0,0,0,0
 			RenderOnNormal
