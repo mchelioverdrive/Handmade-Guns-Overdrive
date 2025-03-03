@@ -27,7 +27,7 @@ ZoomRenderType,false,false,false
 ZoomRenderTypeTxture,true,true,true
 
 Texture,SVD
-GunSound,handmadeguns.Dragunov,handmadeguns.supu
+GunSound,handmadeguns.SVD,handmadeguns.supu
 GunSoundReload,handmadeguns.reload
 CanObj,true
 ObjModel,SVD.mqo

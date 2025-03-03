@@ -24,7 +24,7 @@ ZoomRenderType,true,true,false
 ZoomRenderTypeTxture,false,false,true
 
 Texture,akdraco
-GunSound,handmadeguns.AK47,handmadeguns.supu
+GunSound,handmadeguns.DRACO,handmadeguns.supu
 GunSoundReload,handmadeguns.reload
 CanObj,true
 ObjModel,akdraco.mqo
