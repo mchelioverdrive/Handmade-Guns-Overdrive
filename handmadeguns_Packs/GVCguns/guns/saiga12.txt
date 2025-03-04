@@ -15,7 +15,7 @@ ZoomRenderType,true,true,true
 ZoomRenderTypeTxture,false,false,false
 Cycle,2
 Texture,SGF_sample
-GunSound,handmadeguns.fireSR,handmadeguns.supu
+GunSound,handmadeguns.SAIGA12,handmadeguns.supu
 GunSoundReload,handmadeguns.reload
 GunSoundCooking,handmadeguns.cooking
 CanObj,true
