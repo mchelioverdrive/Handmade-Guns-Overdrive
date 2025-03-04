@@ -3,13 +3,13 @@ BulletSpeed,17
 BulletGravity,0.485
 
 BlletSpread,0.0F
-ADS_Spread_coefficient,0.1
+ADS_Spread_coefficient,0.0
 BlletSpreadDiffusion,4,0,1.5,0.1,2,0.7
 ElevationOffsets,0.0 , -0.41326548428118903 , -0.8264879726717109 , -1.239624496114448 , -1.652632139177531 , -2.065468066762447 , -2.4780895506870877 , -2.8904539961025835
 elevationOffsets_info,0 , 20m  ,40m  ,60m ,80m ,100m ,120m , 140m
 
 
-Motion,0.8
+Motion,0.75
 
 Recoil,5
 Recoil_sneaking,2

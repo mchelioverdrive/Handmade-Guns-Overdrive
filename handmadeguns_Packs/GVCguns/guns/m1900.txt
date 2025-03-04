@@ -1,13 +1,13 @@
 BulletPower,8
 BulletSpeed,7.3f
 BlletSpread,2.2f
-BlletSpreadDiffusion,5,0,1,0.5,4,0.5
+BlletSpreadDiffusion,2,0,1,0.5,4,0.5
 BulletGravity,0.485
 Class,1
 Recoil,20
 Recoil_sneaking,12
 ReloadTime,50
-RemainingBullet,8
+RemainingBullet,2
 Attacking,6.0f
 Zoom,1.0f,2.0f,4.0f
 ZoomRender,true
@@ -51,13 +51,13 @@ Mat22Point,0.0f,1.5f,2.0f
 Mat22Rotation,90f,0f,0f
 Mat25Point,0.0f,0.3f,5.0f
 Mat25Rotation,0f,0f,0f
-CockingTime,20
+//CockingTime,20
 ShotGun_Pellet,9
 
 Mat25,true
-CockedLeftHand,true
-ALLCocked,true
-MagazineItemCount,8
+//CockedLeftHand,true
+//ALLCocked,true
+MagazineItemCount,2
 
 CartridgeType,3
 DropMagazine,false

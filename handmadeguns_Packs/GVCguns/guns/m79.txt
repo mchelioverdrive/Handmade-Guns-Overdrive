@@ -28,9 +28,9 @@ InworldScale,2f
 CartridgeType,4
 
 ModelEquipped,-0.7f,0.5f,-0.65f
-SimpleADSOffsetX,0.25,0.25,0.25
+SimpleADSOffsetX,0.0,0.0,0.0
 SimpleADSOffsetY,1,1,1
-SimpleADSOffsetZ,0.4,0.4,0.4
+SimpleADSOffsetZ,0.0,0.0,0.0
 
 SprintingPoint,0.5f,-0.1f,0.5f
 
@@ -114,12 +114,28 @@ AddParts,mat1
         AddPartsOnCockOffsetAndRotation,0,0,0,0,0,0
         AddPartsOnReloadOffsetAndRotation,0,0,0,0,0,0
 
-        AddReloadMotionKey,0 ,0,0,0,0,0,0,           5 ,0,0,0,0,0,0
-        AddReloadMotionKey,5 ,0,0,0,0,0,0,           10,0, 0, 0,0,-30,0
-        AddReloadMotionKey,10,0,0,0,0,-30,0,         20,0, 0, 0,0,-30,0
-        AddReloadMotionKey,20,0,0,0,0,-30,0,         25,0, 0, 0,0,0,0
-        AddReloadMotionKey,25,0,0,0,0,0  ,0,         30,0, 0, 0,0,0,0
+        //AddReloadMotionKey,0 ,0,0,0,0,0,0,           5 ,0,0,0,0,0,0
+        //AddReloadMotionKey,5 ,0,0,0,0,0,0,           10,0, 0, 0,0,-30,0
+        //AddReloadMotionKey,10,0,0,0,0,-30,0,         20,0, 0, 0,0,-30,0
+        //AddReloadMotionKey,20,0,0,0,0,-30,0,         25,0, 0, 0,0,0,0
+        //AddReloadMotionKey,25,0,0,0,0,0  ,0,         30,0, 0, 0,0,0,0
+	
+	//AddReloadMotionKey,5,0,0,0,0,0,-90,	10,0,0,0,0,0,-90
+	//AddReloadMotionKey,10,0,0,0,0,0,-90,	20,0,0,0,0,0,-5
+	//AddReloadMotionKey,20,0,0,0,0,0,-5,	25,0,0,0,0,0,0
+	//AddReloadMotionKey,25,0,0,0,0,0,0,	30,0,0,0,0,0,0
+	
+	//AddReloadMotionKey,5,0,0,0,0,0,-90,	10,0,0,0,0,0,-90
+	//AddReloadMotionKey,10,0,0,0,0,0,-90,	20,0,0,0,0,0,-5
+	//AddReloadMotionKey,20,0,0,0,0,0,-5,	25,0,0,0,0,0,0
+	//AddReloadMotionKey,25,0,0,0,0,0,0,	30,0,0,0,0,0,0
 
+	AddReloadMotionKey,0,0,0,0,0,0,0,			5,0,0,0,0,0,0
+	AddReloadMotionKey,5,0,0,0,0,0,0,			15,0,0,0,20,0,0
+	AddReloadMotionKey,12,0,0,0,20,0,0,			65,0,0,0,20,0,0
+	AddReloadMotionKey,65,0,0,0,20,0,0,			80,0,0,0,0,0,0
+	AddReloadMotionKey,80,0,0,0,0,0,0,			100,0,0,0,0,0,0
+	
 
     	AddChildParts,mat3
     		AddPartsRotationCenterAndRotationAmount,0,0,0,0,0,0

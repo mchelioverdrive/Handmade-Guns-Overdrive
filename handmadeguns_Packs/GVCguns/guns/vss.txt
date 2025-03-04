@@ -22,7 +22,7 @@ ZoomRenderType,true,true,false
 ZoomRenderTypeTxture,false,false,true
 
 Texture,AK74
-GunSound,handmadeguns.AK12,handmadeguns.supu
+GunSound,handmadeguns.supu,handmadeguns.supu
 GunSoundReload,handmadeguns.reload
 CanObj,true
 ObjModel,vss.mqo
@@ -31,7 +31,7 @@ ModelScala,0.5f
 InworldScale,1.8f
 CustomFlash,arrow,1
 Bursts,-1,2,1,0
-Rates,1.713,1.713,1.713,1.713
+Rates,1.332,1.332,1.332
 Cycle,1.9
 
 ElevationOffsets,	 0,-0.3,-0.6,-0.9,-1.35,-1.7,-2.2

@@ -1,13 +1,13 @@
-BulletPower,8
+BulletPower,15
 BulletSpeed,7.3f
 BlletSpread,2.2f
 BlletSpreadDiffusion,5,0,1,0.5,4,0.5
 BulletGravity,0.485
 Class,1
-Recoil,20
-Recoil_sneaking,12
+Recoil,10
+Recoil_sneaking,6
 ReloadTime,50
-RemainingBullet,8
+RemainingBullet,5
 Attacking,6.0f
 Zoom,1.0f,2.0f,4.0f
 ZoomRender,true
@@ -30,21 +30,21 @@ attachRestriction,true
 //allowattach,Bullet_Dart
 //allowattach,Bullet_Frag
 
-ModelEquipped,-0.5f,-0.45f,-1f
+ModelEquipped,-0.5f,0.2f,-0.5f
 SimpleADSOffsetX,0,0,0
-SimpleADSOffsetY,0.8,0.8,0.8
-SimpleADSOffsetZ,-0.2,-0.2,-0.2
+SimpleADSOffsetY,0.87,0.87,0.87
+SimpleADSOffsetZ,0.2,0.2,0.2
 ModelRotationX,180f,180f,180f
 ModelRotationY,45f,45f,45
 ModelRotationZ,180f,180f,180f
 
-SprintingPoint,0.0f,0.8f,0.0f
+SprintingPoint,0.0f,0.25f,0.0f
 
 ModelArm,true
 ModelArmRotationR,-1.57f,-0.0f,-1.57f
-ModelArmOffsetR,0.35f,0.25f,0.0f
+ModelArmOffsetR,0.35f,0.25f,0.2f
 ModelArmRotationL,-0.0f,-2.5f,2.0f
-ModelArmOffsetL,-0.0f,0.3f,-1.8f
+ModelArmOffsetL,0.25f,0.3f,-0.7f
 
 Mat22,false
 Mat22Point,0.0f,1.5f,2.0f
@@ -57,7 +57,7 @@ ShotGun_Pellet,9
 Mat25,true
 CockedLeftHand,true
 ALLCocked,true
-MagazineItemCount,8
+MagazineItemCount,5
 
 CartridgeType,3
 DropMagazine,false

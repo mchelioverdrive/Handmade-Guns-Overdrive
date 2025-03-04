@@ -1,13 +1,13 @@
 BulletPower,8
-BulletSpeed,7.3f
+BulletSpeed,5.3f
 BlletSpread,2.2f
-BlletSpreadDiffusion,5,0,1,0.5,4,0.5
+BlletSpreadDiffusion,8,0,1,0.5,4,0.5
 BulletGravity,0.485
 Class,1
-Recoil,20
-Recoil_sneaking,12
+Recoil,28
+Recoil_sneaking,18
 ReloadTime,50
-RemainingBullet,8
+RemainingBullet,2
 Attacking,6.0f
 Zoom,1.0f,2.0f,4.0f
 ZoomRender,true
@@ -57,7 +57,7 @@ ShotGun_Pellet,9
 Mat25,true
 CockedLeftHand,true
 ALLCocked,true
-MagazineItemCount,8
+MagazineItemCount,2
 
 CartridgeType,3
 DropMagazine,false
@@ -75,7 +75,7 @@ Magazine,0,HandmadeGuns,bullet_shell_hmg
 
 Tabname,HMG_GVCGuns
 guntype,1
-Unified_guns,Super shorty
+Unified_guns,Serbu Super-Shorty
 
 //addRecipe,M870,1,abc,def,000,265,265,280,280,265,280,280,280,280
 //AR,M870

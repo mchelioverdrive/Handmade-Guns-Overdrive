@@ -1,10 +1,10 @@
 BulletPower,10
-BulletSpeed,15
+BulletSpeed,14.7
 BulletGravity,0.485
 
-BlletSpread,0.0f
-ADS_Spread_coefficient,0.1
-BlletSpreadDiffusion,5,0,1.5,0.2,3,0.5
+BlletSpread,0.3f
+ADS_Spread_coefficient,0.18
+BlletSpreadDiffusion,8,0,1.5,0.2,3,0.5
 Cycle,2
 ElevationOffsets,     0,-0.4,-0.8,-1.4,-2 ,-2.7,-3.5
 elevationOffsets_info,0,20m ,40m ,60m ,80m,100m,120m
@@ -35,7 +35,7 @@ ModelScala,0.5f
 InworldScale,1.8f
 CustomFlash,arrow,1
 Bursts,1,-1,0
-Rates,2,2,2
+Rates,1.845,1.845,1.845
 
 
 attachRestriction,true
@@ -165,6 +165,21 @@ AddParts,Sys_Zero_in
 			AddPartsOnReloadOffsetAndRotation,0,0,0,0,0,0
 
 			AddReloadMotionKey,0,0,0,0,0,0,0,            50,0,0,0,0,0,0
+		BackParts
+		AddChildParts,mat22
+			AddPartsRotationCenterAndRotationAmount,0,1.41,2.17,0,0,0
+			RenderOnNormal
+			AddPartsOnADSOffsetAndRotation,0,0,0,0,0,0
+			AddPartsOnRecoilOffsetAndRotation,0,0,0,0,0,0
+			AddPartsOnCockOffsetAndRotation,0,0,0,0,0,0
+			AddPartsOnReloadOffsetAndRotation,0,0,0,0,0,0
+	
+			AddReloadMotionKey,0,0,0,0,0,0,0,			5,0,0,0,0,0,0
+			AddReloadMotionKey,5,0,0,0,0,0,0,			15,0,0,0,90,0,0
+			AddReloadMotionKey,12,0,0,0,90,0,0,			65,0,0,0,90,0,0
+			AddReloadMotionKey,65,0,0,0,90,0,0,			75,0,0,0,0,0,0
+			AddReloadMotionKey,75,0,0,0,0,0,0,			75,0,0,0,0,0,0
+	
 		BackParts
 
 		AddChildParts,extmag

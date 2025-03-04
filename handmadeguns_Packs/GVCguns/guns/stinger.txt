@@ -15,7 +15,7 @@ Zoom,1.0f,1.0f,4.0f
 ZoomRender,true
 ZoomRenderType,true,true,false
 ZoomRenderTypeTxture,false,false,true
-ElevationOffsets,-13
+ElevationOffsets,-0
 Explosion,8.0f
 BlockDestory,false
 Texture,9k38
@@ -24,8 +24,8 @@ lockSound_entity,handmadeguns:handmadeguns.9k38Lock
 lockSound_NoStop,true
 GunSoundReload,handmadeguns.reload
 CanObj,true
-ObjModel,9k38.mqo
-ObjTexture,9k38.png
+ObjModel,fim92.mqo
+ObjTexture,fim92.png
 ModelScala,0.5f
 InworldScale,1.5f
 

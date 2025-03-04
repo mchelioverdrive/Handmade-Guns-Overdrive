@@ -1,5 +1,5 @@
-BulletPower,8
-BulletSpeed,17
+BulletPower,15
+BulletSpeed,15.5
 BulletGravity,0.485
 
 BlletSpread,0.0f
