@@ -22,7 +22,7 @@ ZoomRenderType,true,true,false
 ZoomRenderTypeTxture,false,false,true
 
 Texture,m4a1
-GunSound,handmadeguns.m4a1,handmadeguns.m4a1
+GunSound,handmadeguns.GALIL,handmadeguns.GALIL
 GunSoundReload,handmadeguns.reload
 CanObj,true
 ObjModel,galil.mqo

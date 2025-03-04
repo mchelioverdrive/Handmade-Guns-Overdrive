@@ -22,7 +22,7 @@ ZoomRenderType,true,true,false
 ZoomRenderTypeTxture,false,false,true
 
 Texture,m4a1
-GunSound,handmadeguns.m4a1,handmadeguns.m4a1
+GunSound,handmadeguns.AR18,handmadeguns.AR18
 GunSoundReload,handmadeguns.reload
 CanObj,true
 ObjModel,ar18.mqo
