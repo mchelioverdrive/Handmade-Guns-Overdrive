@@ -1,5 +1,5 @@
-BulletPower,8
-BulletSpeed,17
+BulletPower,15
+BulletSpeed,15.2
 BulletGravity,0.485
 
 BlletSpread,0.0f
@@ -7,8 +7,8 @@ ADS_Spread_coefficient,0.0
 BlletSpreadDiffusion,9,0,4,0.5,4,2
 Cycle,2
 
-Recoil,8
-Recoil_sneaking,5
+Recoil,5
+Recoil_sneaking,3
 
 
 ReloadTime,200
@@ -16,11 +16,11 @@ ReloadTime,200
 RemainingBullet,5
 
 Attacking,5.0f
-Zoom,4.0f,4.0f,4.0f
+Zoom,2.0f,4.0f,4.0f
 
 ZoomRender,true
-ZoomRenderType,false,false,false
-ZoomRenderTypeTxture,true,true,true
+ZoomRenderType,true,true,false
+ZoomRenderTypeTxture,false,false,true
 
 Texture,R700
 GunSound,handmadeguns.r700,handmadeguns.r700
@@ -38,7 +38,7 @@ attachRestriction,true
 allowattach,Bullet_AT
 
 ModelEquipped,-0.7f,0.5f,-0.6f
-ModelHigh,0.99F,0.99F,0.99F
+ModelHigh,1.05F,1.05F,1.05F
 ModelWidthX,0.6945f,0.6945f,0.6945f
 ModelWidthZ,0.5f,0.5f,0.5f
 ModelRotationX,180f,180f,180f

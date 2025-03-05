@@ -1,10 +1,10 @@
 BulletPower,200
-BulletSpeed,0.1
+BulletSpeed,0.3
 BlletSpread,1f
 BulletGravity,0.485
 ADS_Spread_coefficient,0.2
 BlletSpreadDiffusion,3,0,0.3,0.2,2,0.1
-Acceleration,0.29f
+Acceleration,0.49f
 resistance,0.9f
 Recoil,0.0d
 ReloadTime,50
@@ -13,10 +13,10 @@ RemainingBullet,1
 Attacking,6.0f
 Zoom,1.0f,1.0f,4.0f
 ZoomRender,true
-ZoomRenderType,true,true,false
-ZoomRenderTypeTxture,false,false,true
+ZoomRenderType,false,false,true
+ZoomRenderTypeTxture,true,true,true
 ElevationOffsets,-0
-Explosion,8.0f
+Explosion,12.0f
 BlockDestory,false
 Texture,9k38
 GunSound,handmadeguns.igla,handmadeguns.igla
@@ -31,8 +31,8 @@ InworldScale,1.5f
 
 Motion,0.6
 
-ModelEquipped,-0.7f,1.5f,-1.8f
-ThirdModelEquipped,0.5,1,-1.5
+ModelEquipped,-0.7f,0.5f,-0.8f
+ThirdModelEquipped,0.5,0,-1.5
 SimpleADSOffsetX,0.4266,0.4266,0.4266
 SimpleADSOffsetY,0.612,0.614,0.614
 SimpleADSOffsetZ,-1.0,-1.0,-1.0
@@ -42,10 +42,10 @@ ModelRotationZ2,0,0,0
 
 ModelArm,true
 ModelArmRotationR,-1.57f,-0.9f,-1.57f
-ModelArmOffsetR,0.0f,1.2f,-1.35f
+ModelArmOffsetR,-0.3f,0.2f,-0.35f
 ModelArmRotationL,-0.0f,-2.3f,2.0f
-ModelArmOffsetL,0.1f,1.6f,-1.4f
-SprintingPoint,0.3,0.5,-0.2
+ModelArmOffsetL,0.1f,0.6f,-0.4f
+SprintingPoint,0.3,-0.2,-0.2
 SprintingRotation,30f,45,0f
 
 BulletNameALL,S-5
@@ -53,7 +53,7 @@ BulletNameALL,S-5
 ScopeTexture,scope_smaw.png,scope_smaw.png,scope_smaw.png
 RenderCross,false
 Induction_precision,6
-bulletStability,0.6
+bulletStability,0.3
 Canlock,true
 lock_to_Vehicle,true
 lockOn_minThrottle,2.5
@@ -62,12 +62,12 @@ seekerSize_bullet,90
 hasVT,true
 VTRange,25
 VTWidth,180
-damagerange,10
+damagerange,20
 UnderBarrelWeapon,0
 RightType,0
 Magazine,0,HandmadeGuns,null
 
-AddParts,obj1
+AddParts,mat1
     AddPartsRotationCenterAndRotationAmount,0,0,0,0,0,0
     RenderOnNormal
     SetAsNormalParts
