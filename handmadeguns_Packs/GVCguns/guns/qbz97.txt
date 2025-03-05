@@ -26,7 +26,7 @@ ZoomRenderType,true,true,false
 ZoomRenderTypeTxture,false,false,true
 
 Texture,ak47_copy
-GunSound,handmadeguns.qbz95,handmadeguns.supu
+GunSound,handmadeguns.QBZ97,handmadeguns.supu
 GunSoundReload,handmadeguns.reload
 CanObj,true
 ObjModel,qbz97.mqo
