@@ -1,6 +1,6 @@
 BulletPower,30
 bulletFuse,40
-BulletSpeed,1.5f
+BulletSpeed,1.52f
 BulletGravity,0.485
 Cycle,10
 BlletSpread,0.0f
