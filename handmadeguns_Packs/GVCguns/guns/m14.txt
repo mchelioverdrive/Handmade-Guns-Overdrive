@@ -17,11 +17,11 @@ ReloadTime,50
 RemainingBullet,10
 
 Attacking,4.0f
-Zoom,4.0f,4.0f,4.0f
+Zoom,1.4f,4.0f,4.0f
 
 ZoomRender,true
-ZoomRenderType,false,false,false
-ZoomRenderTypeTxture,true,true,true
+ZoomRenderType,true,true,false
+ZoomRenderTypeTxture,false,false,true
 
 Texture,M110
 GunSound,handmadeguns.m110,handmadeguns.supu
@@ -38,7 +38,7 @@ attachRestriction,true
 allowattach,Bullet_AT
 
 ModelEquipped,-0.7f,0.7077f,-0.7f
-ModelHigh,0.99F,0.99F,0.99F
+ModelHigh,0.93F,0.93F,0.93F
 ModelWidthX,0.6945f,0.6945f,0.6945f
 ModelWidthZ,0.5f,0.5f,0.5f
 ModelRotationX,180f,180f,180f
