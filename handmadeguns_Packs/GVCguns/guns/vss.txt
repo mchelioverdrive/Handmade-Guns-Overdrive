@@ -46,7 +46,7 @@ allowattach,byfrou01_Bayonet
 
 ModelEquipped,-0.7f,0.4f,-0.5f
 
-SimpleADSOffsetY,0.71715,0.862,0.85f
+SimpleADSOffsetY,0.71,0.71,0.71f
 SimpleADSOffsetX,-0,0,0
 
 SimpleADSOffsetZ,0.3,0.3,0.3

@@ -31,7 +31,7 @@ ModelScala,0.5f
 InworldScale,1.8f
 CustomFlash,arrow,1
 Bursts,-1,2,1,0
-Rates,1.713,1.713,1.713,1.713
+Rates,1.332,1.332,1.332
 Cycle,1.9
 
 ElevationOffsets,	 0,-0.3,-0.6,-0.9,-1.35,-1.7,-2.2
@@ -46,7 +46,7 @@ allowattach,byfrou01_Bayonet
 
 ModelEquipped,-0.7f,0.4f,-0.5f
 
-SimpleADSOffsetY,0.71715,0.862,0.85f
+SimpleADSOffsetY,0.71,0.71,0.71f
 SimpleADSOffsetX,-0,0,0
 
 SimpleADSOffsetZ,0.3,0.3,0.3
