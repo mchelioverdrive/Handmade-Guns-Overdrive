@@ -1,5 +1,5 @@
 BulletPower,6
-BulletSpeed,8
+BulletSpeed,7.4
 BulletGravity,0.485
 Class,0
 BlletSpread,1F
