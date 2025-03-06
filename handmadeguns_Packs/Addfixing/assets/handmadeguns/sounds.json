@@ -3,6 +3,8 @@
   "handmadeguns.1911": {"category": "neutral","sounds": ["1911"]},
   "handmadeguns.1919A6": {"category": "neutral","sounds": ["1919A6"]},
   "handmadeguns.20mmfire": {"category": "neutral","sounds": ["20mmfire"]},
+  "handmadeguns.AR10": {"category": "neutral", "sounds": ["AR10"]},
+  "handmadeguns.AR12": {"category": "neutral", "sounds": ["AR12"]},
   "handmadeguns.AR15": {"category": "neutral","sounds": ["AR15"]},
   "handmadeguns.AR18": {"category": "neutral","sounds": ["AR18"]},
   "handmadeguns.AK12": {"category": "neutral","sounds": ["AK12"]},
@@ -26,6 +28,7 @@
   "handmadeguns.firegrenade": {"category": "neutral","sounds": ["firegrenade"]},
   "handmadeguns.firehg": {"category": "neutral","sounds": ["firehg"]},
   "handmadeguns.fireSR": {"category": "neutral","sounds": ["fireSR"]},
+  "handmadeguns.FN2000": {"category": "neutral", "sounds": ["FN2000"]},
   "handmadeguns.grenade": {"category": "neutral","sounds": ["grenade"]},
   "handmadeguns.g36": {"category": "neutral","sounds": ["g36"]},
   "handmadeguns.G3": {"category": "neutral","sounds": ["G3"]},
@@ -37,6 +40,7 @@
   "handmadeguns.HeavyRifle": {"category": "neutral","sounds": ["HeavyRifle"]},
   "handmadeguns.igla": {"category": "neutral", "sounds": ["Igla"]},
   "handmadeguns.kord": {"category": "neutral","sounds": ["kord"]},
+  "handmadeguns.L85": {"category": "neutral", "sounds": ["L85"]},
   "handmadeguns.m110": {"category": "neutral","sounds": ["m110"]},
   "handmadeguns.m16": {"category": "neutral","sounds": ["m16"]},
   "handmadeguns.m2browning": {"category": "neutral","sounds": ["m2browning"]},
@@ -90,5 +94,6 @@
   "handmadeguns.qbz95": {"category": "neutral","sounds": ["qbz95"]},
   "handmadeguns.QBZ97": {"category": "neutral","sounds": ["QBZ97"]},
   "handmadeguns.UZI": {"category": "neutral","sounds": ["UZI"]},
+  "handmadeguns.VSS": {"category": "neutral", "sounds": ["VSS"]},
   "handmadeguns.nulls": {"category": "neutral","sounds": ["nulls"]}
 }
