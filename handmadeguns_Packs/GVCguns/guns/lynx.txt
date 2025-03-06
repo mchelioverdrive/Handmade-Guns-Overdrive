@@ -39,7 +39,7 @@ ZoomRenderType,false,false,false
 ZoomRenderTypeTxture,true,true,true
 
 Texture,AMR_sample
-GunSound,handmadeguns.barret,handmadeguns.supu
+GunSound,handmadeguns.GM6,handmadeguns.supu
 GunSoundReload,handmadeguns.reload
 CanObj,true
 ObjModel,lynx.mqo

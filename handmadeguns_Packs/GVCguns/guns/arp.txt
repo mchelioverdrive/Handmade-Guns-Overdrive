@@ -22,7 +22,7 @@ ZoomRenderType,true,true,false
 ZoomRenderTypeTxture,false,false,true
 
 Texture,arp
-GunSound,handmadeguns.m4a1,handmadeguns.m4a1
+GunSound,handmadeguns.ARP,handmadeguns.ARP
 GunSoundReload,handmadeguns.reload
 CanObj,true
 ObjModel,arp.mqo
