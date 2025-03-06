@@ -7,7 +7,7 @@ BlletSpreadDiffusion,3,0,0.3,0.2,2,0.1
 Acceleration,0.49f
 resistance,0.9f
 Recoil,0.0d
-ReloadTime,50
+ReloadTime,90
 RemainingBullet,1
 //isOneuse,true
 Attacking,6.0f
@@ -67,7 +67,9 @@ VTWidth,180
 damagerange,20
 UnderBarrelWeapon,0
 RightType,0
-Magazine,0,HandmadeGuns,null
+//Magazine,0,HandmadeGuns,null
+
+
 
 AddParts,mat1
     AddPartsRotationCenterAndRotationAmount,0,0,0,0,0,0

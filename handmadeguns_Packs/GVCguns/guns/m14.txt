@@ -1,9 +1,9 @@
 BulletPower,15
-BulletSpeed,16
+BulletSpeed,15.8
 BulletGravity,0.485
 
-BlletSpread,0.0f
-ADS_Spread_coefficient,0.0
+BlletSpread,0.1f
+ADS_Spread_coefficient,0.15
 BlletSpreadDiffusion,10,0,1.8,0.2,3,0.6
 Cycle,2
 
@@ -40,7 +40,7 @@ allowattach,Bullet_AT
 ModelEquipped,-0.7f,0.7077f,-0.7f
 ModelHigh,0.93F,0.93F,0.93F
 ModelWidthX,0.6945f,0.6945f,0.6945f
-ModelWidthZ,0.5f,0.5f,0.5f
+ModelWidthZ,0.3f,0.3f,0.3f
 ModelRotationX,180f,180f,180f
 ModelRotationY,45f,45f,45
 ModelRotationZ,180f,180f,180f
@@ -60,7 +60,10 @@ ScopeTexture,scope_m110.png,scope_m110.png,scope_m110.png
 RenderCross,false
 
 //Magazine,0,HandmadeGuns,7.62mm sr magazine
-MultiMagazine,HandmadeGuns:7.62mm sr magazine,HandmadeGuns:7.62mm sr20 magazine
+//MultiMagazine,HandmadeGuns:7.62mm sr magazine,HandmadeGuns:7.62mm sr20 magazine
+
+Magazine,0,HandmadeGuns,7.62mm og magazine
+//this magazine shit is getting really old
 
 
 MagazineSG,0,HandmadeGuns,bullet_shell_hmg
@@ -152,5 +155,5 @@ AddParts,Base_Sys
 BackParts
 
 Tabname,HMG_GVCGuns
-Name,M14 DMR
+Name,M14 Battle Rifle
 SR,m14

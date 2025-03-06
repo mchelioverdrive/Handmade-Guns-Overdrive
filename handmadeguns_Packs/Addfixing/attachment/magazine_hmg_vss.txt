@@ -1,4 +1,4 @@
-Texture,545bullet
+Texture,556bullet20
 Stack,2
 BulletRound,20
 Name,20 Rnd 9x39mm Magazine

@@ -1,9 +1,9 @@
-BulletPower,6
+BulletPower,7
 BulletSpeed,8
 BulletGravity,0.485
 Class,0
 BlletSpread,1F
-ADS_Spread_coefficient,0.1
+ADS_Spread_coefficient,0.15
 BlletSpreadDiffusion,4,0,4,0.5,4,2
 Cycle,1
 
@@ -61,7 +61,8 @@ RenderCross,false
 
 //Magazine,0,HandmadeGuns,bullet_hg_hmg
 
-MultiMagazine,HandmadeGuns:bullet_hg_9mm15rndmp5,HandmadeGuns:bullet_hg_9mm30rndmp5
+MultiMagazine,HandmadeGuns:ump45mag
+//,HandmadeGuns:bullet_hg_9mm30rndmp5
 
 
 MagazineSG,0,HandmadeGuns,bullet_shell_hmg
@@ -130,7 +131,8 @@ AddParts,mat1
         AddPartsOnRecoilOffsetAndRotation,0,0,0,0,0,0
         AddPartsOnCockOffsetAndRotation,0,0,0,0,0,0
         AddPartsOnReloadOffsetAndRotation,0,0,0,0,0,0
-	NeedDraw_Current_Magazine_ID_List,false,true
+	NeedDraw_Current_Magazine_ID_List,true
+	//,true
         AddReloadMotionKey,0,0,0,0,0,0,0,           5,0,-5,-1,0,0,0
         AddReloadMotionKey,5,false,          10
         AddReloadMotionKey,10,0,-2,-0.5,0,0,0,          15,0,0,0,0,0,0
@@ -144,7 +146,7 @@ AddParts,mat1
         AddPartsOnRecoilOffsetAndRotation,0,0,0,0,0,0
         AddPartsOnCockOffsetAndRotation,0,0,0,0,0,0
         AddPartsOnReloadOffsetAndRotation,0,0,0,0,0,0
-	NeedDraw_Current_Magazine_ID_List,true,false
+	//NeedDraw_Current_Magazine_ID_List,true,false
         AddReloadMotionKey,0,0,0,0,0,0,0,           5,0,-5,-1,0,0,0
         AddReloadMotionKey,5,false,          10
         AddReloadMotionKey,10,0,-2,-0.5,0,0,0,          15,0,0,0,0,0,0
