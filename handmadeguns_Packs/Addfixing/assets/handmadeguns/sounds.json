@@ -69,6 +69,7 @@
   "handmadeguns.M60": {"category": "neutral","sounds": ["M60"]},
   "handmadeguns.Makarov": {"category": "neutral","sounds": ["Makarov"]},
   "handmadeguns.mac10": {"category": "neutral","sounds": ["mac10"]},
+  "handmadeguns.M14": {"category": "neutral","sounds": ["M14"]},
   "handmadeguns.m16": {"category": "neutral","sounds": ["m16"]},
   "handmadeguns.m2browning": {"category": "neutral","sounds": ["m2browning"]},
   "handmadeguns.m2flame": {"category": "neutral","sounds": ["m2flame"]},
@@ -84,6 +85,7 @@
   "handmadeguns.MP9": {"category": "neutral","sounds": ["MP9"]},
   "handmadeguns.nagantrevolver": {"category": "neutral","sounds": ["nagantrevolver"]},
   "handmadeguns.p226": {"category" : "neutral", "sounds": ["p226"]},
+  "handmadeguns.P90": {"category": "neutral","sounds": ["P90"]},
   "handmadeguns.pkm": {"category" : "neutral", "sounds": ["pkm"]},
   "handmadeguns.PKP": {"category": "neutral", "sounds": ["PKP"]},
   "handmadeguns.PPSH": {"category" : "neutral", "sounds": ["PPSH"]},
@@ -101,6 +103,7 @@
   "handmadeguns.SKS": {"category": "neutral","sounds": ["SKS"]},
   "handmadeguns.SUPERSHORTY": {"category": "neutral", "sounds": ["SUPERSHORTY"]},
   "handmadeguns.SVD": {"category": "neutral","sounds": ["SVD"]},
+  "handmadeguns.UMP45": {"category": "neutral","sounds": ["UMP45"]},
   "handmadeguns.UZI": {"category": "neutral","sounds": ["UZI"]},
   "handmadeguns.VSS": {"category": "neutral", "sounds": ["VSS"]}
 }

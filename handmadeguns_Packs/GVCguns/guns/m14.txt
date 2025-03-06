@@ -24,7 +24,7 @@ ZoomRenderType,true,true,false
 ZoomRenderTypeTxture,false,false,true
 
 Texture,M110
-GunSound,handmadeguns.m110,handmadeguns.supu
+GunSound,handmadeguns.M14,handmadeguns.supu
 GunSoundReload,handmadeguns.reload
 CanObj,true
 ObjModel,m14.mqo
