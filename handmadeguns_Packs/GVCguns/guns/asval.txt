@@ -22,7 +22,7 @@ ZoomRenderType,true,true,false
 ZoomRenderTypeTxture,false,false,true
 
 Texture,AK74
-GunSound,handmadeguns.AK12,handmadeguns.supu
+GunSound,handmadeguns.VSS,handmadeguns.supu
 GunSoundReload,handmadeguns.reload
 CanObj,true
 ObjModel,asval.mqo
