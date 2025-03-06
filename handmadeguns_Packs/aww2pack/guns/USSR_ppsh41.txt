@@ -12,7 +12,7 @@ ZoomRenderType,true,true,true
 ZoomRenderTypeTxture,false,false,false
 Cycle,1
 Texture,ppsh41
-GunSound,handmadeguns.firehg,handmadeguns.supu
+GunSound,handmadeguns.PPSH,handmadeguns.supu
 GunSoundReload,handmadeguns.reload
 CanObj,true
 ObjModel,ppsh41.obj
