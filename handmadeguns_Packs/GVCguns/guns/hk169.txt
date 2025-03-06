@@ -1,9 +1,9 @@
 BulletPower,30
 bulletFuse,40
-BulletSpeed,1.5f
+BulletSpeed,1.52f
 BulletGravity,0.485
 Cycle,10
-BlletSpread,0.0f
+BlletSpread,0.15f
 BlletSpreadDiffusion,5,0,1.5,0.2,3,0.5
 Recoil,8
 Recoil_sneaking,4
@@ -30,7 +30,7 @@ CartridgeType,4
 ModelEquipped,-0.7f,0.5f,-0.65f
 SimpleADSOffsetX,0.0,0.0,0.0
 SimpleADSOffsetY,1,1,1
-SimpleADSOffsetZ,0.4,0.4,0.4
+SimpleADSOffsetZ,0.8,0.8,0.8
 
 SprintingPoint,0.5f,-0.1f,0.5f
 
@@ -43,7 +43,7 @@ ModelArmOffsetL,0.1f,0.6f,-0.6f
 OnUnderGunOffset,0,-1.1,-1.6
 
 //0307
-BulletGravity,0.49f
+//BulletGravity,0.49f
 
 ScopeTexture,acog.png,acog.png,scope.png
 RenderCross,false

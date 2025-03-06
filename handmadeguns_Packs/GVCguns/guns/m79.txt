@@ -1,10 +1,10 @@
 BulletPower,30
 bulletFuse,40
-BulletSpeed,1.52f
+BulletSpeed,1.56f
 BulletGravity,0.485
 Cycle,10
-BlletSpread,0.0f
-BlletSpreadDiffusion,5,0,1.5,0.2,3,0.5
+BlletSpread,0.1f
+BlletSpreadDiffusion,3,0,1.5,0.2,3,0.5
 Recoil,8
 Recoil_sneaking,4
 ReloadTime,30
@@ -43,7 +43,7 @@ ModelArmOffsetL,0.1f,0.6f,-0.6f
 OnUnderGunOffset,0,-1.1,-1.6
 
 //0307
-BulletGravity,0.49f
+//BulletGravity,0.49f
 
 ScopeTexture,acog.png,acog.png,scope.png
 RenderCross,false
