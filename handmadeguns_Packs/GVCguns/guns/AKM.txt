@@ -37,7 +37,8 @@ Rates,2,2,2
 
 
 attachRestriction,true
-allowattach,byfrou01_Bayonet
+//todo
+//allowattach,byfrou01_Bayonet
 
 ModelEquipped,-0.7f,0.2f,-0.5f
 ModelHigh,0.9601,0.9601,0.9601

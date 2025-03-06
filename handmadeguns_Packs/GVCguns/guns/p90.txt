@@ -61,7 +61,8 @@ RenderCross,false
 
 //Magazine,0,HandmadeGuns,bullet_hg_hmg
 
-MultiMagazine,HandmadeGuns:bullet_hg_9mm10sig,HandmadeGuns:bullet_hg_9mm17rnd,HandmadeGuns:bullet_hg_9mm10rnd,HandmadeGuns:bullet_hg_9mm19rnd,HandmadeGuns:bullet_hg_9mm24rnd,HandmadeGuns:bullet_hg_9mm33rnd,HandmadeGuns:bullet_hg_9mm50rnd
+MultiMagazine,HandmadeGuns:p90mag
+//,HandmadeGuns:bullet_hg_9mm17rnd,HandmadeGuns:bullet_hg_9mm10rnd,HandmadeGuns:bullet_hg_9mm19rnd,HandmadeGuns:bullet_hg_9mm24rnd,HandmadeGuns:bullet_hg_9mm33rnd,HandmadeGuns:bullet_hg_9mm50rnd
 
 MagazineSG,0,HandmadeGuns,bullet_shell_hmg
 MagazineGL,0,HandmadeGuns,bullet_rr_hmg
@@ -129,7 +130,7 @@ AddParts,mat1
         AddPartsOnRecoilOffsetAndRotation,0,0,0,0,0,0
         AddPartsOnCockOffsetAndRotation,0,0,0,0,0,0
         AddPartsOnReloadOffsetAndRotation,0,0,0,0,0,0
-	NeedDraw_Current_Magazine_ID_List,true,true,false,false,false,false,false
+	NeedDraw_Current_Magazine_ID_List,true
         AddReloadMotionKey,0,0,0,0,0,0,0,           5,0,-5,-1,0,0,0
         AddReloadMotionKey,5,false,          10
         AddReloadMotionKey,10,0,-2,-0.5,0,0,0,          15,0,0,0,0,0,0
@@ -143,7 +144,7 @@ AddParts,mat1
         AddPartsOnRecoilOffsetAndRotation,0,0,0,0,0,0
         AddPartsOnCockOffsetAndRotation,0,0,0,0,0,0
         AddPartsOnReloadOffsetAndRotation,0,0,0,0,0,0
-	NeedDraw_Current_Magazine_ID_List,false,false,true,false,false,false,false
+	//NeedDraw_Current_Magazine_ID_List,false,false,true,false,false,false,false
         AddReloadMotionKey,0,0,0,0,0,0,0,           5,0,-5,-1,0,0,0
         AddReloadMotionKey,5,false,          10
         AddReloadMotionKey,10,0,-2,-0.5,0,0,0,          15,0,0,0,0,0,0
@@ -157,7 +158,7 @@ AddParts,mat1
         AddPartsOnRecoilOffsetAndRotation,0,0,0,0,0,0
         AddPartsOnCockOffsetAndRotation,0,0,0,0,0,0
         AddPartsOnReloadOffsetAndRotation,0,0,0,0,0,0
-	NeedDraw_Current_Magazine_ID_List,false,false,false,true,false,false,false
+	//NeedDraw_Current_Magazine_ID_List,false,false,false,true,false,false,false
         AddReloadMotionKey,0,0,0,0,0,0,0,           5,0,-5,-1,0,0,0
         AddReloadMotionKey,5,false,          10
         AddReloadMotionKey,10,0,-2,-0.5,0,0,0,          15,0,0,0,0,0,0
@@ -171,7 +172,7 @@ AddParts,mat1
         AddPartsOnRecoilOffsetAndRotation,0,0,0,0,0,0
         AddPartsOnCockOffsetAndRotation,0,0,0,0,0,0
         AddPartsOnReloadOffsetAndRotation,0,0,0,0,0,0
-	NeedDraw_Current_Magazine_ID_List,false,false,false,false,true,false,false
+	//NeedDraw_Current_Magazine_ID_List,false,false,false,false,true,false,false
         AddReloadMotionKey,0,0,0,0,0,0,0,           5,0,-5,-1,0,0,0
         AddReloadMotionKey,5,false,          10
         AddReloadMotionKey,10,0,-2,-0.5,0,0,0,          15,0,0,0,0,0,0
@@ -185,7 +186,7 @@ AddParts,mat1
         AddPartsOnRecoilOffsetAndRotation,0,0,0,0,0,0
         AddPartsOnCockOffsetAndRotation,0,0,0,0,0,0
         AddPartsOnReloadOffsetAndRotation,0,0,0,0,0,0
-	NeedDraw_Current_Magazine_ID_List,false,false,false,false,false,true,false
+	//NeedDraw_Current_Magazine_ID_List,false,false,false,false,false,true,false
         AddReloadMotionKey,0,0,0,0,0,0,0,           5,0,-5,-1,0,0,0
         AddReloadMotionKey,5,false,          10
         AddReloadMotionKey,10,0,-2,-0.5,0,0,0,          15,0,0,0,0,0,0
@@ -199,7 +200,7 @@ AddParts,mat1
         AddPartsOnRecoilOffsetAndRotation,0,0,0,0,0,0
         AddPartsOnCockOffsetAndRotation,0,0,0,0,0,0
         AddPartsOnReloadOffsetAndRotation,0,0,0,0,0,0
-	NeedDraw_Current_Magazine_ID_List,false,false,false,false,false,false,true
+	//NeedDraw_Current_Magazine_ID_List,false,false,false,false,false,false,true
         AddReloadMotionKey,0,0,0,0,0,0,0,           5,0,-5,-1,0,0,0
         AddReloadMotionKey,5,false,          10
         AddReloadMotionKey,10,0,-2,-0.5,0,0,0,          15,0,0,0,0,0,0
@@ -225,7 +226,7 @@ AddParts,mat1
     BackParts
 
 Tabname,HMG_GVCGuns
-Name,P-90
+Name,FN P90
 HG,p90
 
 //addRecipe,AR_sample,1,abc,0ef,000,265,265,265,280,265,280,280,280,280

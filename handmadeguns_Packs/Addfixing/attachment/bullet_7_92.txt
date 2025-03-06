@@ -1,6 +1,6 @@
 Texture,792bullet
-Stack,64
-Name,7.92mm Bullet
+Stack,16
+Name,7.92x57mm Mauser Bullet
 BulletRound,1
 
 Tabname,HMG_Ammo
@@ -12,4 +12,4 @@ Recipe2,b
 Recipe3,   
 ItemA,minecraft,iron_ingot
 ItemB,minecraft,gunpowder
-addNewRecipe,HandmadeGuns,7.92mm bullet,5
+addNewRecipe,HandmadeGuns,7.92mm bullet,8

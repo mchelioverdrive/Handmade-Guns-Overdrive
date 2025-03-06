@@ -1,7 +1,7 @@
 Texture,545bullet
 Stack,2
-BulletRound,30
-Name,30 Rnd 5.45x39mm Magazine
+BulletRound,20
+Name,20 Rnd 9x39mm Magazine
 
 Tabname,HMG_Ammo
 
@@ -9,11 +9,11 @@ Tabname,HMG_Ammo
 //BulletItemName,HandmadeGuns:5.45mmCart&Bullet
 //CartItemName,HandmadeGuns:5.45mmCart
 
-CustomMagazine,5.45mm magazine
+CustomMagazine,vss20
 Recipe1,aa 
-Recipe2,bb 
+Recipe2,bbc
 Recipe3,c  
 ItemA,minecraft,iron_ingot
 ItemB,minecraft,gunpowder
 ItemC,minecraft,emerald
-addNewRecipe,HandmadeGuns,5.45mm magazine,2
+addNewRecipe,HandmadeGuns,vss20,2

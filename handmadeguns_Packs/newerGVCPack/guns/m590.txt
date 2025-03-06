@@ -51,7 +51,7 @@ Mat22Point,0.0f,1.5f,2.0f
 Mat22Rotation,90f,0f,0f
 Mat25Point,0.0f,0.3f,5.0f
 Mat25Rotation,0f,0f,0f
-CockingTime,20
+CockingTime,5
 ShotGun_Pellet,9
 
 Mat25,true

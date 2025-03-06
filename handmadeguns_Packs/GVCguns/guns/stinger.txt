@@ -29,6 +29,8 @@ ObjTexture,fim92.png
 ModelScala,0.5f
 InworldScale,1.5f
 
+Magazine,0,HandmadeGuns,bullet_rr_hmgstinger
+
 Motion,0.6
 
 ModelEquipped,-0.7f,0.5f,-0.8f

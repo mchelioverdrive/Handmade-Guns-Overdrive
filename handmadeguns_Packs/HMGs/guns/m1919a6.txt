@@ -30,12 +30,12 @@ Tabname,HMG_GVCGuns
 Canfix,true
 NeedFix,false
 FixAsEntity,true
-OnEntity_BarrelPoint,0,-0.17047,0.93809
+OnEntity_BarrelPoint,0,0.10,2.3
 OnEntity_RotationPitchPoint,0,-0.31524,-0.01838
 OnEntity_RotationYawPoint,0,-0.31524,-0.01838
-OnEntity_Yoffset,0.52824
+OnEntity_Yoffset,0.42824
 OnEntity_PlayerPosOffset,0,0.2,1.1
-Turretanglelimit,30,-12,45,-45
+Turretanglelimit,30,-12,85,-85
 
 AddParts,naught
 AddPartsRotationCenterAndRotationAmount,0,0,0,0,0,0

@@ -29,7 +29,7 @@ InworldScale,1.8f
 
 Motion,0.8
 
-ModelEquipped,-0.7f,0.0f,-0.55f
+ModelEquipped,-0.7f,0.0f,-0.15f
 ModelHigh,0.775f,0.50f,0.85f
 ModelWidthX,0.694f,0.694f,0.694f
 ModelWidthZ,0.8f,0.8f,0.8f
@@ -41,8 +41,8 @@ ModelArm,true
 ModelArmRotationR,-1.57f,-0.1,-1.57f
 ModelArmOffsetR,0.2f,0.25f,0.3f
 ModelArmRotationL,-0.0f,-2.3f,2.0f
-ModelArmOffsetL,0.1f,0.2f,-0.6f
-SprintingPoint,0.8f,0.0f,-0.1f
+ModelArmOffsetL,0.1f,0.2f,-0.3f
+SprintingPoint,0.2f,0.1f,0.1f
 SprintingRotation,20f,60f,0f
 
 BulletNameALL,byfrou01_Rocket

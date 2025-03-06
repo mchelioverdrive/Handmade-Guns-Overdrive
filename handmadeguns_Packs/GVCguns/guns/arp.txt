@@ -26,7 +26,7 @@ GunSound,handmadeguns.m4a1,handmadeguns.m4a1
 GunSoundReload,handmadeguns.reload
 CanObj,true
 ObjModel,arp.mqo
-ObjTexture,M4A1.png
+ObjTexture,M4A1old.png
 ModelScala,0.5f
 InworldScale,1.8f
 CustomFlash,arrow,1

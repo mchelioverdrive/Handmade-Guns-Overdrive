@@ -38,9 +38,9 @@ ElevationOffsets,	 0,-0.3,-0.6,-0.9,-1.35,-1.7,-2.2
 elevationOffsets_info,0,20m ,40m ,60m ,80m ,100m , 120m
 
 attachRestriction,true
-allowattach,reddot
-allowattach,scope
-allowattach,byfrou01_Bayonet
+//allowattach,reddot
+//allowattach,scope
+//allowattach,byfrou01_Bayonet
 
 //ModelEquipped,-0.7f,0.7f,-0.4f
 
@@ -75,7 +75,9 @@ ScopeTexture,null.png,null.png,scope_svd.png
 RenderCross,false
 
 //Magazine,0,HandmadeGuns,5.45mm magazine
-MultiMagazine,HandmadeGuns:5.45mm magazine,HandmadeGuns:5.45mm long magazine,HandmadeGuns:5.45mm casket magazine
+//MultiMagazine,HandmadeGuns:5.45mm magazine,HandmadeGuns:5.45mm long magazine,HandmadeGuns:5.45mm casket magazine
+MultiMagazine,HandmadeGuns:vss20
+
 MagazineSG,0,HandmadeGuns,bullet_shell_hmg
 MagazineGL,0,HandmadeGuns,bullet_rr_hmg
 UseUnderGun'smodel,true
@@ -152,7 +154,8 @@ AddParts,mat1
 	BackParts
 	AddChildParts,mat3
 		SetAsNormalParts
-		NeedDraw_Current_Magazine_ID_List,true,false,false
+		NeedDraw_Current_Magazine_ID_List,true
+		//,false,false
 		AddReloadMotionKey,0,0,0,0,0,0,0,		   5,0,-5,-1,0,0,0
 		AddReloadMotionKey,5,false,		  10
 		AddReloadMotionKey,10,0,-2,-0.5,0,0,0,	  30,0,0,0,0,0,0
@@ -165,7 +168,7 @@ AddParts,mat1
 		AddReloadMotionKey,5,false,		  10
 		AddReloadMotionKey,30,0,-2,-0.5,0,0,0,	  40,0,0,0,0,0,0
 		AddReloadMotionKey,40,0,0,0,0,0,0,		  75,0,0,0,0,0,0
-		NeedDraw_Current_Magazine_ID_List,false,true,false
+		//NeedDraw_Current_Magazine_ID_List,false,true,false
 	BackParts
 	AddChildParts,Casket
 		SetAsNormalParts
@@ -174,7 +177,7 @@ AddParts,mat1
 		AddReloadMotionKey,5,false,		  10
 		AddReloadMotionKey,30,0,-2,-0.5,0,0,0,	  40,0,0,0,0,0,0
 		AddReloadMotionKey,40,0,0,0,0,0,0,		  75,0,0,0,0,0,0
-		NeedDraw_Current_Magazine_ID_List,false,false,true
+		//NeedDraw_Current_Magazine_ID_List,false,false,true
 	BackParts
 	AddChildParts,Bolt
 		SetAsNormalParts

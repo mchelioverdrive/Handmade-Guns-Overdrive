@@ -40,7 +40,8 @@ elevationOffsets_info,0,20m ,40m ,60m ,80m ,100m , 120m
 attachRestriction,true
 allowattach,reddot
 allowattach,scope
-allowattach,byfrou01_Bayonet
+//todo
+//allowattach,byfrou01_Bayonet
 
 //ModelEquipped,-0.7f,0.7f,-0.4f
 

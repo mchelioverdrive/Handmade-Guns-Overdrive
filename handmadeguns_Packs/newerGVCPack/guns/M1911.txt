@@ -37,8 +37,9 @@ Rates,1
 
 attachRestriction,true
 allowattach,Suppressor
+//todo
 //allowattach,reddot
-allowattach,right
+//allowattach,right
 allowattach,Bullet_AT
 
 //ModelEquipped,-0.7f,0.7f,0.0f

@@ -37,7 +37,8 @@ Rates,1.631,1.631,1.631
 attachRestriction,true
 allowattach,reddot
 allowattach,scope
-allowattach,byfrou01_Bayonet
+//todo
+//allowattach,byfrou01_Bayonet
 
 UseUnderGun'smodel,true
 UnderGunRotation,0,0,0
