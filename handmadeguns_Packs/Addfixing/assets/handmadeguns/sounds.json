@@ -52,7 +52,6 @@
   "handmadeguns.FN2000": {"category": "neutral", "sounds": ["FN2000"]},
   "handmadeguns.G3": {"category": "neutral","sounds": ["G3"]},
   "handmadeguns.g36": {"category": "neutral","sounds": ["g36"]},
-  "handmadeguns.GALIL": {"category": "neutral","sounds": ["GALIL"]},
   "handmadeguns.glock": {"category": "neutral","sounds": ["glock"]},
   "handmadeguns.GM6": {"category": "neutral", "sounds": ["GM6"]},
   "handmadeguns.HK416": {"category": "neutral","sounds": ["HK416"]},

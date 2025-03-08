@@ -22,7 +22,8 @@ ZoomRenderType,true,true,false
 ZoomRenderTypeTxture,false,false,true
 
 Texture,m4a1
-GunSound,handmadeguns.GALIL,handmadeguns.GALIL
+GunSound,handmadeguns.galil,handmadeguns.galil
+//the second sound is the suppressed sound btw
 GunSoundReload,handmadeguns.reload
 CanObj,true
 ObjModel,galil.mqo
