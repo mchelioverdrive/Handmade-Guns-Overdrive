@@ -107,5 +107,6 @@
   "handmadeguns.rpg7": {"category": "neutral","sounds": ["rpg7"]},
   "handmadeguns.galil": {"category": "neutral","sounds": ["galil"]},
   "handmadeguns.SAIGA12": {"category": "neutral","sounds": ["SAIGA12"]},
+  "handmadeguns.browning": {"category": "neutral","sounds": ["browning"]},
   "handmadeguns.VSS": {"category": "neutral", "sounds": ["VSS"]}
 }
