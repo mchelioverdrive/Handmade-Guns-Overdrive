@@ -105,5 +105,8 @@
   "handmadeguns.SVD": {"category": "neutral","sounds": ["SVD"]},
   "handmadeguns.UMP45": {"category": "neutral","sounds": ["UMP45"]},
   "handmadeguns.UZI": {"category": "neutral","sounds": ["UZI"]},
+  "handmadeguns.rpg7": {"category": "neutral","sounds": ["rpg7"]},
+  "handmadeguns.galil": {"category": "neutral","sounds": ["galil"]},
+  "handmadeguns.SAIGA12": {"category": "neutral","sounds": ["SAIGA12"]},
   "handmadeguns.VSS": {"category": "neutral", "sounds": ["VSS"]}
 }
