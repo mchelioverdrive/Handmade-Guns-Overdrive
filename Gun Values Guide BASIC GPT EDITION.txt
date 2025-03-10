@@ -116,3 +116,7 @@ This file is a full configuration file for a gun in the Handmade-Guns mod. It de
     Attachments (underbarrel grenade launcher & shotgun, scope, grip).
     Bullet Physics (speed, gravity, spread).
     Customization (textures, models, crafting recipes).
+
+
+This file was AI generated. For a full list of variables accessable via HMG visit here:
+https://github.com/RagexPrince683/GvCEXOverdrive/blob/d755622441e1055e1d5de63fc0353dbbb3b0ff4a/HMG/src/main/java/handmadeguns/HMGGunMaker.java
