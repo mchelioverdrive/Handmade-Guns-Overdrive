@@ -103,7 +103,7 @@
   "handmadeguns.SKS": {"category": "neutral","sounds": ["SKS"]},
   "handmadeguns.SUPERSHORTY": {"category": "neutral", "sounds": ["SUPERSHORTY"]},
   "handmadeguns.SVD": {"category": "neutral","sounds": ["SVD"]},
-  "handmadeguns.ump45": {"category": "neutral","sounds": ["ump45"]},
+  "handmadeguns.UMP45": {"category": "neutral","sounds": ["UMP45"]},
   "handmadeguns.UZI": {"category": "neutral","sounds": ["UZI"]},
   "handmadeguns.rpg7": {"category": "neutral","sounds": ["rpg7"]},
   "handmadeguns.galil": {"category": "neutral","sounds": ["galil"]},

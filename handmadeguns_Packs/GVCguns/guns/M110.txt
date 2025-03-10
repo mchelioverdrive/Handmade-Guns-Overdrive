@@ -54,7 +54,10 @@ ModelArmOffsetL,0.3f,0.6f,-0.65f
 SprintingPoint,0.8f,0.0f,0.5f
 SprintingRotation,20f,60f,0f
 
-SoundSpeed,0.8f
+SoundSpeed,1.2f
+
+//GET OUT GET OUT GET OUT
+GunSoundLV,180,180
 
 ScopeTexture,scope_m110.png,scope_m110.png,scope_m110.png
 RenderCross,false
