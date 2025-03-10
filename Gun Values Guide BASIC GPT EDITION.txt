@@ -77,6 +77,7 @@ Magazine & Ammo Types:
 
     UnderBarrelWeapon,0 → Whether an underbarrel weapon is attached.
     RightType,0 → Possibly weapon classification (e.g., AR, SMG).
+    RIGHT is just a ESL translation of light
     Magazine,0,HandmadeGuns,bullet_hmg → Standard magazine type.
     MagazineSG,0,HandmadeGuns,bullet_shell_hmg → Shotgun magazine.
     MagazineGL,0,HandmadeGuns,bullet_rr_hmg → Grenade launcher magazine.

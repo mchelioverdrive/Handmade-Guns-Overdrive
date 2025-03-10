@@ -235,5 +235,5 @@ AddParts,mat1
 	BackParts
 
 Tabname,HMG_GVCGuns
-Name,M40A5
-SR,m40a5
+Name,M40A1
+SR,m40a1
