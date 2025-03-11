@@ -4,6 +4,7 @@ BlletSpread,0.0f
 Recoil,0.0d
 ReloadTime,100
 RemainingBullet,500
+InworldScale,2f
 Attacking,10.0f
 Zoom,-1.0f,2.0f,4.0f
 Texture,longsword
@@ -12,8 +13,8 @@ GunSoundReload,handmadeguns.reload
 CanObj,true
 ObjModel,longsword.obj
 ObjTexture,longsword.png
-ModelScala,0.5f
-ModelHigh,1.03f,0.85f,0.85f
+ModelScala,1f
+ModelHigh,0.35f,0.35f,0.35f
 RenderCross,true
 UnderBarrelWeapon,0
 RightType,0

@@ -1,5 +1,5 @@
-BulletPower,600
-BulletSpeed,4.4
+BulletPower,200
+BulletSpeed,3.4
 BlletSpread,2.0f
 isOneuse,true
 ADS_Spread_coefficient,0.1
@@ -16,7 +16,7 @@ Zoom,1.0f,4.0f,4.0f
 ZoomRender,true
 ZoomRenderType,false,false,false
 ZoomRenderTypeTxture,true,true,true
-Explosion,10.5f
+Explosion,8.5f
 BlockDestory,false
 Texture,smaw
 GunSound,handmadeguns.smaw,handmadeguns.smaw

@@ -147,7 +147,7 @@ Magazine,0,HandmadeGuns,bullet_shell_hmg
 
 Tabname,HMG_GVCGuns
 guntype,1
-Unified_guns,M1900 Short
+Unified_guns,Remington Model 1900 Short
 
 //addRecipe,M870,1,abc,def,000,265,265,280,280,265,280,280,280,280
 //AR,M870

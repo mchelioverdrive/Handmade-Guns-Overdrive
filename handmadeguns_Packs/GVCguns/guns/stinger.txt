@@ -7,7 +7,7 @@ BlletSpreadDiffusion,3,0,0.3,0.2,2,0.1
 Acceleration,0.49f
 resistance,0.9f
 Recoil,0.0d
-ReloadTime,90
+ReloadTime,120
 RemainingBullet,1
 //isOneuse,true
 Attacking,6.0f
@@ -31,7 +31,7 @@ InworldScale,1.5f
 
 Magazine,0,HandmadeGuns,bullet_rr_hmgstinger
 
-Motion,0.6
+Motion,0.8
 
 ModelEquipped,-0.7f,0.5f,-0.8f
 ThirdModelEquipped,0.5,0,-1.5

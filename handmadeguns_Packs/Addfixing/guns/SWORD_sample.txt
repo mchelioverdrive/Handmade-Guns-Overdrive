@@ -13,9 +13,10 @@ GunSound,handmadeguns.firebow,handmadeguns.supu
 GunSoundReload,handmadeguns.reload
 CanObj,true
 ObjModel,knife.mqo
+InworldScale,2f
 ObjTexture,knife.png
-ModelScala,0.5f
-ModelHigh,1.03f,0.85f,0.85f
+ModelScala,1f
+ModelHigh,0.85f,0.85f,0.85f
 RenderCross,true
 UnderBarrelWeapon,0
 RightType,0

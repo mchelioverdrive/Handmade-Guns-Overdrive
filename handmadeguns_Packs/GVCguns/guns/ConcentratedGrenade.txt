@@ -1,9 +1,9 @@
 BulletPower,0
 canBounce,true
-BounceRate,0.18
+BounceRate,0.12
 BounceLimit,1800
 bulletFuse,50
-BulletSpeed,2.2f
+BulletSpeed,1.8f
 BlletSpread,2.0f
 Recoil,0
 ReloadTime,40
@@ -20,16 +20,16 @@ Texture,M26
 GunSound,handmadeguns.grenade,handmadeguns.null
 GunSoundReload,handmadeguns.null
 CanObj,true
-ObjModel,atgrenade.obj
+ObjModel,atgrenade.mqo
 ObjTexture,atgrenade.png
 ModelScala,0.2f
-InworldScale,2f
+InworldScale,4f
 Cartridge,false
 CartridgeType,4
 isOneuse,true
 MaxstackSize,1
 MuzzleFlash,false
-BulletNameALL,M26grenade
+BulletNameALL,atgrenade
 
 ModelEquipped,0f,0.7f,-0.3f
 ModelHigh,0.97f,0.85f,0.85f
@@ -55,7 +55,7 @@ Mat22Point,0.0f,1.05f,0.0f
 Mat22Rotation,0f,0f,-90f
 
 //0307
-BulletGravity,0.8f
+BulletGravity,0.6f
 
 ScopeTexture,acog.png,acog.png,scope.png
 RenderCross,false
@@ -64,4 +64,4 @@ Magazine,0,HandmadeGuns,null
 
 Tabname,HMG_GVCGuns
 Name,Stielhandgranate Concentrated Charge
-GL,concharge
+GL,Stielhandgranate Concentrated Charge
