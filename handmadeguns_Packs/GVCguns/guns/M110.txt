@@ -26,7 +26,7 @@ ZoomRenderType,false,false,false
 ZoomRenderTypeTxture,true,true,true
 
 Texture,M110
-GunSound,handmadeguns.m110,handmadeguns.supu
+GunSound,handmadeguns.AR10,handmadeguns.supu
 GunSoundReload,handmadeguns.reload
 CanObj,true
 ObjModel,M110.mqo
@@ -56,7 +56,7 @@ ModelArmOffsetL,0.3f,0.6f,-0.65f
 SprintingPoint,0.8f,0.0f,0.5f
 SprintingRotation,20f,60f,0f
 
-//SoundSpeed,1.0f
+SoundSpeed,0.9f
 //none of this shit makes any goddamn sense
 
 //GET OUT GET OUT GET OUT
