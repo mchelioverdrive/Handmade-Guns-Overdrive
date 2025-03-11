@@ -253,6 +253,18 @@ AddRecipe
 Slot1,minecraft:iron_ingot:
 Slot2,minecraft:iron_ingot:
 Slot3,minecraft:planks:
+Slot5,minecraft:planks:
+Slot7,minecraft:iron_ingot:
+CraftItem,HandmadeGuns:Remington Model 1900:0:1
+
+AddRecipe
+Slot8,HandmadeGuns:Remington Model 1900
+CraftItem,HandmadeGuns:Remington Model 1900 Short:0:1
+
+AddRecipe
+Slot1,minecraft:iron_ingot:
+Slot2,minecraft:iron_ingot:
+Slot3,minecraft:planks:
 Slot4,minecraft:iron_ingot:
 Slot5,minecraft:planks:
 Slot6,minecraft:planks:

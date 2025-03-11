@@ -109,5 +109,7 @@
   "handmadeguns.galil": {"category": "neutral","sounds": ["galil"]},
   "handmadeguns.SAIGA12": {"category": "neutral","sounds": ["SAIGA12"]},
   "handmadeguns.browning": {"category": "neutral","sounds": ["browning"]},
+  "handmadeguns.m1900": {"category": "neutral","sounds": ["m1900"]},
+  "handmadeguns.vzscorp": {"category": "neutral","sounds": ["vzscorp"]},
   "handmadeguns.VSS": {"category": "neutral", "sounds": ["VSS"]}
 }

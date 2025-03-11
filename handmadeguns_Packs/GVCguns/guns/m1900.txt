@@ -1,5 +1,5 @@
 BulletPower,8
-BulletSpeed,7.3f
+BulletSpeed,5.7f
 BlletSpread,2.2f
 BlletSpreadDiffusion,2,0,1,0.5,4,0.5
 BulletGravity,0.485
@@ -14,9 +14,9 @@ ZoomRender,true
 ZoomRenderType,true,true,false
 ZoomRenderTypeTxture,false,false,true
 Texture,SG_sample
-GunSound,handmadeguns.r870,null
+GunSound,handmadeguns.m1900,null
 GunSoundReload,handmadeguns.reload
-GunSoundCooking,handmadeguns.cooking
+//GunSoundCooking,handmadeguns.cooking
 CanObj,true
 ObjModel,m1900.mqo
 ObjTexture,m1900.png
@@ -30,7 +30,7 @@ attachRestriction,true
 //allowattach,Bullet_Dart
 //allowattach,Bullet_Frag
 
-ModelEquipped,-0.5f,-0.45f,-1f
+ModelEquipped,-0.5f,-0.45f,-0f
 SimpleADSOffsetX,0,0,0
 SimpleADSOffsetY,0.8,0.8,0.8
 SimpleADSOffsetZ,-0.2,-0.2,-0.2
@@ -38,13 +38,13 @@ ModelRotationX,180f,180f,180f
 ModelRotationY,45f,45f,45
 ModelRotationZ,180f,180f,180f
 
-SprintingPoint,0.0f,0.8f,0.0f
+SprintingPoint,0.2f,0.3f,-1.0f
 
 ModelArm,true
 ModelArmRotationR,-1.57f,-0.0f,-1.57f
 ModelArmOffsetR,0.35f,0.25f,0.0f
 ModelArmRotationL,-0.0f,-2.5f,2.0f
-ModelArmOffsetL,-0.0f,0.3f,-1.8f
+ModelArmOffsetL,0.1f,0.3f,-0.8f
 
 Mat22,true
 Mat22Point,0.0f,1.5f,2.0f
@@ -71,15 +71,15 @@ AddParts,Sys_Zero_in
 			AddReloadMotionKey,5,0,0,0,0,0,0,            10,0,-2,-1,0,0,0
 			AddReloadMotionKey,10,0,-2,-1,0,0,0,         30,0,0,-1,0,0,0
 
-			AddReloadMotionKey,30,0,0   ,-1  ,0,0, 0,    38,0,1.65,-1.8,0,0,90
-			AddReloadMotionKey,38,0,1.65,-1.8,0,0,90,    41,0,1.65,-2.8,0,0,90
-			AddReloadMotionKey,41,0,1.65,-2.8,0,0,90,    45,0,1.65,-1.8,0,0,90
-			AddReloadMotionKey,45,0,1.65,-1.8,0,0,90,    50,0,0   ,0   ,0,0,0
+			AddReloadMotionKey,30,0,0   ,-1  ,0,0, 0,    38,0,1.25,0.2,0,0,90
+			AddReloadMotionKey,38,0,1.25,0.2,0,0,90,    41,0,1.25,0.2,0,0,90
+			AddReloadMotionKey,41,0,1.25,0.2,0,0,90,    45,0,1.25,0.2,0,0,90
+			AddReloadMotionKey,45,0,1.25,0.2,0,0,90,    50,0,0   ,0   ,0,0,0
 
-			AddReloadMotionKey,50,0,0   ,-1  ,0,0, 0,    55,0,1.65,-1.8,0,0,90
-			AddReloadMotionKey,60,0,1.65,-1.8,0,0,90,    65,0,1.65,-2.8,0,0,90
-			AddReloadMotionKey,70,0,1.65,-2.8,0,0,90,    75,0,1.65,-1.8,0,0,90
-			AddReloadMotionKey,75,0,1.65,-1.8,0,0,90,    80,0,0   ,0   ,0,0,0
+			AddReloadMotionKey,50,0,0   ,-1  ,0,0, 0,    55,0,1.25,0.2,0,0,90
+			AddReloadMotionKey,60,0,1.25,0.2,0,0,90,    65,0,1.25,0.2,0,0,90
+			AddReloadMotionKey,70,0,1.25,0.2,0,0,90,    75,0,1.25,0.2,0,0,90
+			AddReloadMotionKey,75,0,1.25,0.2,0,0,90,    80,0,0   ,0   ,0,0,0
 
 		BackParts
 		AddChildParts,Rarm
@@ -106,7 +106,7 @@ AddParts,Sys_Zero_in
 			AddReloadMotionKey,5,0,0,0,0,0,0,			15,0,0,0,40,0,0
 			AddReloadMotionKey,12,0,0,0,40,0,0,			65,0,0,0,40,0,0
 			AddReloadMotionKey,65,0,0,0,40,0,0,			75,0,0,0,0,0,0
-			AddReloadMotionKey,75,0,0,0,0,0,0,			75,0,0,0,0,0,0
+			//AddReloadMotionKey,75,0,0,0,0,0,0,			75,0,0,0,0,0,0
 			AddReloadMotionKey,75,0,0,0,0,0,0,			80,0,0,0,0,0,0
 	
 		BackParts
@@ -114,14 +114,52 @@ AddParts,Sys_Zero_in
 	AddChildParts,mat1
 		SetAsNormalParts
 
-		AddReloadMotionKey,0 ,0,0,0,0,0,0,            5 ,0,0,0,0,0,0
-		AddReloadMotionKey,5 ,0,0,0,0,0,0,            15,0,0,0,0,0,0
-		AddReloadMotionKey,15,0,0,0,0,0,0,          30,0,0,0,0,0,0
-		AddReloadMotionKey,30,0,0,0,0,0,0,          35,0,0,0,0,0,0
-		AddReloadMotionKey,35,0,0,0,0,0,0,          45,0,0,0,0,0,0
-		AddReloadMotionKey,45,0,0,0,0,0,0,          50,0,0,0,0,0,0
-		AddReloadMotionKey,55,0,0,0,0,0,0,          75,0,0,0,0,0,0
-		AddReloadMotionKey,80 ,0,0,0,0,0,0,            80 ,0,0,0,0,0,0
+		
+	BackParts
+
+	AddChildParts,mat32
+       		AddPartsRotationCenterAndRotationAmount,0,0,0,0,0,0
+       		AddPartsRotationCenterAndRotationAmount,0,0,0,0,0,0
+       		RenderOnNormal
+       		AddPartsOnADSOffsetAndRotation,0,0,0,0,0,0
+       		AddPartsOnRecoilOffsetAndRotation,0,0,0,0,0,0
+       		AddPartsOnCockOffsetAndRotation,0,0,0,0,0,0
+       		AddPartsOnReloadOffsetAndRotation,0,0,0,0,0,0
+
+       		AddReloadMotionKey,0,0,0,0,0,0,0,			5,0,0,0,0,0,0
+		AddReloadMotionKey,5,0,0,0,0,0,0,			15,0,0,0,0,0,0
+		AddReloadMotionKey,12,0,0,0,0,0,0,			65,0,0,0,0,0,0
+		AddReloadMotionKey,65,0,0,0,0,0,0,			75,0,0,0,0,0,0
+		//AddReloadMotionKey,75,0,0,0,0,0,0,			75,0,0,0,0,0,0
+		AddReloadMotionKey,75,0,0,0,0,0,0,			80,0,0,0,0,0,0
+       		underOnly_not
+    	BackParts
+
+	AddChildParts,mat3
+        	AddPartsRotationCenterAndRotationAmount,0,1.41,2.17,0,0,0
+        	RenderOnNormal
+        	AddPartsOnADSOffsetAndRotation,0,0,0,0,0,0
+        	AddPartsOnRecoilOffsetAndRotation,0,0,0,0,0,0
+        	AddPartsOnCockOffsetAndRotation,0,0,0,0,0,0
+        	AddPartsOnReloadOffsetAndRotation,0,0,0,0,0,0
+		//NeedDraw_Current_Magazine_ID_List,true
+		//AddReloadMotionKey,0 ,0,0,0,0,0,0,            5 ,0,0,0,0,0,0
+		//AddReloadMotionKey,5 ,0,0,0,0,0,0,            15,0,0,0,0,0,0
+		//AddReloadMotionKey,15,0,0,0,0,0,0,          30,0,0,0,0,0,0
+		//AddReloadMotionKey,30,0,0,0,0,0,0,          35,0,0,0,0,0,0
+		//AddReloadMotionKey,35,0,0,0,0,0,0,          45,0,0,0,0,0,0
+		//AddReloadMotionKey,45,0,0,0,0,0,0,          50,0,0,0,0,0,0
+		//AddReloadMotionKey,55,0,0,0,0,0,0,          75,0,0,0,0,0,0
+		//AddReloadMotionKey,80 ,0,0,0,0,0,0,            80 ,0,0,0,0,0,0
+
+        	AddReloadMotionKey,0,0,0,0,0,0,0,			5,0,0,0,0,0,0
+		AddReloadMotionKey,5,0,0,0,0,0,0,			15,0,0,0,40,0,0
+		AddReloadMotionKey,12,0,0,0,40,0,0,			60,0,0,0,40,0,0
+		
+		AddReloadMotionKey,65,0,0,0,40,0,0,			75,0,0,0,0,0,0
+		
+		
+		AddReloadMotionKey,75,0,0,0,0,0,0,			80,0,0,0,0,0,0	
 	BackParts
 
 BackParts
