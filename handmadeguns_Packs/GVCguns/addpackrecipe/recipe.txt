@@ -235,6 +235,16 @@ CraftItem,HandmadeGuns:M26 Mass:0:1
 
 AddRecipe
 Slot1,minecraft:iron_ingot:
+Slot2,HandmadeGuns:M26
+Slot3,HandmadeGuns:M26
+Slot4,HandmadeGuns:M26
+Slot5,HandmadeGuns:M26
+Slot6,HandmadeGuns:M26
+Slot7,HandmadeGuns:M26
+CraftItem,HandmadeGuns:Stielhandgranate Concentrated Charge:0:1
+
+AddRecipe
+Slot1,minecraft:iron_ingot:
 Slot3,minecraft:planks:
 Slot5,minecraft:planks:
 Slot7,minecraft:emerald:
@@ -318,12 +328,10 @@ AddRecipe
 Slot1,minecraft:iron_block:
 Slot2,minecraft:iron_ingot:
 Slot3,minecraft:iron_ingot:
-Slot4,minecraft:planks:
-Slot6,minecraft:planks:
 CraftItem,HandmadeGuns:AR10:0:1
 
 AddRecipe
-Slot1,minecraft:iron_block:
+Slot1,HandmadeGuns:AR10
 Slot2,HandmadeGuns:scope:
 Slot3,minecraft:iron_ingot:
 Slot4,minecraft:iron_ingot:
