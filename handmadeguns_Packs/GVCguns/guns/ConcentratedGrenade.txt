@@ -13,7 +13,7 @@ Zoom,1.1f,2.0f,4.0f
 ZoomRender,true
 ZoomRenderType,true,true,true
 ZoomRenderTypeTxture,false,false,false
-Explosion,16
+Explosion,12
 BlockDestory,false
 damagerange,20
 Texture,M26

@@ -16,7 +16,7 @@ Zoom,1.0f,4.0f,4.0f
 ZoomRender,true
 ZoomRenderType,false,false,false
 ZoomRenderTypeTxture,true,true,true
-Explosion,8.5f
+Explosion,4.5f
 BlockDestory,false
 Texture,smaw
 GunSound,handmadeguns.smaw,handmadeguns.smaw

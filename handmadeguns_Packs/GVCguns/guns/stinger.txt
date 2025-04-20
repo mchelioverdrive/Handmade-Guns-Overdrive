@@ -16,7 +16,7 @@ ZoomRender,true
 ZoomRenderType,false,false,true
 ZoomRenderTypeTxture,true,true,true
 ElevationOffsets,-0
-Explosion,12.0f
+Explosion,6.0f
 BlockDestory,false
 Texture,9k38
 GunSound,handmadeguns.igla,handmadeguns.igla
