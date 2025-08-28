@@ -1,0 +1,7 @@
+Texture,bullet_hg
+Stack,2
+BulletRound,32
+Tabname,HMG_Ammo
+Name,32rnd 9x19mm Parabellum MP-40 Magazine
+Magazine,bullet_hg_hmgmp40
+addRecipe,bullet_hg_hmgmp40,2,a00,0e0,000,265,289,289,289,289,289,289,289,289

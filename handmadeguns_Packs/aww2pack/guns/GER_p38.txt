@@ -1,6 +1,6 @@
-BulletPower,5
-BulletSpeed,3.0f
-BlletSpread,20.0f
+BulletPower,6
+BulletSpeed,6.4f
+BlletSpread,3.0f
 Recoil,1.0d
 ReloadTime,30
 RemainingBullet,8
@@ -15,7 +15,8 @@ GunSoundReload,handmadeguns.reload
 CanObj,true
 ObjModel,p38.obj
 ObjTexture,a_pallete1.png
-ModelScala,0.5f
+ModelScala,0.8f
+InworldScale,1.8f
 
 ModelEquipped,-0.7f,0.8f,0.0f
 ModelHigh,1.36f,1.20f,1.20f
@@ -37,7 +38,7 @@ SprintingRotation,-60f,0f,0f
 ScopeTexture,hg.png,hgred.png,scope.png
 RenderCross,false
 RightType,0
-Magazine,0,HandmadeGuns,bullet_hg_hmg
+Magazine,0,HandmadeGuns,bullet_hg_hmgp38
 Tabname,HMG_WW2Guns
 
 AddParts,mat1
@@ -116,4 +117,5 @@ AddParts,mat1
         AddReloadMotionKey,22,0,0,-0.4,0,0,0,       24,0,0,0,0,0,0
         AddReloadMotionKey,24,0,0,0,0,0,0,          30,0,0,0,0,0,0
     BackParts
-HG,WaltherP-38
+HG,Walther P-38
+Name,Walther P-38

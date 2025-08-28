@@ -1,5 +1,5 @@
-BulletPower,7
-BulletSpeed,5.0f
+BulletPower,15
+BulletSpeed,17.6f
 BulletSpread,1.0f
 Recoil,2.5d
 ReloadTime,50
@@ -17,10 +17,13 @@ CanObj,true
 ObjModel,gew98.obj
 ObjTexture,paret.png
 
-ModelScala,0.5f
+ModelScala,0.8f
+InworldScale,1.8f
 ModelEquipped,-0.7f,0.7f,0.0f
 ModelHigh,1.41f,0.85f,0.85f
 SimpleADSOffsetX,0,0,0
+SimpleADSOffsetZ,0.8,0.8,0.8
+SimpleADSOffsetY,0.8,0.8,0.8
 ModelWidthZ,0.0f,0.0f,0.0f
 ModelRotationX,180f,180f,180f
 ModelRotationY,45f,45f,45
@@ -169,4 +172,4 @@ AddParts,mat1
 		BackParts
 	BackParts
 
-SR,Gew98
+SR,Gewehr 98 (7.92x57mm Mauser)

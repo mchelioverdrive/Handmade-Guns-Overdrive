@@ -1,5 +1,5 @@
-BulletPower,7
-BulletSpeed,4.0f
+BulletPower,15
+BulletSpeed,16.0f
 BulletSpread,5.0f
 ADS_Spread_coefficient,0.2
 Recoil,0.5d
@@ -131,4 +131,5 @@ AddParts,mat1
 		AddReloadMotionKey,41,0,0,-1.2,0,0,0,	45,0,0,0,0,0,0
 		AddReloadMotionKey,45,0,0,0,0,0,0,		50,0,0,0,0,0,0
 	BackParts
-LMG,Maschinengewehr 30
+LMG,Maschinengewehr 30 (MG 30 7.92x57mm Mauser)
+Name,Maschinengewehr 30 (MG 30 7.92x57mm Mauser)

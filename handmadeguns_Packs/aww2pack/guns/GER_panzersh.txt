@@ -1,10 +1,10 @@
 BulletPower,250
-BulletSpeed,4.0f
-BlletSpread,10.0f
+BulletSpeed,2.2f
+BlletSpread,3.0f
 Recoil,0.0d
 ReloadTime,50
 RemainingBullet,1
-Attacking,2.0f
+Attacking,4.0f
 Zoom,2.0f,4.0f,8.0f
 ZoomRender,true
 ZoomRenderType,true,true,true
@@ -17,7 +17,9 @@ GunSoundReload,handmadeguns.reload
 CanObj,true
 ObjModel,panzersh.obj
 ObjTexture,a_pallete.png
-ModelScala,0.5f
+ModelScala,0.8f
+InworldScale,1.8f
+Motion,0.3d
 
 ModelEquipped,-0.7f,0.7f,0.0f
 ModelHigh,0.90f,0.85f,0.85f
@@ -38,6 +40,7 @@ ScopeTexture,rr.png,rr.png,scope.png
 RenderCross,false
 UnderBarrelWeapon,0
 RightType,0
-Magazine,0,HandmadeGuns,bullet_rr_hmg
+Magazine,0,HandmadeGuns,bullet_rr_hmgshrek
 
-RR,Panzerschreck
+RR,Panzerschreck 54
+Name,Panzerschreck 54
