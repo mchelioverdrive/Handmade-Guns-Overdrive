@@ -1,26 +1,27 @@
-BulletPower,7
-BulletSpeed,4.0f
-BulletSpread,4.0f
+BulletPower,15
+BulletSpeed,17f
+BulletSpread,2.0f
 ADS_Spread_coefficient,0.2
-Recoil,0.5d
+BlletSpreadDiffusion,4,0,4,0.5,4,2
+Recoil,0.8d
 ReloadTime,50
 RemainingBullet,25
-Attacking,2.0f
-Motion,0.4d
-Zoom,1.0f,2.0f,4.0f
+Attacking,4.0f
+Motion,0.2d
+Zoom,1.2f,2.0f,4.0f
 ZoomRender,true
 ZoomRenderType,true,true,true
 ZoomRenderTypeTxture,false,false,false
 Cycle,3
 Texture,mle1924
-GunSound,handmadeguns.fire,handmadeguns.supu
+GunSound,handmadeguns.fm24lmg,handmadeguns.supu
 GunSoundReload,handmadeguns.reload
 CanObj,true
 ObjModel,mle1924.obj
 ObjTexture,a_pallete.png
-ModelScala,0.5f
+ModelScala,0.8f
 
-ModelEquipped,-0.7f,0.7f,0.0f
+ModelEquipped,-0.7f,0.25f,-0.3f
 ModelHigh,1.35f,0.85f,0.85f
 ModelWidthX,0.594f,0.694f,0.694f
 ModelWidthZ,0.5f,0.0f,0.0f
@@ -28,19 +29,24 @@ ModelRotationX,180f,180f,180f
 ModelRotationY,45f,45f,45
 ModelRotationZ,180f,180f,180f
 
+SimpleADSOffsetX,0.15,0.15,0.15
+SimpleADSOffsetZ,0.7,0.7,0.7
+SimpleADSOffsetY,0.75,0.75,0.75
+
+
 ModelArm,true
 ModelArmRotationR,-1.57f,0f,-1.57f
-ModelArmOffsetR,0.5f,0.5f,0.5f
+ModelArmOffsetR,0.4f,0.4f,0.1f
 ModelArmRotationL,-0.0f,-2.0f,2.0f
-ModelArmOffsetL,0.1f,0.6f,-1.2f
+ModelArmOffsetL,0.3f,0.6f,-0.6f
 
 ScopeTexture,ironsight.png,reddot.png,scope.png
 RenderCross,false
 UnderBarrelWeapon,0
 RightType,0
 
-Magazine,0,HandmadeGuns,7.5mm bullet
-MagazineItemCount,25
+Magazine,0,HandmadeGuns,7.5mm bulletfm
+MagazineItemCount,1
 Tabname,HMG_WW2Guns
 
 AddParts,mat1
@@ -131,4 +137,5 @@ AddParts,mat1
 		AddReloadMotionKey,41,0,0,-1.2,0,0,0,	45,0,0,0,0,0,0
 		AddReloadMotionKey,45,0,0,0,0,0,0,		50,0,0,0,0,0,0
 	BackParts
-LMG,FM_Mle1924
+LMG,FM 24/29 Light Machine Gun
+Name,FM 24/29 Light Machine Gun

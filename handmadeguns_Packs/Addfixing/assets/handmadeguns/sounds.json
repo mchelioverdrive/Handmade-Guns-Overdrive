@@ -111,5 +111,10 @@
   "handmadeguns.browning": {"category": "neutral","sounds": ["browning"]},
   "handmadeguns.m1900": {"category": "neutral","sounds": ["m1900"]},
   "handmadeguns.vzscorp": {"category": "neutral","sounds": ["vzscorp"]},
+  "handmadeguns.fm24lmg": {"category": "neutral","sounds": ["fm24lmg"]},
+  "handmadeguns.mas36": {"category": "neutral","sounds": ["mas36"]},
+  "handmadeguns.mas38": {"category": "neutral","sounds": ["mas38"]},
+  "handmadeguns.modela": {"category": "neutral","sounds": ["modela"]},
+  "handmadeguns.rsc1917": {"category": "neutral","sounds": ["rsc1917"]},
   "handmadeguns.VSS": {"category": "neutral", "sounds": ["VSS"]}
 }
