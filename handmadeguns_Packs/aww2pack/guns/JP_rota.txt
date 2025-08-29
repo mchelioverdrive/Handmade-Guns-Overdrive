@@ -1,6 +1,6 @@
-BulletPower,100
-BulletSpeed,3.0f
-BlletSpread,20.0f
+BulletPower,80
+BulletSpeed,3.2f
+BlletSpread,3.0f
 Recoil,2.0d
 ReloadTime,50
 RemainingBullet,1
@@ -18,6 +18,8 @@ CanObj,true
 ObjModel,rota.obj
 ObjTexture,a_pallete.png
 ModelScala,0.5f
+InworldScale,1.2f
+Motion,0.3d
 
 ModelEquipped,-0.7f,0.7f,0.0f
 ModelHigh,1.19f,0.85f,0.85f
@@ -40,4 +42,5 @@ RightType,0
 Magazine,0,HandmadeGuns,bullet_rr_hmg
 
 Tabname,HMG_WW2Guns
-RR,ROTA_Cannon
+RR,70mm Type 4 AT Rocket Launcher
+Name,70mm Type 4 AT Rocket Launcher
