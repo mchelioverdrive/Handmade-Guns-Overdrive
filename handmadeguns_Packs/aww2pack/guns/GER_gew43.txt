@@ -11,7 +11,7 @@ ZoomRenderType,true,true,false
 ZoomRenderTypeTxture,false,true,true
 Texture,gew43
 SoundSpeed,0.7f
-GunSound,handmadeguns.a_br,handmadeguns.handmadeguns.supu
+GunSound,handmadeguns.gew43,handmadeguns.handmadeguns.supu
 GunSoundReload,handmadeguns.f_reload_SVT
 CanObj,true
 ObjModel,gew43.obj

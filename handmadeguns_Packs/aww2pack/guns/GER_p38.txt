@@ -10,7 +10,7 @@ ZoomRender,true
 ZoomRenderType,true,true,true
 ZoomRenderTypeTxture,false,false,false
 Texture,p38
-GunSound,handmadeguns.firehg,handmadeguns.supu
+GunSound,handmadeguns.p38,handmadeguns.supu
 GunSoundReload,handmadeguns.reload
 CanObj,true
 ObjModel,p38.obj

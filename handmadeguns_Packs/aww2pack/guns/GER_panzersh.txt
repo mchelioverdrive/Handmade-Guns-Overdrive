@@ -12,7 +12,7 @@ ZoomRenderTypeTxture,false,false,false
 Explosion,3.5f
 BlockDestory,false
 Texture,panzersh
-GunSound,handmadeguns.fire,handmadeguns.supu
+GunSound,handmadeguns.panzershrek,handmadeguns.supu
 GunSoundReload,handmadeguns.reload
 CanObj,true
 ObjModel,panzersh.obj
