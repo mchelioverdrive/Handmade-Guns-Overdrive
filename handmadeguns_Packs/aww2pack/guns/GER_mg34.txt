@@ -1,8 +1,8 @@
 BulletPower,15
 BulletSpeed,15.4f
-BulletSpread,5.0f
-ADS_Spread_coefficient,0.2
-BlletSpreadDiffusion,4,0,0.1,0,2,0.05
+BulletSpread,0.3f
+ADS_Spread_coefficient,0.6
+BlletSpreadDiffusion,8,0,0.2,0,2,0.05
 Recoil,0.9d
 ReloadTime,100
 RemainingBullet,50
@@ -22,7 +22,7 @@ ObjTexture,a_pallete1.png
 ModelScala,0.8f
 InworldScale,1.8f
 
-ModelEquipped,-0.7f,0.7f,0.0f
+ModelEquipped,-0.7f,0.2f,0.0f
 ModelHigh,1.22f,0.85f,0.85f
 SimpleADSOffsetX,-0.01395,0.694f,0.694f
 ModelWidthZ,0.0f,0.0f,0.0f
@@ -30,14 +30,20 @@ ModelRotationX,180f,180f,180f
 ModelRotationY,45f,45f,45
 ModelRotationZ,180f,180f,180f
 
+//SimpleADSOffsetX,0,0,0
+SimpleADSOffsetZ,0.8,0.8,0.8
+SimpleADSOffsetY,0.95,0.95,0.95
+
 ModelArm,true
 ModelArmRotationR,-1.57f,0f,-1.57f
-ModelArmOffsetR,0.35f,0.5f,0.5f
+ModelArmOffsetR,0.35f,0.3f,0.5f
 ModelArmRotationL,-0.0f,-2.0f,2.0f
-ModelArmOffsetL,0.1f,0.6f,-1.2f
+ModelArmOffsetL,0.35f,0.2f,0.1f
 Mat22,true
 Mat22Point,0.0f,0.8f,1.1f
 Mat22Rotation,90f,0f,0f
+
+SprintingPoint,0.4f,-0.2f,-0.0f
 
 ScopeTexture,ironsight.png,reddot.png,scope.png
 RenderCross,false

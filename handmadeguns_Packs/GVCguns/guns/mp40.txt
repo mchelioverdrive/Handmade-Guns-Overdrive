@@ -31,7 +31,7 @@ ObjTexture,mp40.png
 ModelScala,0.5f
 InworldScale,2f
 CustomFlash,arrow,1
-Bursts,1,-1,0
+Bursts,-1,0
 Rates,2.18,2.18,2.18
 
 attachRestriction,true

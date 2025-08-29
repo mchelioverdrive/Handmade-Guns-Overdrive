@@ -20,7 +20,7 @@ ObjTexture,a_pallete1.png
 ModelScala,0.8f
 InworldScale,1.8f
 
-ModelEquipped,-0.7f,0.8f,0.0f
+ModelEquipped,-0.7f,0.4f,-0.2f
 ModelHigh,1.31f,1.29f,-0.10f
 ModelWidthX,0.694f,0.694f,0.694f
 ModelWidthZ,1.2f,1.2f,1.2f
@@ -30,9 +30,16 @@ ModelRotationZ,180f,180f,180f
 
 ModelArm,true
 ModelArmRotationR,-1.57f,-0.2f,-1.57f
-ModelArmOffsetR,0.3f,0.5f,0.5f
+ModelArmOffsetR,0.3f,0.2f,0.55f
 ModelArmRotationL,-0.0f,-2.3f,2.0f
-ModelArmOffsetL,0.1f,0.4f,-1.2f
+ModelArmOffsetL,0.3f,0.2f,0.1f
+
+SimpleADSOffsetX,-0.02,-0.02,-0.02
+SimpleADSOffsetZ,0.8,0.8,0.8
+SimpleADSOffsetY,0.85,0.85,0.85
+
+SprintingPoint,0.3f,-0.4f,-0.0f
+
 Tabname,HMG_WW2Guns
 AddParts,mat1
     AddPartsRotationCenterAndRotationAmount,0,0,0,0,0,0

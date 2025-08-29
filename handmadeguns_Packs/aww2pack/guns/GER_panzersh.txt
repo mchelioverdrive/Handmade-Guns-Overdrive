@@ -18,10 +18,10 @@ CanObj,true
 ObjModel,panzersh.obj
 ObjTexture,a_pallete.png
 ModelScala,0.8f
-InworldScale,1.8f
+InworldScale,1.2f
 Motion,0.3d
 
-ModelEquipped,-0.7f,0.7f,0.0f
+ModelEquipped,-0.7f,0.2f,-0.6f
 ModelHigh,0.90f,0.85f,0.85f
 ModelWidthX,0.334f,0.694f,0.694f
 ModelWidthZ,0.0f,0.0f,0.0f
@@ -29,11 +29,15 @@ ModelRotationX,180f,180f,180f
 ModelRotationY,45f,45f,45
 ModelRotationZ,180f,180f,180f
 
+SimpleADSOffsetX,0.65,0.65,0.65
+SimpleADSOffsetZ,0.8,0.8,0.8
+SimpleADSOffsetY,1.4,1.4,1.4
+
 ModelArm,true
 ModelArmRotationR,-1.57f,0f,-1.57f
 ModelArmOffsetR,0.5f,0.5f,0.5f
 ModelArmRotationL,-0.0f,-2.3f,2.0f
-ModelArmOffsetL,0.1f,0.4f,-1.2f
+ModelArmOffsetL,0.1f,0.4f,-0.7f
 Tabname,HMG_WW2Guns
 
 ScopeTexture,rr.png,rr.png,scope.png
@@ -41,6 +45,9 @@ RenderCross,false
 UnderBarrelWeapon,0
 RightType,0
 Magazine,0,HandmadeGuns,bullet_rr_hmgshrek
+
+Cartridge,false
+DropMagazine,false
 
 RR,Panzerschreck 54
 Name,Panzerschreck 54

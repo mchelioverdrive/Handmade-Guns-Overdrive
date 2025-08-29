@@ -1,6 +1,6 @@
 Texture,75bullet
 Stack,2
-Name,5rnd 7.5x54mm French Clip
+Name,5 Rnd 7.5x54mm French Clip
 BulletRound,5
 
 Tabname,HMG_Ammo

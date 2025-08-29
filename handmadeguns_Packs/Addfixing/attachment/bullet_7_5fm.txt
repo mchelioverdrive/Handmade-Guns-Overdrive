@@ -1,6 +1,6 @@
 Texture,75bullet
 Stack,1
-Name,25rnd 7.5x54mm French Bullet Detachable Box Magazine
+Name,25 Rnd 7.5x54mm French Bullet Detachable Box Magazine
 BulletRound,25
 
 Tabname,HMG_Ammo

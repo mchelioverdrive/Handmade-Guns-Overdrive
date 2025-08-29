@@ -1,6 +1,6 @@
 Texture,223bulletclip
 Stack,2
-Name,10rnd 7.92x57mm Mauser Detachable Box Magazine
+Name,10 Rnd 7.92x57mm Mauser Detachable Box Magazine
 BulletRound,10
 
 Tabname,HMG_Ammo

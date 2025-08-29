@@ -2,12 +2,12 @@ BulletPower,15
 BulletSpeed,16.0f
 BulletSpread,5.0f
 ADS_Spread_coefficient,0.2
-Recoil,0.5d
+Recoil,0.9d
 ReloadTime,50
 RemainingBullet,30
-Attacking,2.0f
-Motion,0.8d
-Zoom,1.0f,2.0f,4.0f
+Attacking,4.0f
+Motion,0.4d
+Zoom,1.3f,2.0f,4.0f
 ZoomRender,true
 ZoomRenderType,true,true,true
 ZoomRenderTypeTxture,false,false,false
@@ -19,8 +19,9 @@ CanObj,true
 ObjModel,mg30.mqo
 ObjTexture,a_pallete.png
 ModelScala,0.5f
+InworldScale,1.8f
 
-ModelEquipped,-0.7f,0.7f,0.0f
+ModelEquipped,-0.5f,0.4f,-0.2f
 SimpleADSOffsetY,0.578,0.85f,0.85f
 SimpleADSOffsetX,-0.04686,0.694f,0.694f
 ModelWidthZ,0.4f,0.0f,0.0f
@@ -28,19 +29,25 @@ ModelRotationX,180f,180f,180f
 ModelRotationY,45f,45f,45
 ModelRotationZ,180f,180f,180f
 
+//SimpleADSOffsetX,0,0,0
+SimpleADSOffsetZ,0.8,0.8,0.8
+//SimpleADSOffsetY,0.95,0.95,0.95
+
 ModelArm,true
 ModelArmRotationR,-1.57f,0f,-1.57f
-ModelArmOffsetR,0.35f,0.5f,0.5f
+ModelArmOffsetR,0.2f,0.4f,0.3f
 ModelArmRotationL,-0.0f,-2.0f,2.0f
-ModelArmOffsetL,0.1f,0.6f,-1.2f
+ModelArmOffsetL,0.1f,0.6f,-0.2f
 
+//ThirdModelEquipped,1.5,0,-2
+SprintingPoint,0.4f,-0.1f,-0.0f
 
 ScopeTexture,ironsight.png,reddot.png,scope.png
 RenderCross,false
 UnderBarrelWeapon,0
 RightType,0
-Magazine,0,HandmadeGuns,7.92mm bullet
-MagazineItemCount,30
+Magazine,0,HandmadeGuns,7.92mm bulletmg30
+MagazineItemCount,1
 Tabname,HMG_WW2Guns
 
 AddParts,mat1

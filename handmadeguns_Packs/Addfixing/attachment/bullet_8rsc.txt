@@ -1,6 +1,6 @@
 Texture,8bullet
 Stack,3
-Name,5rnd 8x50mmR Lebel Clip
+Name,5 Rnd 8x50mmR Lebel Clip
 BulletRound,5
 
 Tabname,HMG_Ammo

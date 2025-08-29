@@ -27,6 +27,9 @@ ObjTexture,smaw.png
 ModelScala,0.5f
 InworldScale,1.8f
 
+Cartridge,false
+DropMagazine,false
+
 Motion,0.8
 
 ModelEquipped,-0.7f,0.0f,-0.15f
