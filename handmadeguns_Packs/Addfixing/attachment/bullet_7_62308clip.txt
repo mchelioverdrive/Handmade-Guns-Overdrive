@@ -1,6 +1,6 @@
 Texture,223bulletclip
 Stack,2
-Name,.308 Winchester Clip
+Name,8 Rnd .308 Winchester Clip
 BulletRound,8
 
 Tabname,HMG_Ammo
