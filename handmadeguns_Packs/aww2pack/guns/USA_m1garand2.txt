@@ -39,7 +39,7 @@ ModelArmOffsetL,0.2f,0.6f,-0.2f
 ScopeTexture,ironsight.png,reddot.png,scope.png
 RenderCross,false
 Automatic,true
-Magazine,0,HandmadeGuns,7.62x63mm bulletclip
+Magazine,0,HandmadeGuns,308win bulletclip
 MagazineItemCount,1
 Tabname,HMG_WW2Guns
 

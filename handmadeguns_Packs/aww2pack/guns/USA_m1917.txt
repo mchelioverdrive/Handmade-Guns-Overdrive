@@ -151,4 +151,5 @@ AddParts,mat1
 		BackParts
 	BackParts
 
-SR,M1917
+SR,M1917 Enfield
+Name,M1917 Enfield

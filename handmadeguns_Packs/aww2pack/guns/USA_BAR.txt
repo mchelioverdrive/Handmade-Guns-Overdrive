@@ -142,4 +142,5 @@ AddParts,mat1
         AddReloadMotionKey,45,0,0,0,0,0,0,          50,0,0,0,0,0,0
     BackParts
 
-AR,Browning_Automatic_Rifle_M1918
+AR,M1918 Browning Automatic Rifle
+Name,M1918 Browning Automatic Rifle

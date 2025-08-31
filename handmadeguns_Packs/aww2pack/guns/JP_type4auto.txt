@@ -151,4 +151,5 @@ RightType,1
 Automatic,true
 
 
-SR,Type4Auto
+SR,Type 4 Rifle
+Name,Type 4 Rifle

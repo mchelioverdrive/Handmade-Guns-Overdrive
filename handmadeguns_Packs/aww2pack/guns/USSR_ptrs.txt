@@ -5,7 +5,7 @@ Recoil,4.0d
 ReloadTime,60
 RemainingBullet,5
 Attacking,2.0f
-Motion,0.7d
+Motion,0.1d
 Zoom,2.0f,2.0f,16.0f
 ZoomRender,true
 ZoomRenderType,true,true,false
@@ -138,4 +138,5 @@ AddParts,mat1
 		AddReloadMotionKey,55,0,0,0,0,0,0,		  60,0,0,0,0,0,0
 	BackParts
 
-AMR,PTRS1941
+AMR,PTRS-41
+Name,PTRS-41

@@ -151,4 +151,5 @@ AddParts,mat1
 		BackParts
 	BackParts
 
-SR,Mosin
+SR,Mosin Nagant
+Name,Mosin Nagant

@@ -288,5 +288,5 @@ AddParts,SYS_RotationBySight
 UseUnderGun'smodel,true
 UnderGunRotation,0,0,0
 UnderGunOffset,0f,0.1703,8.8311f
-Name,Type38
-SR,Type38
+Name,Type 38 Rifle
+SR,Type 38 Rifle

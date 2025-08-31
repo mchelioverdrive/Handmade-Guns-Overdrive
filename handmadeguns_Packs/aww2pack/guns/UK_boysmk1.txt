@@ -197,4 +197,5 @@ AddParts,mat1
 		BackParts
 	BackParts
 
-AMR,BoysMk1
+AMR,Boys Anti-Tank Rifle Mk 1
+Name,Boys Anti-Tank Rifle Mk 1

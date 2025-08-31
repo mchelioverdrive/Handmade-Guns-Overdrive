@@ -131,4 +131,5 @@ AddParts,mat1
 		AddReloadMotionKey,41,0,0,-1.2,0,0,0,	45,0,0,0,0,0,0
 		AddReloadMotionKey,45,0,0,0,0,0,0,		50,0,0,0,0,0,0
 	BackParts
-LMG,Type99LMG
+LMG,Type 99 Light Machine Gun
+Name,Type 99 Light Machine Gun

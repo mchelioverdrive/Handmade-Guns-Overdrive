@@ -151,5 +151,5 @@ Magazine,0,HandmadeGuns,bullet_hg_hmg
 MagazineSG,0,HandmadeGuns,bullet_shell_hmg
 MagazineGL,0,HandmadeGuns,bullet_rr_hmg
 
-AR,M3 Submachine Gun
+AR,M3 Grease Submachine Gun
 

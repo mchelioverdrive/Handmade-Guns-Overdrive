@@ -153,3 +153,4 @@ Automatic,true
 Tabname,HMG_WW2Guns
 
 SR,SVT-40
+Name,SVT-40

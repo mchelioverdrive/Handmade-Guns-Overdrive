@@ -195,4 +195,5 @@ RenderCross,false
 Automatic,false
 
 
-SR,LeeEnfield
+SR,Lee Enfield
+Name,Lee Enfield
