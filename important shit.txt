@@ -1,0 +1,11 @@
+important changes:
+
+
+InworldScale,1.8f
+ThirdModelEquipped,0.5,0,-1.5
+SimpleADSOffsetX,0,0,0
+SimpleADSOffsetZ,0.8,0.8,0.8
+SimpleADSOffsetY,0.8,0.8,0.8
+SprintingPoint,0.4f,-0.2f,-0.0f
+Cartridge,false
+DropMagazine,false

@@ -24,7 +24,7 @@
   "handmadeguns.rail": {"category": "neutral","sounds": ["rail"]},
   "handmadeguns.railCannon": {"category": "neutral","sounds": ["railCannon"]},
   "handmadeguns.railcharge": {"category": "neutral","sounds": ["railcharge"]},
-
+  "handmadeguns.supu": {"category": "neutral","sounds": ["supu"]},
   "handmadeguns.14.5mmFire": {"category": "neutral","sounds": ["14.5mmFire"]},
   "handmadeguns.155mm_Fire": {"category": "neutral","sounds": ["155mm_Fire"]},
   "handmadeguns.1911": {"category": "neutral","sounds": ["1911"]},

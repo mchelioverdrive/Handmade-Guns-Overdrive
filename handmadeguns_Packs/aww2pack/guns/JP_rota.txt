@@ -2,9 +2,9 @@ BulletPower,80
 BulletSpeed,3.2f
 BlletSpread,3.0f
 Recoil,2.0d
-ReloadTime,50
+ReloadTime,80
 RemainingBullet,1
-Attacking,2.0f
+Attacking,4.0f
 Zoom,2.0f,4.0f,8.0f
 ZoomRender,true
 ZoomRenderType,true,true,true
@@ -21,7 +21,7 @@ ModelScala,0.5f
 InworldScale,1.2f
 Motion,0.3d
 
-ModelEquipped,-0.7f,0.7f,0.0f
+ModelEquipped,-0.7f,0.3f,0.0f
 ModelHigh,1.19f,0.85f,0.85f
 ModelWidthX,0.435f,0.694f,0.694f
 ModelWidthZ,0.0f,0.0f,0.0f
@@ -31,15 +31,18 @@ ModelRotationZ,180f,180f,180f
 
 ModelArm,true
 ModelArmRotationR,-1.57f,0f,-1.57f
-ModelArmOffsetR,0.5f,0.5f,0.5f
+ModelArmOffsetR,0.4f,0.3f,0.5f
 ModelArmRotationL,-0.0f,-2.3f,2.0f
-ModelArmOffsetL,0.1f,0.4f,-1.2f
+ModelArmOffsetL,0.1f,0.1f,-0.2f
+
+SprintingPoint,0.4f,-0.2f,-0.0f
+
 
 ScopeTexture,rr.png,rr.png,scope.png
 RenderCross,false
 UnderBarrelWeapon,0
 RightType,0
-Magazine,0,HandmadeGuns,bullet_rr_hmg
+Magazine,0,HandmadeGuns,bullet_rr_hmgt4
 
 Tabname,HMG_WW2Guns
 RR,70mm Type 4 AT Rocket Launcher

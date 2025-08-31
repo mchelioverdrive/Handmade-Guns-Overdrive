@@ -1,11 +1,11 @@
-BulletPower,6
-BulletSpeed,3.0f
-BlletSpread,12.0f
+BulletPower,4
+BulletSpeed,6.8f
+BlletSpread,3.0f
 Recoil,5.5d
 ReloadTime,50
 RemainingBullet,30
 Attacking,2.0f
-Zoom,1.1f,1.1f,4.0f
+Zoom,1.8f,1.1f,4.0f
 ZoomRender,true
 ZoomRenderType,true,true,true
 ZoomRenderTypeTxture,false,false,false
@@ -17,8 +17,9 @@ CanObj,true
 ObjModel,type100.obj
 ObjTexture,a_pallete1.png
 ModelScala,0.5f
+InworldScale,1.8f
 
-ModelEquipped,-0.7f,0.8f,0.0f
+ModelEquipped,-0.7f,0.8f,0.2f
 ModelHigh,1.11f,1.29f,-0.10f
 ModelWidthX,0.694f,0.694f,0.694f
 ModelWidthZ,1.2f,1.2f,1.2f
@@ -28,10 +29,13 @@ ModelRotationZ,180f,180f,180f
 
 ModelArm,true
 ModelArmRotationR,-1.57f,0f,-1.57f
-ModelArmOffsetR,0.3f,0.3f,1.2f
+ModelArmOffsetR,0.35f,0.2f,1.2f
 ModelArmRotationL,-0.0f,-2.3f,2.0f
-ModelArmOffsetL,0.1f,0.2f,-0.4f
+ModelArmOffsetL,0.1f,0.4f,0.7f
 Tabname,HMG_WW2Guns
+
+SprintingPoint,1.2f,-0.2f,1.0f
+
 
 ScopeTexture,ironsight2.png,reddot.png,scope.png
 RenderCross,false
