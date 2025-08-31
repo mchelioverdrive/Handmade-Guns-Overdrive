@@ -8,10 +8,10 @@ Tabname,HMG_Ammo
 CustomMagazine,308win bulletclip
 
 
-Recipe1,aab
-Recipe2,bac
-Recipe3,cba
-ItemA,minecraft,iron_ingot
-ItemB,minecraft,gunpowder
-ItemC,minecraft,emerald
-addNewRecipe,HandmadeGuns,308win bulletclip,1
+//Recipe1,aab
+//Recipe2,bac
+//Recipe3,cba
+//ItemA,minecraft,iron_ingot
+//ItemB,minecraft,gunpowder
+//ItemC,minecraft,emerald
+//addNewRecipe,HandmadeGuns,308win bulletclip,1
