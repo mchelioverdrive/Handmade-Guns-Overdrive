@@ -18,7 +18,7 @@ ReloadTime,50
 RemainingBullet,5
 
 Attacking,4.0f
-Zoom,1.0f,1.0f,1.0f
+Zoom,1.1f,1.0f,1.0f
 
 ZoomRender,true
 ZoomRenderType,true,true,true
@@ -32,6 +32,7 @@ CanObj,true
 ObjModel,Type38.mqo
 ObjTexture,Type38.png
 ModelScala,0.5f
+InworldScale,1.8f
 CustomFlash,arrow,1
 Bursts,1
 Rates,1
@@ -48,13 +49,15 @@ ModelRotationY,45f,45f,45
 ModelRotationZ,180f,180f,180f
 ThirdModelEquipped,0,0.2,0
 
+SimpleADSOffsetZ,0.6,0.6,0.6
+
 ModelArm,true
 ModelArmRotationR,-1.57f,0f,-1.57f
 ModelArmOffsetR,0.4f,0.6f,0.5f
 ModelArmRotationL,-0.0f,-2.3f,2.0f
-ModelArmOffsetL,0.1f,0.6f,-2.2f
+ModelArmOffsetL,0.2f,0.6f,0.2f
 
-SprintingPoint,0.5f,0.0f,0.5f
+SprintingPoint,0.5f,-0.2f,0.5f
 SprintingRotation,20f,60f,0f
 
 SoundSpeed,1f
@@ -289,4 +292,5 @@ UseUnderGun'smodel,true
 UnderGunRotation,0,0,0
 UnderGunOffset,0f,0.1703,8.8311f
 Name,Type 38 Rifle
+//6.5x50mm Arisaka
 SR,Type 38 Rifle
