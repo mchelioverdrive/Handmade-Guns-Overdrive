@@ -153,4 +153,4 @@ Automatic,true
 
 
 SR,Type 4 Rifle
-Name,Type 4 Rifle
+Name,JPType 4 Rifle

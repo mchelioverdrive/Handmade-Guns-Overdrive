@@ -291,6 +291,6 @@ AddParts,SYS_RotationBySight
 UseUnderGun'smodel,true
 UnderGunRotation,0,0,0
 UnderGunOffset,0f,0.1703,8.8311f
-Name,Type 38 Rifle (6.5x50mm Arisaka)
 //6.5x50mm Arisaka
 SR,Type 38 Rifle (6.5x50mm Arisaka)
+Name,JPType 38 Rifle (6.5x50mm Arisaka)

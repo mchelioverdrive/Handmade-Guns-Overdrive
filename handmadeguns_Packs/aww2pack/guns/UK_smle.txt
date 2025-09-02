@@ -1,10 +1,10 @@
-BulletPower,7
-BulletSpeed,4.0f
-BulletSpread,1.5f
-Recoil,2.5d
-ReloadTime,40
+BulletPower,15
+BulletSpeed,14.8f
+BulletSpread,1.1f
+Recoil,2.6d
+ReloadTime,35
 RemainingBullet,10
-Attacking,2.0f
+Attacking,3.0f
 Zoom,1.4f,2.0f,4.0f
 ZoomRender,true
 ZoomRenderType,true,true,false
@@ -17,6 +17,7 @@ CanObj,true
 ObjModel,smle.obj
 ObjTexture,a_pallete1.png
 ModelScala,0.5f
+InworldScale,1.8f
 ModelEquipped,-0.7f,0.7f,0.0f
 ModelHigh,1.38f,0.85f,0.85f
 ModelWidthX,0.694f,0.694f,0.694f
@@ -33,8 +34,8 @@ ModelArmOffsetL,0.1f,0.6f,-1.2f
 Mat25Point,0.0f,0.688f,1.3f
 Mat25Rotation,0f,0f,0f
 CockingTime,10
-Magazine,0,HandmadeGuns,7.62mm bullet
-MagazineItemCount,10
+Magazine,0,HandmadeGuns,enfieldmag
+MagazineItemCount,1
 
 AddParts,mat1
     AddPartsRotationCenterAndRotationAmount,0,0,0,0,0,0

@@ -1,13 +1,13 @@
-BulletPower,7
-BulletSpeed,4.0f
+BulletPower,15
+BulletSpeed,14.8f
 BulletSpread,5.0f
 ADS_Spread_coefficient,0.15
 BlletSpreadDiffusion,3,0,0.2,0,2,0.1
 Recoil,0.5d
 ReloadTime,50
 RemainingBullet,30
-Attacking,2.0f
-Motion,0.8d
+Attacking,4.0f
+Motion,0.2d
 Zoom,1.0f,2.0f,4.0f
 ZoomRender,true
 ZoomRenderType,true,true,true
@@ -20,6 +20,7 @@ CanObj,true
 ObjModel,bren.mqo
 ObjTexture,a_pallete.png
 ModelScala,0.5f
+InworldScale,1.8f
 
 ModelEquipped,-0.7f,0.7f,0.0f
 ModelHigh,1.24f,0.85f,0.85f

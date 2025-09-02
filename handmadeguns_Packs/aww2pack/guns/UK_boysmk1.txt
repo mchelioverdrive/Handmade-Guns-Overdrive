@@ -1,10 +1,11 @@
-BulletPower,40
-BulletSpeed,4.0f
+BulletPower,25
+//max 25 for mk2 but 18mm isnt enough to murder someone
+BulletSpeed,15.0f
 BlletSpread,1.0f
 Recoil,4.0d
 ReloadTime,60
 RemainingBullet,5
-Attacking,2.0f
+Attacking,4.0f
 Motion,0.7d
 Zoom,2.0f,2.0f,16.0f
 ZoomRender,true
@@ -18,6 +19,7 @@ CanObj,true
 ObjModel,boysmk1.mqo
 ObjTexture,a_pallete.png
 ModelScala,0.5f
+InworldScale,1.8f
 
 ModelEquipped,-0.7f,0.7f,0.0f
 ModelHigh,1.19f,0.85f,0.85f
@@ -37,7 +39,7 @@ ScopeTexture,scope.png,reddot.png,scope.png
 RenderCross,false
 RightType,1
 Automatic,false
-Magazine,0,HandmadeGuns,12.7mm Magazine
+Magazine,0,HandmadeGuns,12.7mm Magazineboys
 CockingTime,40
 
 Tabname,HMG_WW2Guns

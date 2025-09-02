@@ -1,8 +1,8 @@
 BulletPower,6
-BulletSpeed,3.0f
-BlletSpread,20.0f
+BulletSpeed,3.6f
+BlletSpread,1.0f
 Recoil,2.0d
-ReloadTime,20
+ReloadTime,220
 RemainingBullet,6
 Attacking,2.0f
 Zoom,1.0f,2.0f,4.0f
@@ -16,6 +16,7 @@ CanObj,true
 ObjModel,enfieldrev.obj
 ObjTexture,a_pallete1.png
 ModelScala,0.5f
+InworldScale,1.8f
 
 ModelEquipped,-0.7f,0.8f,0.0f
 ModelHigh,1.36f,1.20f,1.20f
@@ -39,7 +40,7 @@ Mat2,False
 ScopeTexture,hg.png,hgred.png,scope.png
 RenderCross,false
 RightType,0
-Magazine,0,HandmadeGuns,bullet_hg_hmg
+Magazine,0,HandmadeGuns,bullet_hg_hmgerev
 Tabname,HMG_WW2Guns
 
 HG,Enfield Mk 2 Revolver

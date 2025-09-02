@@ -47,3 +47,4 @@ Magazine,0,HandmadeGuns,bullet_hg_hmgt8nambu
 Tabname,HMG_WW2Guns
 
 HG,Type 14 Nambu
+Name,JPType 14 Nambu

@@ -1,10 +1,10 @@
-BulletPower,7
-BulletSpeed,5.0f
+BulletPower,15
+BulletSpeed,14.8f
 BulletSpread,1.0f
 Recoil,2.5d
 ReloadTime,40
 RemainingBullet,10
-Attacking,2.0f
+Attacking,4.0f
 Zoom,2.0f,2.0f,4.0f
 ZoomRender,true
 ZoomRenderType,true,true,false
@@ -17,6 +17,7 @@ CanObj,true
 ObjModel,leeenfield.obj
 ObjTexture,leeenfield.png
 ModelScala,0.5f
+InworldScale,1.8f
 ModelEquipped,-0.7f,0.7f,0.0f
 ModelHigh,1.38f,0.85f,0.85f
 ModelWidthX,0.694f,0.694f,0.694f
@@ -34,8 +35,8 @@ Mat25Point,0.0f,0.688f,1.3f
 Mat25Rotation,0f,0f,0f
 CockingTime,10
 Tabname,HMG_WW2Guns
-Magazine,0,HandmadeGuns,7.62mm bullet
-MagazineItemCount,10
+Magazine,0,HandmadeGuns,enfieldmag
+MagazineItemCount,1
 
 
 

@@ -18,6 +18,7 @@ CanObj,true
 ObjModel,rieders.obj
 ObjTexture,a_pallete1.png
 ModelScala,0.5f
+InworldScale,1.8f
 ModelEquipped,-0.7f,0.7f,0.0f
 ModelHigh,1.32f,0.85f,0.85f
 ModelWidthX,0.694f,0.694f,0.694f

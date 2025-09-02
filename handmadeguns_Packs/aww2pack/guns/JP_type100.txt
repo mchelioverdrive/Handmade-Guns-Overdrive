@@ -160,3 +160,4 @@ AddParts,mat1
         AddReloadMotionKey,45,0,0,0,0,0,0,          50,0,0,0,0,0,0
     BackParts
 AR,Type 100 Submachine Gun
+Name,JPType 100 Submachine Gun
