@@ -121,6 +121,11 @@
   "handmadeguns.mg30": {"category": "neutral","sounds": ["mg30"]},
   "handmadeguns.mg34": {"category": "neutral","sounds": ["mg34"]},
   "handmadeguns.p38": {"category": "neutral","sounds": ["p38"]},
+  "handmadeguns.t100": {"category": "neutral","sounds": ["t100"]},
+  "handmadeguns.type14": {"category": "neutral","sounds": ["type14"]},
+  "handmadeguns.type38": {"category": "neutral","sounds": ["type38"]},
+  "handmadeguns.type99": {"category": "neutral","sounds": ["type99"]},
+  "handmadeguns.garand3006": {"category": "neutral","sounds": ["garand3006"]},
   "handmadeguns.panzershrek": {"category": "neutral","sounds": ["panzershrek"]},
   "handmadeguns.VSS": {"category": "neutral", "sounds": ["VSS"]}
 }

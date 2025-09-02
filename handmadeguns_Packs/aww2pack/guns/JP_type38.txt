@@ -1,4 +1,4 @@
-BulletPower,7
+BulletPower,12
 BulletSpeed,7.6
 BulletGravity,0.485
 
@@ -25,7 +25,7 @@ ZoomRenderType,true,true,true
 ZoomRenderTypeTxture,false,false,false
 
 Texture,Type38
-GunSound,handmadeguns.fireRifle,handmadeguns.fireRifle
+GunSound,handmadeguns.type38,handmadeguns.fireRifle
 GunSoundReload,handmadeguns.reload
 GunSoundCooking,handmadeguns.cooking
 CanObj,true
@@ -291,6 +291,6 @@ AddParts,SYS_RotationBySight
 UseUnderGun'smodel,true
 UnderGunRotation,0,0,0
 UnderGunOffset,0f,0.1703,8.8311f
-Name,Type 38 Rifle
+Name,Type 38 Rifle (6.5x50mm Arisaka)
 //6.5x50mm Arisaka
-SR,Type 38 Rifle
+SR,Type 38 Rifle (6.5x50mm Arisaka)

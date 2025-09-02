@@ -44,7 +44,7 @@ SimpleADSOffsetZ,0.4,0.4,0.4
 ModelRotationX,180f,180f,180f
 ModelRotationY,45f,45f,45
 ModelRotationZ,180f,180f,180f
-	
+
 ModelArm,true
 ModelArmRotationR,-1.57f,0f,-1.57f
 ModelArmOffsetR,0.38F,0.0F,0.25F

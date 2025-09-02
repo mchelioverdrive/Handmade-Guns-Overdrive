@@ -1,16 +1,16 @@
 BulletPower,600
-BulletSpeed,4.4
-BlletSpread,2.0f
+BulletSpeed,5.8
+BlletSpread,2.4f
 isOneuse,true
 ADS_Spread_coefficient,0.1
-BlletSpreadDiffusion,3,0,0.3,0.2,2,0.1
+BlletSpreadDiffusion,4,0,0.3,0.2,2,0.1
 Acceleration,1.5f
 accelerationFuse,20
 resistance,0.95f
 Recoil,2.0d
 ReloadTime,0
 RemainingBullet,1
-Attacking,6.0f
+Attacking,4.0f
 ElevationOffsets,-0
 Zoom,4.0f,4.0f,4.0f
 ZoomRender,true
@@ -30,7 +30,7 @@ InworldScale,1.8f
 Cartridge,false
 DropMagazine,false
 
-Motion,0.8
+Motion,0.6
 
 ModelEquipped,-0.7f,0.0f,-0.15f
 ModelHigh,0.775f,0.50f,0.85f

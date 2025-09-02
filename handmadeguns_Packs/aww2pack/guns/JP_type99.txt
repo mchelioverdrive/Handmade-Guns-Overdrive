@@ -1,4 +1,4 @@
-BulletPower,7
+BulletPower,15
 BulletSpeed,14.4f
 BulletSpread,5.0f
 ADS_Spread_coefficient,0.2
@@ -14,7 +14,7 @@ ZoomRenderType,true,true,true
 ZoomRenderTypeTxture,false,false,false
 Cycle,2
 Texture,Type99
-GunSound,handmadeguns.fire,handmadeguns.supu
+GunSound,handmadeguns.type99,handmadeguns.supu
 GunSoundReload,handmadeguns.reload
 CanObj,true
 ObjModel,Type99.obj

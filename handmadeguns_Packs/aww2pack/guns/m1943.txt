@@ -4,7 +4,7 @@ BlletSpread,0.0f
 Recoil,0.0d
 ReloadTime,100
 RemainingBullet,500
-Attacking,10.0f
+Attacking,6.0f
 Zoom,-1.0f,2.0f,4.0f
 Texture,m1943
 GunSound,handmadeguns.firebow,handmadeguns.supu

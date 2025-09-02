@@ -1,6 +1,6 @@
 BulletPower,4
 BulletSpeed,6.8f
-BlletSpread,3.0f
+BlletSpread,1.0f
 Recoil,5.5d
 ReloadTime,50
 RemainingBullet,30
@@ -11,7 +11,7 @@ ZoomRenderType,true,true,true
 ZoomRenderTypeTxture,false,false,false
 Cycle,2
 Texture,type100
-GunSound,handmadeguns.firehg,handmadeguns.supu
+GunSound,handmadeguns.t100,handmadeguns.supu
 GunSoundReload,handmadeguns.reload
 CanObj,true
 ObjModel,type100.obj

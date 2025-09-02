@@ -10,7 +10,7 @@ ZoomRender,true
 ZoomRenderType,true,true,true
 ZoomRenderTypeTxture,false,false,false
 Texture,type14
-GunSound,handmadeguns.firehg,handmadeguns.supu
+GunSound,handmadeguns.type14,handmadeguns.supu
 GunSoundReload,handmadeguns.reload
 CanObj,true
 ObjModel,type14.obj
@@ -43,7 +43,7 @@ SprintingRotation,-60f,0f,0f
 ScopeTexture,hg.png,hgred.png,scope.png
 RenderCross,false
 RightType,0
-Magazine,0,HandmadeGuns,bullet_hg_hmg8nambu
+Magazine,0,HandmadeGuns,bullet_hg_hmgt8nambu
 Tabname,HMG_WW2Guns
 
 HG,Type 14 Nambu

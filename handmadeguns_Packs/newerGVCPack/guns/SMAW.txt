@@ -1,5 +1,5 @@
 BulletPower,600
-BulletSpeed,4.4
+BulletSpeed,4.2
 BlletSpread,2.0f
 ADS_Spread_coefficient,0.1
 BlletSpreadDiffusion,3,0,0.3,0.2,2,0.1
