@@ -4,7 +4,7 @@ BulletSpread,1.0f
 Recoil,2.5d
 ReloadTime,50
 RemainingBullet,5
-Attacking,2.0f
+Attacking,4.0f
 Zoom,2.0f,2.0f,4.0f
 ZoomRender,true
 ZoomRenderType,true,true,false

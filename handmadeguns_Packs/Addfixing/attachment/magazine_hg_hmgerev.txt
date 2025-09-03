@@ -3,5 +3,5 @@ Stack,64
 Tabname,HMG_Ammo
 BulletRound,1
 Name,.476'' Revolver Mk II Bullet
-Magazine,bullet_hg_hmgterev
+Magazine,bullet_hg_hmgerev
 addRecipe,bullet_hg_hmgerev,2,a00,0e0,000,265,289,289,289,289,289,289,289,289

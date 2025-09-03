@@ -6,8 +6,8 @@ Recoil,4.0d
 ReloadTime,60
 RemainingBullet,5
 Attacking,4.0f
-Motion,0.7d
-Zoom,2.0f,2.0f,16.0f
+Motion,0.1d
+Zoom,1.8f,2.0f,16.0f
 ZoomRender,true
 ZoomRenderType,true,true,false
 ZoomRenderTypeTxture,false,false,true
@@ -21,10 +21,13 @@ ObjTexture,a_pallete.png
 ModelScala,0.5f
 InworldScale,1.8f
 
-ModelEquipped,-0.7f,0.7f,0.0f
+ModelEquipped,-0.7f,0.7f,-0.2f
 ModelHigh,1.19f,0.85f,0.85f
 SimpleADSOffsetX,0,0,0
-ModelWidthZ,-1.0f,0.0f,0.0f
+SimpleADSOffsetY,0.61,0.61,0.61
+SimpleADSOffsetZ,0.0,0.0,0.0
+SprintingPoint,0.5f,-0.3f,0.5f
+//ModelWidthZ,-1.0f,0.0f,0.0f
 ModelRotationX,180f,180f,180f
 ModelRotationY,45f,45f,45
 ModelRotationZ,180f,180f,180f
@@ -33,7 +36,7 @@ ModelArm,true
 ModelArmRotationR,-1.57f,0f,-1.57f
 ModelArmOffsetR,0.2f,0.3f,0.5f
 ModelArmRotationL,-0.0f,-2.3f,2.0f
-ModelArmOffsetL,0.1f,0.4f,-1.2f
+ModelArmOffsetL,0.1f,0.4f,0.2f
 
 ScopeTexture,scope.png,reddot.png,scope.png
 RenderCross,false

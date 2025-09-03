@@ -18,7 +18,7 @@ ObjModel,smle.obj
 ObjTexture,a_pallete1.png
 ModelScala,0.5f
 InworldScale,1.8f
-ModelEquipped,-0.7f,0.7f,0.0f
+ModelEquipped,-0.7f,0.7f,-0.4f
 ModelHigh,1.38f,0.85f,0.85f
 ModelWidthX,0.694f,0.694f,0.694f
 ModelWidthZ,0.0f,0.0f,0.0f
@@ -27,9 +27,9 @@ ModelRotationY,45f,45f,45
 ModelRotationZ,180f,180f,180f
 ModelArm,true
 ModelArmRotationR,-1.57f,-0.2f,-1.57f
-ModelArmOffsetR,0.2f,0.5f,0.5f
+ModelArmOffsetR,0.2f,0.5f,0.3f
 ModelArmRotationL,-0.0f,-2.3f,2.0f
-ModelArmOffsetL,0.1f,0.6f,-1.2f
+ModelArmOffsetL,0.25f,0.6f,-0.2f
 
 Mat25Point,0.0f,0.688f,1.3f
 Mat25Rotation,0f,0f,0f

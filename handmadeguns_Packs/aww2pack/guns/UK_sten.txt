@@ -1,6 +1,6 @@
 BulletPower,6
-BulletSpeed,3.0f
-BlletSpread,19.0f
+BulletSpeed,7.4f
+BlletSpread,1.5f
 Recoil,4.0d
 ReloadTime,50
 RemainingBullet,32
@@ -17,6 +17,10 @@ CanObj,true
 ObjModel,sten.obj
 ObjTexture,a_pallete1.png
 ModelScala,0.5f
+InworldScale,1.8f
+
+Rates,2,2
+Bursts,-1,0
 
 ModelEquipped,-0.7f,0.8f,0.0f
 ModelHigh,1.07f,1.29f,-0.10f
@@ -28,14 +32,17 @@ ModelRotationZ,180f,180f,180f
 
 ModelArm,true
 ModelArmRotationR,-1.57f,0f,-1.57f
-ModelArmOffsetR,0.3f,0.3f,1.0f
+ModelArmOffsetR,0.3f,0.2f,0.9f
 ModelArmRotationL,-0.0f,-2.3f,2.0f
-ModelArmOffsetL,0.5f,0.0f,-0.4f
+ModelArmOffsetL,0.3f,0.2f,0.7f
+
+SimpleADSOffsetZ,0.8,0.8,0.8
+SprintingPoint,0.5f,-0.5f,0.5f
 
 ScopeTexture,ironsight2.png,reddot.png,scope.png
 RenderCross,false
 RightType,0
-Magazine,0,HandmadeGuns,bullet_hg_hmg
+Magazine,0,HandmadeGuns,bullet_hg_9mm32rndmp28
 
 AddParts,mat1
     AddPartsRotationCenterAndRotationAmount,0,0,0,0,0,0

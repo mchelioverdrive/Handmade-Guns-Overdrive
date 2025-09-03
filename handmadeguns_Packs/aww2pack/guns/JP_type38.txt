@@ -2,7 +2,7 @@ BulletPower,12
 BulletSpeed,7.6
 BulletGravity,0.485
 
-BlletSpread,2.0f
+BlletSpread,1.5f
 ADS_Spread_coefficient,0.001
 ElevationOffsets,0.0 , -0.48109072026816496 , -0.9621136132505874 , -1.443000909020384 , -1.9236849522471797 , -2.4040982591928097 , -2.8841735743453003 , -3.36384392657276
 elevationOffsets_info,0 , 20m  ,40m  ,60m ,80m ,100m ,120m , 140m
