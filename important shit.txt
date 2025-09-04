@@ -9,3 +9,10 @@ SimpleADSOffsetY,0.8,0.8,0.8
 SprintingPoint,0.4f,-0.2f,-0.0f
 Cartridge,false
 DropMagazine,false
+
+attack dmg:
+pistol melee should be 2
+rifles 4
+lmg 3 because weight
+
+-go back and do rpm, weights

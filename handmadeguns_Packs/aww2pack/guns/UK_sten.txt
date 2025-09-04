@@ -11,7 +11,7 @@ ZoomRenderType,true,true,true
 ZoomRenderTypeTxture,false,false,false
 Cycle,3
 Texture,sten
-GunSound,handmadeguns.firehg,handmadeguns.supu
+GunSound,handmadeguns.stenmk2,handmadeguns.supu
 GunSoundReload,handmadeguns.reload
 CanObj,true
 ObjModel,sten.obj

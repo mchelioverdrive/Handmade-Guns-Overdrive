@@ -14,7 +14,7 @@ ZoomRenderType,true,true,true
 ZoomRenderTypeTxture,false,false,false
 Cycle,3
 Texture,bren
-GunSound,handmadeguns.fire,handmadeguns.supu
+GunSound,handmadeguns.brenlmg,handmadeguns.supu
 GunSoundReload,handmadeguns.reload
 CanObj,true
 ObjModel,bren.mqo

@@ -14,8 +14,8 @@ Motion,0.93
 
 Cartridge,true
 Texture,m1garand
-SoundSpeed,1.2f
-GunSound,handmadeguns.a_br,handmadeguns.supu
+//SoundSpeed,1.2f
+GunSound,handmadeguns.garand3006,handmadeguns.supu
 GunSoundReload,handmadeguns.a_clip
 GunSoundCooking,handmadeguns.a_cock
 CanObj,true

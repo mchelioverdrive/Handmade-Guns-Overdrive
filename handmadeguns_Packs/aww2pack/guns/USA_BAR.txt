@@ -1,38 +1,40 @@
-BulletPower,7
-BulletSpeed,4.0f
-BulletSpread,4.0f
+BulletPower,15
+BulletSpeed,17.2f
+BulletSpread,0.3f
 ADS_Spread_coefficient,0.1
 Recoil,3.5d
 ReloadTime,50
 RemainingBullet,20
-Attacking,2.0f
-Motion,0.8d
+Attacking,4.0f
+Motion,0.5d
 Zoom,1.0f,2.0f,4.0f
 ZoomRender,true
 ZoomRenderType,true,true,true
 ZoomRenderTypeTxture,false,false,false
 Cycle,3
 Texture,BAR
-GunSound,handmadeguns.fire,handmadeguns.supu
+GunSound,handmadeguns.browningbar,handmadeguns.supu
 GunSoundReload,handmadeguns.reload
 CanObj,true
 ObjModel,BAR.obj
 ObjTexture,a_pallete.png
 ModelScala,0.5f
+InworldScale,1.8f
 
-ModelEquipped,-0.7f,0.7f,0.0f
+ModelEquipped,-0.7f,0.7f,-0.2f
 ModelHigh,1.35f,0.85f,0.85f
 SimpleADSOffsetX,0,0,0
-ModelWidthZ,0.4f,0.0f,0.0f
+SimpleADSOffsetZ,0.4,0.4,0.4
+//ModelWidthZ,0.4f,0.0f,0.0f
 ModelRotationX,180f,180f,180f
 ModelRotationY,45f,45f,45
 ModelRotationZ,180f,180f,180f
 
 ModelArm,true
 ModelArmRotationR,-1.57f,0f,-1.57f
-ModelArmOffsetR,0.5f,0.5f,0.5f
+ModelArmOffsetR,0.3f,0.5f,0.5f
 ModelArmRotationL,-0.0f,-2.0f,2.0f
-ModelArmOffsetL,0.1f,0.6f,-1.2f
+ModelArmOffsetL,0.3f,0.6f,0.1f
 attachRestriction,true
 
 
@@ -40,8 +42,8 @@ ScopeTexture,ironsight.png,reddot.png,scope.png
 RenderCross,false
 UnderBarrelWeapon,0
 RightType,0
-Magazine,0,HandmadeGuns,7.62mm bullet
-MagazineItemCount,20
+Magazine,0,HandmadeGuns,barmag
+MagazineItemCount,1
 Bursts,1,-1,-1
 Rates,2,2,4
 

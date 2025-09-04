@@ -127,5 +127,16 @@
   "handmadeguns.type99": {"category": "neutral","sounds": ["type99"]},
   "handmadeguns.garand3006": {"category": "neutral","sounds": ["garand3006"]},
   "handmadeguns.panzershrek": {"category": "neutral","sounds": ["panzershrek"]},
+  "handmadeguns.boysat": {"category": "neutral","sounds": ["boysat"]},
+  "handmadeguns.brenlmg": {"category": "neutral","sounds": ["brenlmg"]},
+  "handmadeguns.enfield": {"category": "neutral","sounds": ["enfield"]},
+  "handmadeguns.leelong": {"category": "neutral","sounds": ["leelong"]},
+  "handmadeguns.smle": {"category": "neutral","sounds": ["smle"]},
+  "handmadeguns.stenmk2": {"category": "neutral","sounds": ["stenmk2"]},
+  "handmadeguns.browningbar": {"category": "neutral","sounds": ["browningbar"]},
+  "handmadeguns.enfieldm1917": {"category": "neutral","sounds": ["enfieldm1917"]},
+  "handmadeguns.garand308": {"category": "neutral","sounds": ["garand308"]},
+  "handmadeguns.greasegun": {"category": "neutral","sounds": ["greasegun"]},
+  "handmadeguns.thompson": {"category": "neutral","sounds": ["thompson"]},
   "handmadeguns.VSS": {"category": "neutral", "sounds": ["VSS"]}
 }

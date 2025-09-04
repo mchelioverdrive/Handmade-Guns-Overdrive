@@ -2,8 +2,8 @@ BulletPower,25
 //max 25 for mk2 but 18mm isnt enough to murder someone
 BulletSpeed,15.0f
 BlletSpread,1.0f
-Recoil,4.0d
-ReloadTime,60
+Recoil,80.0d
+ReloadTime,80
 RemainingBullet,5
 Attacking,4.0f
 Motion,0.1d
@@ -12,7 +12,7 @@ ZoomRender,true
 ZoomRenderType,true,true,false
 ZoomRenderTypeTxture,false,false,true
 Texture,boysmk1
-GunSound,handmadeguns.HeavyMachineGun,handmadeguns.supu
+GunSound,handmadeguns.boysat,handmadeguns.supu
 GunSoundReload,handmadeguns.reload
 GunSoundCooking,handmadeguns.cooking
 CanObj,true
