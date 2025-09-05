@@ -1,27 +1,28 @@
-BulletPower,7
-BulletSpeed,4.0f
-BulletSpread,5.0f
+BulletPower,15
+BulletSpeed,16.8f
+BulletSpread,1.2f
 ADS_Spread_coefficient,0.1
 BlletSpreadDiffusion,3,0,0.2,0,2,0.1
 Recoil,0.5d
 ReloadTime,50
 RemainingBullet,47
 Attacking,2.0f
-Motion,0.7d
+Motion,0.5d
 Zoom,1.0f,2.0f,4.0f
 ZoomRender,true
 ZoomRenderType,true,true,true
 ZoomRenderTypeTxture,false,false,false
 Cycle,3
 Texture,dp28
-GunSound,handmadeguns.fire,handmadeguns.supu
+GunSound,handmadeguns.dp28,handmadeguns.supu
 GunSoundReload,handmadeguns.reload
 CanObj,true
 ObjModel,dp28.obj
 ObjTexture,a_pallete.png
 ModelScala,0.5f
+InworldScale,1.8f
 
-ModelEquipped,-0.7f,0.7f,0.0f
+ModelEquipped,-0.3f,0.7f,-0.3f
 SimpleADSOffsetY,0.435f,0.85f,0.85f
 SimpleADSOffsetX,0,0,0
 ModelWidthZ,0.0f,0.0f,0.0f
@@ -33,7 +34,7 @@ ModelArm,true
 ModelArmRotationR,-1.57f,0f,-1.57f
 ModelArmOffsetR,0.35f,0.5f,0.5f
 ModelArmRotationL,-0.0f,-2.0f,2.0f
-ModelArmOffsetL,0.1f,0.6f,-1.2f
+ModelArmOffsetL,0.3f,0.6f,-0.1f
 
 Canfix,true
 FixAsEntity,true
@@ -41,8 +42,8 @@ ScopeTexture,ironsight.png,reddot.png,scope.png
 RenderCross,false
 UnderBarrelWeapon,0
 RightType,0
-Magazine,0,HandmadeGuns,7.62mmR bullet
-MagazineItemCount,47
+Magazine,0,HandmadeGuns,7.62mmR bulletdp
+MagazineItemCount,1
 Tabname,HMG_WW2Guns
 Bursts,-1
 Rates,2

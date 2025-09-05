@@ -138,5 +138,11 @@
   "handmadeguns.garand308": {"category": "neutral","sounds": ["garand308"]},
   "handmadeguns.greasegun": {"category": "neutral","sounds": ["greasegun"]},
   "handmadeguns.thompson": {"category": "neutral","sounds": ["thompson"]},
+  "handmadeguns.ptrd": {"category" : "neutral", "sounds": ["ptrd"]},
+  "handmadeguns.ptrs": {"category" : "neutral", "sounds": ["ptrs"]},
+  "handmadeguns.dp28": {"category" : "neutral", "sounds": ["dp28"]},
+  "handmadeguns.mosinnag": {"category" : "neutral", "sounds": ["mosinnag"]},
+  "handmadeguns.tokarev": {"category" : "neutral", "sounds": ["tokarev"]},
+  "handmadeguns.svt40": {"category" : "neutral", "sounds": ["svt40"]},
   "handmadeguns.VSS": {"category": "neutral", "sounds": ["VSS"]}
 }

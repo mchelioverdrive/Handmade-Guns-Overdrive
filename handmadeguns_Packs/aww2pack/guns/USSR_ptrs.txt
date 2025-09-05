@@ -1,23 +1,24 @@
-BulletPower,40
-BulletSpeed,4.0f
+BulletPower,50
+BulletSpeed,20.1f
 BlletSpread,1.0f
-Recoil,4.0d
+Recoil,10.0d
 ReloadTime,60
 RemainingBullet,5
-Attacking,2.0f
+Attacking,3.0f
 Motion,0.1d
 Zoom,2.0f,2.0f,16.0f
 ZoomRender,true
 ZoomRenderType,true,true,false
 ZoomRenderTypeTxture,false,false,true
 Texture,ptrs
-GunSound,handmadeguns.14.5mmFire,handmadeguns.14.5mmFire
+GunSound,handmadeguns.ptrs,handmadeguns.14.5mmFire
 GunSoundReload,handmadeguns.reload
 GunSoundCooking,handmadeguns.cooking
 CanObj,true
 ObjModel,ptrs.mqo
 ObjTexture,ptrs.png
 ModelScala,0.5f
+InworldScale,1.8f
 
 ModelEquipped,-0.7f,0.7f,0.0f
 ModelHigh,1.33f,0.85f,0.85f
@@ -31,7 +32,7 @@ ModelArm,true
 ModelArmRotationR,-1.57f,0f,-1.57f
 ModelArmOffsetR,0.5f,0.5f,0.5f
 ModelArmRotationL,-0.0f,-2.3f,2.0f
-ModelArmOffsetL,0.1f,1f,-1.2f
+ModelArmOffsetL,0.1f,0.8f,-0.0f
 
 ScopeTexture,scope.png,reddot.png,scope.png
 RenderCross,false

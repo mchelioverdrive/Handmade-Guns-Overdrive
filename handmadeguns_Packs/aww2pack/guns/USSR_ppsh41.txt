@@ -1,11 +1,11 @@
-BulletPower,5
-BulletSpeed,3.0f
-BlletSpread,7
-ADS_Spread_coefficient,1
-Recoil,6.0d
+BulletPower,4
+BulletSpeed,9.8f
+BlletSpread,1.2
+ADS_Spread_coefficient,0.3
+Recoil,3.0d
 ReloadTime,30
-RemainingBullet,50
-Attacking,2.0f
+RemainingBullet,71
+Attacking,3.0f
 Zoom,1.1f,1.1f,4.0f
 ZoomRender,true
 ZoomRenderType,true,true,true
@@ -18,20 +18,28 @@ CanObj,true
 ObjModel,ppsh41.obj
 ObjTexture,ppsh41.png
 ModelScala,0.5f
+InworldScale,1.8f
 
-ModelEquipped,-0.7f,0.8f,0.0f
+Bursts,-1
+Rates,1
+
+ModelEquipped,-0.3f,0.7f,0.0f
 ModelHigh,1.37f,1.29f,0.10f
-ModelWidthX,0.694f,0.694f,0.694f
-ModelWidthZ,1.2f,1.2f,1.2f
+//ModelWidthX,0.694f,0.694f,0.694f
+//ModelWidthZ,1.2f,1.2f,1.2f
+
+SimpleADSOffsetZ,0.8,0.8,0.8
+//SimpleADSOffsetY,0.8,0.8,0.8
+
 ModelRotationX,180f,180f,180f
 ModelRotationY,45f,45f,45
 ModelRotationZ,180f,180f,180f
 
 ModelArm,true
 ModelArmRotationR,-1.57f,-0.2f,-1.57f
-ModelArmOffsetR,0.3f,0.5f,0.5f
+ModelArmOffsetR,0.3f,0.5f,0.8f
 ModelArmRotationL,-0.0f,-2.3f,2.0f
-ModelArmOffsetL,0.1f,0.5f,-0.5f
+ModelArmOffsetL,0.2f,0.5f,0.4f
 Tabname,HMG_WW2Guns
 AddParts,mat1
     AddPartsRotationCenterAndRotationAmount,0,0,0,0,0,0
@@ -147,7 +155,7 @@ AddParts,mat1
 ScopeTexture,ironsight2.png,reddot.png,scope.png
 RenderCross,false
 RightType,0
-Magazine,0,HandmadeGuns,bullet_hg_hmg
+Magazine,0,HandmadeGuns,bullet_hg_hmgppsh
 MagazineSG,0,HandmadeGuns,bullet_shell_hmg
 MagazineGL,0,HandmadeGuns,bullet_rr_hmg
 

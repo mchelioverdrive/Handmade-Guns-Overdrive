@@ -1,16 +1,17 @@
 Texture,bullet_14_5
-Stack,8
+Stack,4
 BulletRound,1
-Name,14.5mm Bullet
+Name,14.5x114mm BS-41 APCR Round
 
 Tabname,HMG_Ammo
 
 CustomMagazine,14.5mm Ammo
 
-Recipe1,a  
-Recipe2,b  
-Recipe3,cc 
+Recipe1,aa 
+Recipe2,bb 
+Recipe3,bb 
 ItemA,minecraft,iron_ingot
 ItemB,minecraft,gunpowder
-ItemC,minecraft,emerald
-addNewRecipe,HandmadeGuns,14.5mm Ammo,8
+addNewRecipe,HandmadeGuns,14.5mm Ammo,2
+
+//ItemC,minecraft,emerald
