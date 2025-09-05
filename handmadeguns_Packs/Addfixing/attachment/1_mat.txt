@@ -1,5 +1,5 @@
 Texture,WP_Certificate
-Name,WP Certificate
+Name,Warsaw Pact Certificate
 cosume_onCraft,false
 Stack,64
 SimpleMaterial,WP_Certificate

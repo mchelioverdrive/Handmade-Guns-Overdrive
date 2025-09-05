@@ -1,5 +1,5 @@
 Texture,bullet_hg
-Stack,1
+Stack,4
 Tabname,HMG_Ammo
 BulletRound,8
 Name,8 Rnd 7.62x25mm Tokarev Magazine
