@@ -1,6 +1,6 @@
 Texture,762rbullet
 Stack,1
-Name,47 Round 7.62x54mmR Pan Magazine
+Name,47 Rnd 7.62x54mmR Pan Magazine
 BulletRound,47
 
 Tabname,HMG_Ammo

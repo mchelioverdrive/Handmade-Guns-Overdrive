@@ -38,11 +38,11 @@ ScopeTexture,scope.png,reddot.png,scope.png
 RenderCross,false
 RightType,1
 Automatic,true
-MagazineItemCount,5
+MagazineItemCount,1
 DropMagazine,false
 Tabname,HMG_WW2Guns
 
-Magazine,0,HandmadeGuns,14.5mm Ammo
+Magazine,0,HandmadeGuns,14.5mm Ammoclip
 
 AddParts,mat1
 	AddPartsRotationCenterAndRotationAmount,0,0,0,0,0,0

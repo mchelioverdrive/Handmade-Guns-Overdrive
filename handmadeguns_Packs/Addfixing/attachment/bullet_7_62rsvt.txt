@@ -1,6 +1,6 @@
 Texture,762rbullet
 Stack,2
-Name,10 Round 7.62x54mmR Box Magazine
+Name,10 Rnd 7.62x54mmR Box Magazine
 BulletRound,10
 
 Tabname,HMG_Ammo
